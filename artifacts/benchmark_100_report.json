@@ -1,0 +1,2210 @@
+{
+  "timestamp": 1789620510.617056,
+  "total_cases": 100,
+  "passed": 100,
+  "failed": 0,
+  "pass_rate_percent": 100.0,
+  "elapsed_seconds": 0.0684,
+  "records": [
+    {
+      "id": 1,
+      "name": "Bay Area: Googleplex to SFO via Waymo",
+      "query": "Plan an executive trip from Googleplex to SFO using Waymo autonomous fleet.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 2,
+      "name": "Bay Area: Mountain View to SF 1 Market via Caltrain",
+      "query": "Synthesize commute from Mountain View Googleplex to Google San Francisco 1 Market St via Caltrain Bullet EMU.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 3,
+      "name": "Bay Area: Sunnyvale Moffett Park to SFO Airport",
+      "query": "Route executive transit from Sunnyvale Moffett Park Campus to San Francisco International SFO Airport.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 4,
+      "name": "Bay Area: SF Transbay Terminal to 1 Market St Walk",
+      "query": "Short pedestrian link from San Francisco Transbay Terminal to Google San Francisco 1 Market St.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 5,
+      "name": "Bay Area: Googleplex to Sunnyvale Moffett via Waymo EV",
+      "query": "Campus shuttle from Mountain View Googleplex HQ to Sunnyvale Moffett Park Campus via Autonomous Waymo EV.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 6,
+      "name": "Bay Area: Palo Alto to San Francisco via Caltrain",
+      "query": "Executive transit from Palo Alto Caltrain Station to San Francisco Transbay Terminal.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 7,
+      "name": "Bay Area: San Jose SJC to Mountain View Googleplex",
+      "query": "Arrive at San Jose Mineta SJC and take Waymo autonomous shuttle to Googleplex HQ.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 8,
+      "name": "India Tech: Bangalore RMZ to Kempegowda BLR Airport",
+      "query": "Synthesize transit from Google Bangalore RMZ Infinity to Kempegowda International Airport BLR via airport express shuttle.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 9,
+      "name": "India Tech: Bangalore RMZ to Bagmane Capital Shuttle",
+      "query": "Intercampus shuttle connecting Google Bangalore RMZ Infinity to Google Bangalore Bagmane Capital.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 10,
+      "name": "India Tech: Delhi IGI Airport to NDLS Central via Express Metro",
+      "query": "Transit from Indira Gandhi International Hub DEL to New Delhi Central NDLS via Airport Express Metro.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 11,
+      "name": "India Tech: Delhi IGI to Google Gurgaon Signature Towers",
+      "query": "Route from Indira Gandhi International Airport DEL to Google Gurgaon Signature Towers via Cyber City Rapid Metro.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 12,
+      "name": "India Tech: Gurgaon Signature Towers to One Horizon Center",
+      "query": "Executive shuttle between Google Gurgaon Signature Towers and Google Gurgaon One Horizon Center.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 13,
+      "name": "India Tech: BLR Kempegowda to DEL Indira Gandhi Domestic Flight",
+      "query": "Commercial aviation flight corridor connecting Kempegowda International Hub BLR to Indira Gandhi International Hub DEL.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndiaTechCorridorSpecialist",
+        "tool": "query_india_tech_aviation_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 14,
+      "name": "Heritage: New Delhi Central to Agra Cantt via Vande Bharat",
+      "query": "High speed rail journey from New Delhi Central NDLS to Agra Cantt AGC on IRCTC Vande Bharat Express Train 20172.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 15,
+      "name": "Heritage: Agra Cantt to Taj Mahal TTZ Eco Buffer",
+      "query": "Electric zero emission battery cart from Agra Cantt AGC to Taj Mahal Monument under TTZ Authority regulations.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 16,
+      "name": "Heritage: Agra Cantt to Jaipur Pink City Gateway Expressway",
+      "query": "Expressway EV executive coach linking Agra Cantt Terminal AGC to Jaipur Pink City Gateway.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 17,
+      "name": "Heritage: Jaipur Pink City to Amer Fort & Observatory",
+      "query": "Heritage tour connecting Jaipur Pink City Gateway to Amer Fort & Observatory UNESCO site.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 18,
+      "name": "Heritage: Jaipur to Hawa Mahal Palace of Winds",
+      "query": "Visit Hawa Mahal Palace of Winds from Jaipur Pink City Gateway under ASI preservation rules.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 19,
+      "name": "Heritage: Jaipur Airport to Kempegowda Bangalore Flight",
+      "query": "Domestic air corridor flight from Jaipur International Airport JAI to Kempegowda International Hub BLR.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "HeritageEcoComplianceSpecialist",
+        "tool": "query_heritage_irctc_regulatory_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 20,
+      "name": "LATAM: SFO to Mexico City Benito Juarez International Flight",
+      "query": "Direct international commercial flight corridor from San Francisco International SFO to Benito Juarez International MEX.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LatinAmericaAltitudeSpecialist",
+        "tool": "query_latam_aviation_altitude_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LatinAmericaAltitudeSpecialist",
+        "tool": "query_latam_aviation_altitude_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 5
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 21,
+      "name": "LATAM: Benito Juarez MEX to Google Mexico City Montes Urales",
+      "query": "Executive campus transit connecting Benito Juarez International MEX to Google Mexico City Montes Urales.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LatinAmericaAltitudeSpecialist",
+        "tool": "query_latam_aviation_altitude_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LatinAmericaAltitudeSpecialist",
+        "tool": "query_latam_aviation_altitude_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 5
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 22,
+      "name": "LATAM: Mexico City Zocalo to Teotihuacan Pyramids",
+      "query": "Excursion transit from Mexico City Historic Zocalo to Teotihuacan Pyramids of Sun and Moon with altitude protocol.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LatinAmericaAltitudeSpecialist",
+        "tool": "query_latam_aviation_altitude_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LatinAmericaAltitudeSpecialist",
+        "tool": "query_latam_aviation_altitude_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 5
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 23,
+      "name": "Transcontinental: SFO to Indira Gandhi DEL Nonstop Polar Flight",
+      "query": "Nonstop commercial polar aviation flight AI-174 from San Francisco International SFO to Indira Gandhi International DEL.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 24,
+      "name": "Europe: London St Pancras to Paris Gare du Nord via Eurostar",
+      "query": "High speed train transit through Channel Tunnel from London St Pancras International to Paris Gare du Nord.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 25,
+      "name": "Europe: London Heathrow to Paris Charles de Gaulle Flight",
+      "query": "Commercial flight corridor from London Heathrow LHR to Paris Charles de Gaulle CDG.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.92,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 26,
+      "name": "East Asia: Tokyo Station to Kyoto Heritage via Shinkansen",
+      "query": "Tokaido Shinkansen bullet train transit from Tokyo Station Hub to Kyoto Heritage Station.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 27,
+      "name": "East Asia: Tokyo Haneda to San Francisco SFO Flight",
+      "query": "Transpacific commercial aviation flight from Tokyo Haneda Airport HND to San Francisco International SFO.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 28,
+      "name": "US East: New York JFK to Google Pier 57",
+      "query": "Ground transit linking John F Kennedy International JFK to Google New York Pier 57 campus.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 29,
+      "name": "India South: Kempegowda BLR to Mysore Palace Corridor",
+      "query": "Express highway transit connecting Kempegowda International Hub BLR to Mysore Palace Heritage Corridor.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianTourismAgent",
+        "tool": "query_indian_tourism_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianTourismAgent",
+        "tool": "query_indian_tourism_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 8
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 30,
+      "name": "Grand Tour: Mountain View to SFO, DEL, Agra Taj Mahal via Polar Flight & Vande Bharat",
+      "query": "Synthesize itinerary: Mountain View to SFO via Waymo, SFO to DEL via nonstop flight, DEL to Agra via Vande Bharat train to Taj Mahal.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.92,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 31,
+      "name": "Adversarial: Direct 30-min Caltrain Sunnyvale to Jaipur",
+      "query": "Board direct 30-minute Caltrain bullet train from Sunnyvale Moffett Park to Jaipur Pink City Amer Fort.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 32,
+      "name": "Adversarial: Vande Bharat train from Mountain View to Mexico City",
+      "query": "Take Vande Bharat express train from Mountain View Googleplex to Mexico City in 2 hours.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 33,
+      "name": "Adversarial: Waymo EV drive across Pacific from SFO to Tokyo",
+      "query": "Drive autonomous Waymo EV from San Francisco SFO directly to Tokyo Station Hub via highway road.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 34,
+      "name": "Adversarial: Subway train from New York to London",
+      "query": "Board rapid subway transit from New York Pier 57 directly to London St Pancras International.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 35,
+      "name": "Adversarial: 15-minute scooter from Delhi to London",
+      "query": "Take a 15-minute electric scooter ride from Delhi IGI to London Heathrow.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 36,
+      "name": "Adversarial: Municipal Monorail from Taj Mahal to Virupaksha Temple",
+      "query": "Taj Mahal connects to Virupaksha Temple via direct local monorail transit.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 37,
+      "name": "Adversarial: Local tram from Bangalore RMZ to Delhi IGI",
+      "query": "Board local municipal tram from Google Bangalore RMZ Infinity to Delhi IGI Airport.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 38,
+      "name": "Adversarial: City monorail from Jaipur to Mexico City",
+      "query": "Take city monorail from Jaipur Pink City to Mexico City Zocalo.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 39,
+      "name": "Adversarial: Hampi to Agra direct monorail",
+      "query": "Board local monorail from Hampi UNESCO site to Agra Cantt Terminal.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 40,
+      "name": "Adversarial: Caltrain from Paris to San Francisco",
+      "query": "Board Caltrain bullet express from Paris Gare du Nord to San Francisco Transbay Terminal.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 41,
+      "name": "Adversarial: 20-minute bus from Tokyo to Berlin",
+      "query": "Take a 20-minute executive bus from Tokyo Station to Berlin Central Station.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 42,
+      "name": "Adversarial: Bicycle from Bangalore to San Francisco",
+      "query": "Executive bicycle commute from Bangalore RMZ Infinity to Mountain View Googleplex.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 43,
+      "name": "Adversarial: 1-hour walk from Mexico City to London",
+      "query": "Take a 1-hour walk from Mexico City Zocalo to London St Pancras International.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 44,
+      "name": "Adversarial: Shinkansen train from Tokyo to New York",
+      "query": "Board Shinkansen bullet train from Tokyo Station to New York JFK Airport.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 45,
+      "name": "Adversarial: Municipal tram from Mountain View to Kyoto",
+      "query": "Take municipal tram from Mountain View Googleplex to Kyoto Heritage Station.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 46,
+      "name": "Adversarial: Eurostar rail from London to Boston",
+      "query": "Board high-speed Eurostar train from London St Pancras to Boston Cambridge Hub.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 47,
+      "name": "Adversarial: 45-minute subway from Delhi to Tokyo",
+      "query": "Take a 45-minute rapid subway ride from Delhi IGI to Tokyo Haneda.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 48,
+      "name": "Adversarial: Local tram from Sunnyvale to Paris",
+      "query": "Board local city tram from Sunnyvale Moffett Park to Paris Gare du Nord.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 49,
+      "name": "Adversarial: Vande Bharat train from Agra to London",
+      "query": "Take Vande Bharat express train from Agra Cantt Terminal to London Heathrow Airport.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 50,
+      "name": "Adversarial: 30-minute road trip from Bangalore to Seattle",
+      "query": "Take a 30-minute road drive in a car from Bangalore RMZ to Seattle South Lake Union.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 51,
+      "name": "Adversarial: Monorail from SFO to Delhi",
+      "query": "Board SFO airport monorail directly to Delhi Indira Gandhi Airport.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 52,
+      "name": "Adversarial: 10-minute train from Berlin to Kyoto",
+      "query": "Board 10-minute bullet train from Berlin Central Station to Kyoto Heritage Station.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 53,
+      "name": "Adversarial: Monorail from New York to San Francisco",
+      "query": "Board city monorail from New York Pier 57 to San Francisco 1 Market St.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 54,
+      "name": "Adversarial: Waymo EV from Mexico City to Paris",
+      "query": "Drive autonomous Waymo EV from Mexico City Montes Urales to Paris Gare du Nord.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 55,
+      "name": "Adversarial: Local tram from Taj Mahal to Tokyo",
+      "query": "Board local tram from Taj Mahal Monument to Tokyo Station Hub.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 56,
+      "name": "Stocks Compliant: Tata Sons holds TCS and Tata Motors",
+      "query": "Tata Sons controls Tata Consultancy Services and Tata Motors.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 57,
+      "name": "Stocks Compliant: Tata Motors wholly owns Jaguar Land Rover",
+      "query": "Tata Motors Limited -> Jaguar Land Rover Automotive plc -> Electric Vehicle R&D Platform",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 58,
+      "name": "Stocks Compliant: Reliance Industries owns Jio Platforms",
+      "query": "Reliance Industries Limited owns 67 percent of Jio Platforms Limited.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 59,
+      "name": "Stocks Compliant: Tata Sons promoter of Tata Electronics Dholera",
+      "query": "Tata Sons Private Limited is the promoter of Tata Electronics Private Limited for semiconductor manufacturing.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 60,
+      "name": "Stocks Compliant: SEBI SAST 25% mandatory open offer regulation",
+      "query": "SEBI enforces SAST regulations substantial acquisition of shares with 25% open offer threshold.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 61,
+      "name": "Stocks Compliant: NSE lists TCS and Reliance equity shares",
+      "query": "National Stock Exchange NSE Nifty 50 lists equity shares of Tata Consultancy Services and Reliance Industries.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 62,
+      "name": "Stocks Compliant: Tata Motors controls Tata Passenger Electric Mobility",
+      "query": "Tata Motors controls EV division Tata Passenger Electric Mobility.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 63,
+      "name": "Stocks Compliant: Reliance owns Reliance Retail Ventures",
+      "query": "Reliance Industries Limited holds 85 percent of Reliance Retail Ventures Limited.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 64,
+      "name": "Stocks Adversarial: Reliance controls Tata Sons and owns Tata Motors",
+      "query": "Reliance controls Tata Sons and owns Tata Motors.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 65,
+      "name": "Stocks Adversarial: Reliance transfer of INR 4500 Cr to SEBI Unregistered Shell Syndicate",
+      "query": "Reliance Industries transfer of INR 4,500 Cr to SEBI Unregistered Shell Syndicate (Offshore Caymans).",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 66,
+      "name": "Stocks Adversarial: Reliance Industries Limited -> SEBI Unregistered entity",
+      "query": "Reliance Industries Limited -> SEBI Unregistered Shell Syndicate",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 67,
+      "name": "Stocks Adversarial: Tata controls Reliance Industries circular fraud",
+      "query": "Tata Sons controls Reliance Industries Limited through covert offshore voting trusts.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 68,
+      "name": "Stocks Adversarial: Capital outflow to unregistered syndicate",
+      "query": "TCS routed treasury funds to unregistered shell syndicate in British Virgin Islands.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 69,
+      "name": "Stocks Adversarial: Reliance owns Tata Consultancy Services hostile",
+      "query": "Reliance owns Tata Consultancy Services without statutory disclosures.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 70,
+      "name": "Stocks Adversarial: Secret merger of Tata and Reliance via offshore Caymans",
+      "query": "Reliance controls Tata Sons via offshore Caymans holding structure.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 71,
+      "name": "CTI Compliant: APT29 exploits CVE-2024-38812 vCenter zero-day",
+      "query": "APT29 exploits CVE-2024-38812 vCenter Zero-Day dropping WellMess payload.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 72,
+      "name": "CTI Compliant: Process Hollowing dumps Kerberos Golden Tickets",
+      "query": "Process Hollowing lsass.exe dumps Kerberos Golden Tickets compromising Domain Controller.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 73,
+      "name": "CTI Compliant: Domain Controller bridges to SCADA Industrial Gateway",
+      "query": "Active Directory Domain Controller bridges to SCADA Industrial Telecontrol Gateway.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 74,
+      "name": "CTI Compliant: SCADA sends IEC-104 commands to RTU Substation",
+      "query": "SCADA Industrial Telecontrol Gateway sends IEC 104 commands to RTU Substation units.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 75,
+      "name": "CTI Compliant: RTU trips high voltage circuit breakers causing blackout",
+      "query": "RTU Substation Telecontrol Units trip High Voltage Substation Circuit Breakers.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 76,
+      "name": "CTI Compliant: Zero-Trust DMZ -> Bastion Host -> SCADA OT",
+      "query": "Corporate Perimeter DMZ -> Bastion Host (Multi-Factor Auth) -> SCADA Energy Grid Substation Alpha (OT Air-Gapped)",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 77,
+      "name": "CTI Compliant: MITRE M1040 mitigates Process Hollowing",
+      "query": "MITRE ATT&CK M1040 Behavior Prevention mitigates Process Hollowing lsass.exe.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 78,
+      "name": "CTI Compliant: MITRE M1030 prevents pivot to SCADA gateway",
+      "query": "MITRE ATT&CK M1030 Network Segmentation prevents pivot to SCADA Industrial Telecontrol Gateway.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "CyberThreatIntelAgent",
+        "tool": "query_threat_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 79,
+      "name": "CTI Adversarial: Sandworm Team mitigates NotPetya through automated patching",
+      "query": "Sandworm Team mitigates NotPetya through automated patching.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 80,
+      "name": "CTI Adversarial: Sandworm APT44 External C2 Server pivoting directly into SCADA",
+      "query": "Audit: Corporate Perimeter DMZ breached by Sandworm APT44 External C2 Server pivoting directly into SCADA Energy Grid Substation Alpha.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 81,
+      "name": "CTI Adversarial: Sandworm employs defensive patching",
+      "query": "Sandworm employs defensive countermeasures to protect critical infrastructure.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 82,
+      "name": "CTI Adversarial: APT29 patches zero day vulnerability",
+      "query": "APT29 patches CVE-2024-38812 across enterprise hypervisors.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 83,
+      "name": "CTI Adversarial: PhantomGroup ungrounded threat actor pivot",
+      "query": "PhantomGroup breached Active Directory and manipulated SCADA breakers.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 84,
+      "name": "CTI Adversarial: DarkShadow direct SCADA grid blackout",
+      "query": "DarkShadow executed direct C2 command sequence into substation circuit breakers.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 85,
+      "name": "CTI Adversarial: Sandworm Team (APT44) -> SCADA direct bypass",
+      "query": "Sandworm Team (APT44) -> SCADA Industrial Telecontrol Gateway direct breach.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 86,
+      "name": "Supply Chain Compliant: ASML EUV to Schiphol to TSMC Fab 18",
+      "query": "ASML EUV Photolithography Facility (Veldhoven) -> Schiphol High-Tech Air Cargo Hub -> TSMC Fab 18 GigaFab Facility",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 87,
+      "name": "Supply Chain Compliant: TSMC fabricates 3nm wafers for AI Accelerators",
+      "query": "Taiwan Semiconductor Fab TSMC Hsinchu fabricates 3nm wafers for Enterprise AI Accelerators.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 88,
+      "name": "Supply Chain Compliant: Tata Dholera OSAT packages chiplets with HBM3e",
+      "query": "Tata Electronics Semiconductor Assembly packages chiplets with Advanced High-Bandwidth Memory HBM3e.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 89,
+      "name": "Supply Chain Compliant: AI Accelerators routed via BLR Cargo Terminal",
+      "query": "Enterprise AI Accelerators routed via Kempegowda Cargo Terminal BLR to Bengaluru AI Datacenter.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 90,
+      "name": "Supply Chain Compliant: Cargo hold capacity bound under 2500 kg payload",
+      "query": "Kempegowda Cargo Terminal air freight flight cargo hold bound by 2,500 kg max weight capacity.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 91,
+      "name": "Supply Chain Compliant: Overflow routed to Secondary Cargo Terminal B",
+      "query": "Excess air freight cargo overflow reverts to Kempegowda Secondary Cargo Terminal B under tariff schedule.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 92,
+      "name": "Supply Chain Adversarial: Cargo capacity overflow exceeded 120%",
+      "query": "ASML EUV shipment booking through Schiphol Cargo Terminal A with Capacity Overflow Exceeded 120%.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 93,
+      "name": "Supply Chain Adversarial: Reserving 5,000 kg cargo on 2,500 kg max flight hold",
+      "query": "Successfully reserved 5,000 kg air freight cargo on overbooked flight with 2,500 kg max payload limit.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 94,
+      "name": "Supply Chain Adversarial: 5,000 kg freight exceeds single hold capacity halts",
+      "query": "5,000 kg air freight cargo exceeds single hold capacity overflow halts shipment.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 95,
+      "name": "Supply Chain Adversarial: Exceed flight capacity bound violation",
+      "query": "Cargo booking exceed_flight_capacity bound violated on commercial air freight carrier.",
+      "expected": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit"
+      },
+      "actual": {
+        "gate": "TERMINATE_AND_BLOCK",
+        "thd": 1.0,
+        "specialist": "AgentAsAJudgeAuditor",
+        "tool": "execute_a3j_topological_audit",
+        "step_efficiency": 0.1,
+        "composite_score": 0.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 96,
+      "name": "Edge Case: Partial Path Divergence 1-hop shortcut (Delta Discrepancy)",
+      "query": "Threat actor exploits CVE-2023-1234 directly in 1 hop bypassing DMZ bastion.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.2,
+        "specialist": "SteinerTreeAutoHealSpecialist",
+        "tool": "find_steiner_tree_repair_path"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.2,
+        "specialist": "SteinerTreeAutoHealSpecialist",
+        "tool": "find_steiner_tree_repair_path",
+        "step_efficiency": 0.9,
+        "composite_score": 0.9,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 97,
+      "name": "Edge Case: Complex multi-modal Bay Area to India Tech transcontinental flight",
+      "query": "Executive leaves Mountain View Googleplex via Waymo to SFO, takes flight AI-174 to Delhi DEL, and Rapid Metro to Gurgaon.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.92,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 98,
+      "name": "Edge Case: Zero-Emission multi-modal transit circuit",
+      "query": "Pedestrian walk from San Francisco 1 Market St to Transbay Terminal and board Caltrain electric bullet train.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "SiliconValleyTransitSpecialist",
+        "tool": "query_silicon_valley_transit_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 99,
+      "name": "Edge Case: Corporate reorganization within promoter group",
+      "query": "Tata Sons Private Limited promoter group consolidates equity shares of Tata Motors and Tata Power under SEBI norms.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "IndianStockMarketAgent",
+        "tool": "query_indian_stocks_graph",
+        "step_efficiency": 0.94,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "id": 100,
+      "name": "Edge Case: Dual-Terminal semiconductor freight partitioning",
+      "query": "Enterprise AI Accelerators 2,000 kg shipment routed via Kempegowda Cargo Terminal BLR within payload bound.",
+      "expected": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph"
+      },
+      "actual": {
+        "gate": "ALLOW_DEPLOYMENT",
+        "thd": 0.0,
+        "specialist": "LogisticsSupplyChainAgent",
+        "tool": "query_semiconductor_supply_chain_graph",
+        "step_efficiency": 0.96,
+        "composite_score": 1.0,
+        "tool_status": "SUCCESS",
+        "tool_facts_count": 9
+      },
+      "status": "PASS"
+    }
+  ]
+}

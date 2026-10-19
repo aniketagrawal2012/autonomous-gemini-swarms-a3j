@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dynamic Subgraph Topology DAG</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style>
+        body { margin: 0; background: #030712; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #f8fafc; overflow: hidden; }
+        #network { width: 100vw; height: 100vh; }
+        .header { position: absolute; top: 12px; left: 15px; z-index: 10; background: rgba(15, 23, 42, 0.94); backdrop-filter: blur(14px); padding: 12px 18px; border-radius: 12px; border: 1px solid #1e293b; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5); }
+        .legend { position: absolute; bottom: 20px; right: 20px; z-index: 10; background: rgba(15, 23, 42, 0.94); backdrop-filter: blur(14px); padding: 12px 16px; border-radius: 12px; border: 1px solid #1e293b; font-size: 11px; max-height: 240px; overflow-y: auto; }
+        .legend-item { display: flex; align-items: center; margin: 4px 0; }
+        .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px; }
+        .badge { background: #0284c7; color: white; padding: 2px 8px; border-radius: 6px; font-size: 10px; font-weight: bold; margin-left: 6px; }
+        .badge-alert { background: #ef4444; color: white; padding: 2px 8px; border-radius: 6px; font-size: 10px; font-weight: bold; margin-left: 6px; animation: pulse 1.5s infinite; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h4 style="margin: 0 0 4px 0; color: #38bdf8; display: flex; align-items: center;">
+            🌐 Silicon Valley & Bay Area Autonomous Corridor
+            <span class="badge">Active Subgraph</span>
+        </h4>
+        <span style="font-size: 12px; color: #94a3b8;">
+            Active Entities: <strong style="color: #38bdf8;">5</strong> | 
+            Traversed Relationships: <strong style="color: #38bdf8;">4</strong> | 
+            Root: <span style="color: #a855f7;">Mountain View Googleplex HQ</span>
+        </span>
+    </div>
+    <div class="legend">
+        <div style="font-weight: bold; margin-bottom: 6px; color: #94a3b8;">SUBGRAPH ENTITIES:</div>
+        
+        <div class="legend-item"><span class="dot" style="background:#4285F4;"></span> Googleplex & Regional Campuses</div>
+        <div class="legend-item"><span class="dot" style="background:#0284c7;"></span> Aviation Hubs (SFO/DEL/BLR/MEX)</div>
+        <div class="legend-item"><span class="dot" style="background:#38bdf8;"></span> High-Speed Transit (Vande Bharat/Caltrain)</div>
+        <div class="legend-item"><span class="dot" style="background:#f59e0b;"></span> UNESCO World Heritage (Taj Mahal/Amer Fort)</div>
+        <div class="legend-item"><span class="dot" style="background:#8b5cf6;"></span> Autonomous Waymo Fleet & Rapid Metro</div>
+        
+    </div>
+    <div id="network"></div>
+    <script type="text/javascript">
+        var nodes = new vis.DataSet([{"id": "Mountain View Googleplex HQ", "label": "Mountain View Googleplex HQ", "color": "#4285F4", "size": 26, "title": "[BayArea] GoogleHQ: Mountain View Googleplex HQ"}, {"id": "Sunnyvale Moffett Park Campus", "label": "Sunnyvale Moffett Park Campus", "color": "#34A853", "size": 18, "title": "[BayArea] GoogleCampus: Sunnyvale Moffett Park Campus"}, {"id": "San Francisco Transbay Terminal", "label": "San Francisco Transbay Terminal", "color": "#38bdf8", "size": 18, "title": "[BayArea] RailTerminal: San Francisco Transbay Terminal"}, {"id": "San Francisco International (SFO)", "label": "San Francisco International (SFO)", "color": "#0284c7", "size": 18, "title": "[BayArea] GlobalAviationHub: San Francisco International (SFO)"}, {"id": "Google San Francisco (1 Market St)", "label": "Google San Francisco (1 Market St)", "color": "#34A853", "size": 18, "title": "[BayArea] GoogleCampus: Google San Francisco (1 Market St)"}]);
+        var edges = new vis.DataSet([{"from": "Mountain View Googleplex HQ", "to": "Sunnyvale Moffett Park Campus", "label": "AUTONOMOUS WAYMO SHUTTLE", "color": {"color": "#38bdf8", "highlight": "#0ea5e9"}, "arrows": "to", "font": {"size": 10, "color": "#94a3b8", "align": "middle"}}, {"from": "Mountain View Googleplex HQ", "to": "San Francisco Transbay Terminal", "label": "BOARD CALTRAIN BULLET", "color": {"color": "#38bdf8", "highlight": "#0ea5e9"}, "arrows": "to", "font": {"size": 10, "color": "#94a3b8", "align": "middle"}}, {"from": "Sunnyvale Moffett Park Campus", "to": "San Francisco International (SFO)", "label": "EXECUTIVE EXPRESS TRANSIT", "color": {"color": "#38bdf8", "highlight": "#0ea5e9"}, "arrows": "to", "font": {"size": 10, "color": "#94a3b8", "align": "middle"}}, {"from": "San Francisco Transbay Terminal", "to": "Google San Francisco (1 Market St)", "label": "SHORT WALK", "color": {"color": "#38bdf8", "highlight": "#0ea5e9"}, "arrows": "to", "font": {"size": 10, "color": "#94a3b8", "align": "middle"}}]);
+        var container = document.getElementById('network');
+        var data = { nodes: nodes, edges: edges };
+        var options = {
+            nodes: { shape: 'dot', font: { color: '#f8fafc', size: 12 } },
+            edges: { font: { color: '#94a3b8', size: 9, align: 'middle' }, smooth: { type: 'continuous' } },
+            physics: {
+                stabilization: false,
+                barnesHut: { gravitationalConstant: -3500, centralGravity: 0.3, springLength: 130, springConstant: 0.04 }
+            }
+        };
+        var network = new vis.Network(container, data, options);
+    </script>
+</body>
+</html>

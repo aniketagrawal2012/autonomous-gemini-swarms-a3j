@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Launch CloudScope Demo (ADK Web 8001 + Mission Control 8000)",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/start_all.sh",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "🌐 Launch ADK Web Only (Port 8001)",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/run_adk_web.sh",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "💎 Launch Mission Control Only (Port 8000)",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/run_showcase.sh",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "🧪 Run Full 7-Stage Validation Suite (1,357 Tests)",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/run_tests.sh",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}

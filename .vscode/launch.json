@@ -1,0 +1,70 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 1. Launch All (ADK Web 8001 + Executive Dashboard 8000)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/app_showcase.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_GENAI_USE_VERTEXAI": "true",
+                "GOOGLE_CLOUD_PROJECT": "aniket-personal",
+                "GOOGLE_CLOUD_LOCATION": "us-central1"
+            }
+        },
+        {
+            "name": "🌐 2. Launch Official ADK Web UI (Port 8001)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "google.adk.cli",
+            "args": ["web", "--port", "8001", "--session_service_uri", "memory://", "--artifact_service_uri", "file://${workspaceFolder}/artifacts", "${workspaceFolder}"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_GENAI_USE_VERTEXAI": "true",
+                "GOOGLE_CLOUD_PROJECT": "aniket-personal",
+                "GOOGLE_CLOUD_LOCATION": "us-central1"
+            }
+        },
+        {
+            "name": "🧪 3. Run E2E Test Suite (11 Tests)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "unittest",
+            "args": ["tests/test_swarm_e2e.py", "-v"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_GENAI_USE_VERTEXAI": "true",
+                "GOOGLE_CLOUD_PROJECT": "aniket-personal"
+            }
+        },
+        {
+            "name": "🎯 4. Run Multi-Domain Evaluation Suite (10 Cases)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/graph_a3j_swarm/eval/run_eval.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_GENAI_USE_VERTEXAI": "true",
+                "GOOGLE_CLOUD_PROJECT": "aniket-personal"
+            }
+        },
+        {
+            "name": "📊 5. Generate Executive Presentation Deck (PPTX)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/generate_slides.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "/usr/local/bin/python3"
+        }
+    ]
+}

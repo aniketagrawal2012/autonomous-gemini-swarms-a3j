@@ -1,0 +1,1001 @@
+trace_id,stratum,ground_truth_binary,source_node,target_node,predicate,asserted_hops,actual_path_length,graph_a3j_thd_penalty,graph_a3j_factual_score,baseline_factual_score,phase1_extraction_latency_ms,phase1_tokens,phase2_cypher_latency_ms,total_e2e_latency_ms
+TRC_0000,Compliant,0,Network Intrusion Prevention,Asymmetric Cryptography,MITIGATES,1,1,0.0,1.0,0.8174,440.65,181,295.03,735.68
+TRC_0001,Compliant,0,Multi-factor Authentication,Domain Account,MITIGATES,1,1,0.0,1.0,0.9672,447.45,206,112.71,560.16
+TRC_0002,Compliant,0,XCSSET,SSH Authorized Keys,USES,1,1,0.0,1.0,0.9103,407.76,180,257.27,665.04
+TRC_0003,Compliant,0,PowerLess,Encrypted Channel,USES,1,1,0.0,1.0,0.8757,489.36,195,111.1,600.47
+TRC_0004,Compliant,0,Akira,PsExec,USES,1,1,0.0,1.0,0.7606,397.17,192,251.58,648.75
+TRC_0005,Compliant,0,ITG07,Spearphishing Attachment,USES,1,1,0.0,1.0,0.7606,397.45,177,133.38,530.83
+TRC_0006,Compliant,0,Indrik Spider,Windows Management Instrumentation,USES,1,1,0.0,1.0,0.7351,429.19,155,130.56,559.75
+TRC_0007,Compliant,0,MuddyViper,GUI Input Capture,USES,1,1,0.0,1.0,0.9452,340.68,175,127.27,467.95
+TRC_0008,Compliant,0,Proxysvc,Service Execution,USES,1,1,0.0,1.0,0.8763,372.72,188,107.27,479.99
+TRC_0009,Compliant,0,SysUpdate,Windows Management Instrumentation,USES,1,1,0.0,1.0,0.9041,377.44,162,115.76,493.2
+TRC_0010,Compliant,0,RedDelta Modified PlugX Infection Chain Operations,Hidden Files and Directories,USES,1,1,0.0,1.0,0.7254,484.25,180,126.16,610.41
+TRC_0011,Compliant,0,APT41,Modify Registry,USES,1,1,0.0,1.0,0.9722,421.34,162,107.99,529.32
+TRC_0012,Compliant,0,FIN13,System Information Discovery,USES,1,1,0.0,1.0,0.9364,393.8,185,112.0,505.8
+TRC_0013,Compliant,0,Cobalt Strike,Timestomp,USES,1,1,0.0,1.0,0.7752,366.51,189,193.42,559.92
+TRC_0014,Compliant,0,C0026,Archive via Utility,USES,1,1,0.0,1.0,0.7673,391.27,179,109.33,500.61
+TRC_0015,Compliant,0,Suckfly,Nidiran,USES,1,1,0.0,1.0,0.7677,391.22,211,127.39,518.61
+TRC_0016,Compliant,0,Aquatic Panda,Malware,USES,1,1,0.0,1.0,0.7991,417.69,168,132.08,549.77
+TRC_0017,Compliant,0,Sea Turtle,Tool,USES,1,1,0.0,1.0,0.8564,455.31,165,129.58,584.9
+TRC_0018,Compliant,0,IcedID,Domain Account,USES,1,1,0.0,1.0,0.8323,427.7,154,108.3,536.0
+TRC_0019,Compliant,0,Kwampirs,Encrypted/Encoded File,USES,1,1,0.0,1.0,0.7957,358.53,186,154.86,513.39
+TRC_0020,Compliant,0,HARDRAIN,Windows Command Shell,USES,1,1,0.0,1.0,0.8791,451.53,186,110.08,561.61
+TRC_0021,Compliant,0,QUIETEXIT,Fallback Channels,USES,1,1,0.0,1.0,0.7563,413.1,179,109.0,522.09
+TRC_0022,Compliant,0,Machete,Process Discovery,USES,1,2,0.2,0.8,0.796,351.77,173,110.36,462.12
+TRC_0023,Compliant,0,RobbinHood,Data Encrypted for Impact,USES,1,1,0.0,1.0,0.8153,397.57,199,118.68,516.25
+TRC_0024,Compliant,0,Triton Safety Instrumented System Attack,Web Portal Capture,USES,1,1,0.0,1.0,0.8386,433.76,157,117.55,551.32
+TRC_0025,Compliant,0,TeamTNT,Security Software Discovery,USES,1,1,0.0,1.0,0.9241,432.88,178,108.09,540.97
+TRC_0026,Compliant,0,Vasport,Registry Run Keys / Startup Folder,USES,1,1,0.0,1.0,0.7719,387.84,193,109.87,497.71
+TRC_0027,Compliant,0,Cutting Edge,Non-Application Layer Protocol,USES,1,1,0.0,1.0,0.8537,464.69,197,108.28,572.98
+TRC_0028,Compliant,0,PoetRAT,Python,USES,1,1,0.0,1.0,0.874,380.54,179,113.54,494.08
+TRC_0029,Compliant,0,ThreatNeedle,File and Directory Discovery,USES,1,1,0.0,1.0,0.7321,433.21,198,108.07,541.28
+TRC_0030,Compliant,0,RTM,Malicious File,USES,1,1,0.0,1.0,0.878,396.74,181,107.77,504.51
+TRC_0031,Compliant,0,BlackCat,Windows Permissions,USES,1,1,0.0,1.0,0.7643,368.51,166,110.87,479.39
+TRC_0032,Compliant,0,Gelsemium,Dynamic Resolution,USES,1,1,0.0,1.0,0.7369,454.86,204,106.62,561.48
+TRC_0033,Compliant,0,Havoc,Inter-Process Communication,USES,1,1,0.0,1.0,0.9667,415.06,199,108.02,523.08
+TRC_0034,Compliant,0,AuditCred,Deobfuscate/Decode Files or Information,USES,1,1,0.0,1.0,0.9711,434.57,174,108.23,542.8
+TRC_0035,Compliant,0,WanaCry,RDP Hijacking,USES,1,1,0.0,1.0,0.9302,434.56,207,106.71,541.27
+TRC_0036,Compliant,0,SILENTTRINITY,Native API,USES,1,1,0.0,1.0,0.7992,416.69,207,125.16,541.85
+TRC_0037,Compliant,0,ServHelper,PowerShell,USES,1,1,0.0,1.0,0.7454,300.41,196,117.72,418.14
+TRC_0038,Compliant,0,Remsec,Security Account Manager,USES,1,1,0.0,1.0,0.8979,422.22,179,123.27,545.49
+TRC_0039,Compliant,0,FrostyGoop Incident,Security Account Manager,USES,1,1,0.0,1.0,0.8344,422.43,154,123.3,545.73
+TRC_0040,Compliant,0,Explosive,Native API,USES,1,1,0.0,1.0,0.7517,408.41,189,109.67,518.09
+TRC_0041,Compliant,0,CloudDuke,Bidirectional Communication,USES,1,1,0.0,1.0,0.8487,484.81,176,107.72,592.53
+TRC_0042,Compliant,0,Patchwork,Archive Collected Data,USES,1,1,0.0,1.0,0.7289,381.92,176,107.83,489.75
+TRC_0043,Compliant,0,IcedID,Browser Session Hijacking,USES,1,1,0.0,1.0,0.9564,459.49,188,106.68,566.18
+TRC_0044,Compliant,0,WastedLocker,Query Registry,USES,1,1,0.0,1.0,0.7873,394.46,191,108.26,502.72
+TRC_0045,Compliant,0,Privileged Account Management,Command and Scripting Interpreter,MITIGATES,1,1,0.0,1.0,0.8923,422.67,198,109.41,532.08
+TRC_0046,Compliant,0,BRONZE BUTLER,Windows Credential Editor,USES,1,1,0.0,1.0,0.801,386.71,179,162.52,549.23
+TRC_0047,Compliant,0,APT28 Nearest Neighbor Campaign,SMB/Windows Admin Shares,USES,1,1,0.0,1.0,0.8552,400.66,162,106.77,507.42
+TRC_0048,Compliant,0,Crimson,Keylogging,USES,1,1,0.0,1.0,0.8621,431.63,187,106.52,538.15
+TRC_0049,Compliant,0,Lokibot,System Owner/User Discovery,USES,1,1,0.0,1.0,0.7681,418.53,180,109.26,527.79
+TRC_0050,Compliant,0,Black Banshee,Dynamic Resolution,USES,1,1,0.0,1.0,0.9721,354.61,177,106.76,461.37
+TRC_0051,Compliant,0,APT28,Deobfuscate/Decode Files or Information,USES,1,1,0.0,1.0,0.9215,402.88,171,107.99,510.87
+TRC_0052,Compliant,0,Milan,Scheduled Task,USES,1,1,0.0,1.0,0.9643,411.04,190,106.04,517.08
+TRC_0053,Compliant,0,Contagious Interview,System Information Discovery,USES,1,1,0.0,1.0,0.9527,503.18,186,106.83,610.01
+TRC_0054,Compliant,0,SplatCloak,System Information Discovery,USES,1,1,0.0,1.0,0.8755,429.89,182,109.58,539.47
+TRC_0055,Compliant,0,T9000,AppInit DLLs,USES,1,1,0.0,1.0,0.9597,331.96,183,109.18,441.14
+TRC_0056,Compliant,0,C0015,System Time Discovery,USES,1,1,0.0,1.0,0.743,421.01,220,108.26,529.27
+TRC_0057,Compliant,0,NETEAGLE,Symmetric Cryptography,USES,1,1,0.0,1.0,0.771,409.64,188,107.34,516.98
+TRC_0058,Compliant,0,Execution Prevention,Trusted Developer Utilities Proxy Execution,MITIGATES,1,1,0.0,1.0,0.7318,416.74,166,108.3,525.04
+TRC_0059,Compliant,0,PACEMAKER,Local Data Staging,USES,1,1,0.0,1.0,0.8046,469.73,195,105.76,575.49
+TRC_0060,Compliant,0,Network Segmentation,Remote Service Session Hijacking,MITIGATES,1,1,0.0,1.0,0.8211,453.9,170,109.35,563.25
+TRC_0061,Compliant,0,PureCrypter,Encrypted/Encoded File,USES,1,1,0.0,1.0,0.7906,481.43,162,108.09,589.51
+TRC_0062,Compliant,0,APT1,GLOOXMAIL,USES,1,1,0.0,1.0,0.9355,444.71,216,108.3,553.01
+TRC_0063,Compliant,0,Impacket,Ccache Files,USES,1,1,0.0,1.0,0.8128,373.73,175,106.66,480.38
+TRC_0064,Compliant,0,MirrorFace,Spearphishing Attachment,USES,1,1,0.0,1.0,0.793,422.78,176,107.97,530.75
+TRC_0065,Compliant,0,FRP,Multi-hop Proxy,USES,1,1,0.0,1.0,0.8611,348.52,185,146.78,495.3
+TRC_0066,Compliant,0,SILENTTRINITY,System Time Discovery,USES,1,1,0.0,1.0,0.7566,370.5,191,106.2,476.7
+TRC_0067,Compliant,0,4H RAT,Windows Command Shell,USES,1,1,0.0,1.0,0.9286,376.93,207,108.86,485.78
+TRC_0068,Compliant,0,ZeroT,Steganography,USES,1,1,0.0,1.0,0.7394,383.05,179,103.64,486.69
+TRC_0069,Compliant,0,Lazarus Group,Internal Defacement,USES,1,1,0.0,1.0,0.9766,454.91,165,112.27,567.18
+TRC_0070,Compliant,0,NOOPLDR,Hide Artifacts,USES,1,1,0.0,1.0,0.9208,428.54,203,103.31,531.85
+TRC_0071,Compliant,0,Lokibot,Scheduled Task/Job,USES,1,1,0.0,1.0,0.7717,345.96,186,105.96,451.93
+TRC_0072,Compliant,0,Havoc,File Transfer Protocols,USES,1,1,0.0,1.0,0.7214,429.99,195,109.18,539.17
+TRC_0073,Compliant,0,Impacket,Name Resolution Poisoning and SMB Relay,USES,1,1,0.0,1.0,0.932,362.64,164,161.19,523.83
+TRC_0074,Compliant,0,Leviathan,Exploitation for Client Execution,USES,1,1,0.0,1.0,0.9038,441.79,188,104.07,545.86
+TRC_0075,Compliant,0,SUNSPOT,Native API,USES,1,1,0.0,1.0,0.9095,429.57,189,108.19,537.76
+TRC_0076,Compliant,0,Akira _v2,Log Enumeration,USES,1,1,0.0,1.0,0.9205,387.7,187,105.47,493.17
+TRC_0077,Compliant,0,HiddenFace,Symmetric Cryptography,USES,1,1,0.0,1.0,0.7393,431.49,173,110.4,541.89
+TRC_0078,Compliant,0,TeamPCP,Data Encrypted for Impact,USES,1,1,0.0,1.0,0.8132,502.26,191,103.71,605.97
+TRC_0079,Compliant,0,LODEINFO,System Network Configuration Discovery,USES,1,1,0.0,1.0,0.7501,364.69,193,106.88,471.57
+TRC_0080,Compliant,0,MgBot,OS Credential Dumping,USES,1,1,0.0,1.0,0.9444,374.44,195,104.7,479.14
+TRC_0081,Compliant,0,SombRAT,DNS,USES,1,1,0.0,1.0,0.8821,470.44,171,107.79,578.23
+TRC_0082,Compliant,0,GoBear,Match Legitimate Resource Name or Location,USES,1,1,0.0,1.0,0.806,461.65,190,103.33,564.98
+TRC_0083,Compliant,0,Felismus,System Owner/User Discovery,USES,1,1,0.0,1.0,0.7365,455.29,212,102.53,557.82
+TRC_0084,Compliant,0,FinFisher,Dynamic-link Library Injection,USES,1,1,0.0,1.0,0.8009,407.26,172,103.7,510.96
+TRC_0085,Compliant,0,SEASHARPEE,Windows Command Shell,USES,1,1,0.0,1.0,0.8045,378.27,171,103.71,481.98
+TRC_0086,Compliant,0,TajMahal,Dynamic-link Library Injection,USES,1,1,0.0,1.0,0.9097,414.83,189,106.2,521.03
+TRC_0087,Compliant,0,Zebrocy,File and Directory Discovery,USES,1,1,0.0,1.0,0.8858,430.75,196,103.91,534.66
+TRC_0088,Compliant,0,NanoCore,Ingress Tool Transfer,USES,1,1,0.0,1.0,0.9507,418.89,205,106.08,524.97
+TRC_0089,Compliant,0,Turla,Peripheral Device Discovery,USES,1,1,0.0,1.0,0.8428,406.39,224,107.25,513.64
+TRC_0090,Compliant,0,Micropsia,Encrypted/Encoded File,USES,1,1,0.0,1.0,0.7511,446.46,171,107.31,553.77
+TRC_0091,Compliant,0,Ramsay,Peripheral Device Discovery,USES,1,1,0.0,1.0,0.9054,370.11,191,126.19,496.3
+TRC_0092,Compliant,0,Mustang Panda,Native API,USES,1,1,0.0,1.0,0.9178,408.24,194,113.38,521.62
+TRC_0093,Compliant,0,HotCroissant,File Deletion,USES,1,1,0.0,1.0,0.8659,439.6,182,108.51,548.1
+TRC_0094,Compliant,0,Conficker,Windows Service,USES,1,1,0.0,1.0,0.9205,380.19,161,110.63,490.83
+TRC_0095,Compliant,0,Agent Tesla,Local Account,USES,1,1,0.0,1.0,0.8484,398.21,196,109.51,507.71
+TRC_0096,Compliant,0,Pre-compromise,Network Devices,MITIGATES,1,1,0.0,1.0,0.8559,427.93,165,109.91,537.84
+TRC_0097,Compliant,0,InnaputRAT,Local Storage Discovery,USES,1,1,0.0,1.0,0.8312,426.09,189,103.76,529.85
+TRC_0098,Compliant,0,Stealth Falcon,Credentials from Web Browsers,USES,1,1,0.0,1.0,0.7266,378.53,186,111.28,489.8
+TRC_0099,Compliant,0,InvisibleFerret,Exfiltration Over C2 Channel,USES,1,1,0.0,1.0,0.7481,420.92,166,107.61,528.53
+TRC_0100,Compliant,0,Naikon,Sys10,USES,1,1,0.0,1.0,0.7282,434.4,192,161.58,595.98
+TRC_0101,Compliant,0,Filter Network Traffic,OS Exhaustion Flood,MITIGATES,1,1,0.0,1.0,0.8855,467.04,199,107.1,574.14
+TRC_0102,Compliant,0,AutoIt backdoor,PowerShell,USES,1,1,0.0,1.0,0.8017,356.3,169,107.43,463.73
+TRC_0103,Compliant,0,Mustang Panda,Protocol or Service Impersonation,USES,1,1,0.0,1.0,0.8522,441.48,191,109.63,551.1
+TRC_0104,Compliant,0,Flagpro,Application Window Discovery,USES,1,1,0.0,1.0,0.956,441.48,241,103.82,545.29
+TRC_0105,Compliant,0,Koadic,Visual Basic,USES,1,1,0.0,1.0,0.7848,443.99,201,103.17,547.16
+TRC_0106,Compliant,0,Screensaver,Event Triggered Execution,SUBTECHNIQUE_OF,1,2,0.2,0.8,0.8267,461.23,193,107.9,569.13
+TRC_0107,Compliant,0,2025 Poland Wiper Attacks,Network Device CLI,USES,1,1,0.0,1.0,0.9164,404.11,195,105.75,509.86
+TRC_0108,Compliant,0,AppleJeus,Malicious File,USES,1,1,0.0,1.0,0.7795,383.52,180,107.33,490.85
+TRC_0109,Compliant,0,HAFNIUM,System Network Configuration Discovery,USES,1,1,0.0,1.0,0.74,396.46,185,102.26,498.72
+TRC_0110,Compliant,0,AsyncRAT,Hidden Window,USES,1,1,0.0,1.0,0.7953,522.46,155,103.5,625.96
+TRC_0111,Compliant,0,MuddyViper,Scheduled Task,USES,1,1,0.0,1.0,0.7619,449.18,159,105.61,554.8
+TRC_0112,Compliant,0,NightClub,Timestomp,USES,1,1,0.0,1.0,0.9617,397.06,200,106.54,503.6
+TRC_0113,Compliant,0,CLAIMLOADER,Malicious File,USES,1,1,0.0,1.0,0.9301,421.19,167,111.7,532.9
+TRC_0114,Compliant,0,Carbanak,Keylogging,USES,1,2,0.2,0.8,0.8847,386.11,194,108.1,494.22
+TRC_0115,Compliant,0,InnaputRAT,Native API,USES,1,1,0.0,1.0,0.9466,385.43,187,108.11,493.55
+TRC_0116,Compliant,0,Valak,System Owner/User Discovery,USES,1,1,0.0,1.0,0.929,420.35,174,107.27,527.62
+TRC_0117,Compliant,0,C0015,AdFind,USES,1,1,0.0,1.0,0.7685,514.78,193,126.45,641.23
+TRC_0118,Compliant,0,Melcoz,Malicious Link,USES,1,1,0.0,1.0,0.9521,327.17,186,103.32,430.49
+TRC_0119,Compliant,0,OutSteel,Process Discovery,USES,1,1,0.0,1.0,0.8602,388.52,196,104.14,492.66
+TRC_0120,Compliant,0,Network Address Translation Traversal,Network Boundary Bridging,SUBTECHNIQUE_OF,1,1,0.0,1.0,0.9299,382.64,182,109.14,491.77
+TRC_0121,Compliant,0,H1N1,Data Encoding,USES,1,1,0.0,1.0,0.953,441.02,196,101.73,542.76
+TRC_0122,Compliant,0,Helminth,Local Data Staging,USES,1,1,0.0,1.0,0.8027,364.29,178,104.5,468.79
+TRC_0123,Compliant,0,XCSSET,Exfiltration Over C2 Channel,USES,1,1,0.0,1.0,0.7486,396.93,174,101.49,498.42
+TRC_0124,Compliant,0,WarzoneRAT,Exfiltration Over C2 Channel,USES,1,1,0.0,1.0,0.7793,497.75,190,105.86,603.6
+TRC_0125,Compliant,0,Whisper Spider,External Proxy,USES,1,1,0.0,1.0,0.831,361.56,197,106.72,468.28
+TRC_0126,Compliant,0,StealBit,Web Protocols,USES,1,1,0.0,1.0,0.9327,513.8,199,101.07,614.87
+TRC_0127,Compliant,0,HiddenFace,Fallback Channels,USES,1,1,0.0,1.0,0.9438,349.93,176,102.61,452.54
+TRC_0128,Compliant,0,Operation CuckooBees,File and Directory Discovery,USES,1,1,0.0,1.0,0.7218,475.31,173,109.19,584.5
+TRC_0129,Compliant,0,LockBit 3.0,Symmetric Cryptography,USES,1,1,0.0,1.0,0.8528,438.27,195,107.51,545.78
+TRC_0130,Compliant,0,Quad7 Activity,Exploit Public-Facing Application,USES,1,1,0.0,1.0,0.8285,376.59,183,110.46,487.05
+TRC_0131,Compliant,0,Agent Tesla,Credentials in Registry,USES,1,1,0.0,1.0,0.7777,272.44,168,106.42,378.86
+TRC_0132,Compliant,0,SharePoint ToolShell Exploitation,Exfiltration Over C2 Channel,USES,1,1,0.0,1.0,0.7512,406.93,165,108.36,515.3
+TRC_0133,Compliant,0,Dipsind,Standard Encoding,USES,1,1,0.0,1.0,0.8078,491.76,162,105.9,597.66
+TRC_0134,Compliant,0,Chimera,Domain Controller Authentication,USES,1,1,0.0,1.0,0.9652,398.5,185,104.49,502.99
+TRC_0135,Compliant,0,POISONPLUG.SHADOW,Obfuscated Files or Information,USES,1,1,0.0,1.0,0.804,483.16,162,111.24,594.4
+TRC_0136,Compliant,0,SpicyOmelette,System Information Discovery,USES,1,1,0.0,1.0,0.8549,470.64,184,109.29,579.93
+TRC_0137,Compliant,0,POORAIM,File and Directory Discovery,USES,1,1,0.0,1.0,0.9028,374.13,190,103.02,477.16
+TRC_0138,Compliant,0,Raccoon Stealer,Automated Collection,USES,1,1,0.0,1.0,0.8145,427.26,174,114.13,541.39
+TRC_0139,Compliant,0,RansomHub,File Deletion,USES,1,1,0.0,1.0,0.9727,421.44,178,103.42,524.86
+TRC_0140,Compliant,0,InvisiMole,Keylogging,USES,1,1,0.0,1.0,0.9702,423.41,193,111.11,534.52
+TRC_0141,Compliant,0,Imminent Monitor,File Deletion,USES,1,1,0.0,1.0,0.7855,489.67,165,108.76,598.43
+TRC_0142,Compliant,0,JPIN,Keylogging,USES,1,1,0.0,1.0,0.8493,514.29,154,112.72,627.0
+TRC_0143,Compliant,0,Raspberry Robin,Command and Scripting Interpreter,USES,1,1,0.0,1.0,0.7982,411.47,192,101.89,513.36
+TRC_0144,Compliant,0,Antivirus/Antimalware,Obfuscated Files or Information,MITIGATES,1,1,0.0,1.0,0.7941,430.94,174,103.22,534.17
+TRC_0145,Compliant,0,Bugat v5,Multi-hop Proxy,USES,1,1,0.0,1.0,0.7296,408.93,176,109.3,518.24
+TRC_0146,Compliant,0,Night Dragon,Remote Access Tools,USES,1,1,0.0,1.0,0.8785,391.78,196,103.1,494.88
+TRC_0147,Compliant,0,Gold Dragon,Web Protocols,USES,1,1,0.0,1.0,0.8507,434.37,173,105.47,539.84
+TRC_0148,Compliant,0,Dipsind,Web Protocols,USES,1,1,0.0,1.0,0.7334,458.78,188,101.18,559.96
+TRC_0149,Compliant,0,Ke3chang,Golden Ticket,USES,1,1,0.0,1.0,0.7924,454.88,193,102.11,556.99
+TRC_0150,Compliant,0,Black Banshee,Compression,USES,1,1,0.0,1.0,0.9561,381.0,175,101.66,482.66
+TRC_0151,Compliant,0,Naid,Modify Registry,USES,1,1,0.0,1.0,0.7823,451.93,193,104.13,556.06
+TRC_0152,Compliant,0,CosmicDuke,Screen Capture,USES,1,1,0.0,1.0,0.7577,417.36,185,103.64,521.0
+TRC_0153,Compliant,0,Pandora,Compression,USES,1,1,0.0,1.0,0.8473,475.79,175,105.51,581.31
+TRC_0154,Compliant,0,Latrodectus,Standard Encoding,USES,1,1,0.0,1.0,0.9763,442.92,180,104.65,547.57
+TRC_0155,Compliant,0,macOS.OSAMiner,Process Discovery,USES,1,1,0.0,1.0,0.7829,408.5,200,103.0,511.51
+TRC_0156,Compliant,0,DarkGate,System Shutdown/Reboot,USES,1,1,0.0,1.0,0.8948,455.44,196,101.83,557.28
+TRC_0157,Compliant,0,Chimera,Clear Windows Event Logs,USES,1,1,0.0,1.0,0.918,477.05,184,109.63,586.67
+TRC_0158,Compliant,0,TA2541,Windows Management Instrumentation,USES,1,1,0.0,1.0,0.7818,448.99,179,104.69,553.68
+TRC_0159,Compliant,0,FIVEHANDS,Command and Scripting Interpreter,USES,1,1,0.0,1.0,0.9093,432.89,182,104.93,537.82
+TRC_0160,Compliant,0,RATANKBA,Query Registry,USES,1,1,0.0,1.0,0.8156,422.66,192,103.34,526.01
+TRC_0161,Compliant,0,Sandworm Team,Steal Web Session Cookie,USES,1,1,0.0,1.0,0.8844,381.48,215,104.4,485.88
+TRC_0162,Compliant,0,TONESHELL,Delay Execution,USES,1,1,0.0,1.0,0.8847,373.03,165,104.54,477.57
+TRC_0163,Compliant,0,Restrict File and Directory Permissions,Service Stop,MITIGATES,1,1,0.0,1.0,0.8593,470.41,195,102.96,573.37
+TRC_0164,Compliant,0,Comnie,Local Account,USES,1,1,0.0,1.0,0.7435,446.39,193,103.09,549.48
+TRC_0165,Compliant,0,Operation Exchange Marauder,Remote Email Collection,USES,1,1,0.0,1.0,0.9372,417.75,170,103.53,521.27
+TRC_0166,Compliant,0,Ryuk,Disable or Modify Tools,USES,1,1,0.0,1.0,0.8034,421.71,173,339.52,761.23
+TRC_0167,Compliant,0,3CX Supply Chain Attack,Web Protocols,USES,1,1,0.0,1.0,0.7685,462.18,181,102.69,564.87
+TRC_0168,Compliant,0,NETWIRE,Web Service,USES,1,1,0.0,1.0,0.7306,381.15,179,109.58,490.74
+TRC_0169,Compliant,0,SSL/TLS Inspection,Domain Fronting,MITIGATES,1,1,0.0,1.0,0.8736,436.88,175,105.53,542.41
+TRC_0170,Compliant,0,Earth Smilodon,Bypass User Account Control,USES,1,1,0.0,1.0,0.8962,381.3,187,102.51,483.81
+TRC_0171,Compliant,0,SDBbot,Obfuscated Files or Information,USES,1,1,0.0,1.0,0.7243,429.32,176,107.3,536.63
+TRC_0172,Compliant,0,Conti,System Network Connections Discovery,USES,1,1,0.0,1.0,0.8531,397.1,187,101.87,498.97
+TRC_0173,Compliant,0,WinMM,Process Discovery,USES,1,1,0.0,1.0,0.7789,353.14,162,104.29,457.43
+TRC_0174,Compliant,0,User Training,Malicious Image,MITIGATES,1,1,0.0,1.0,0.8877,385.97,180,103.26,489.23
+TRC_0175,Compliant,0,Pink Sandstorm,ASPXSpy,USES,1,1,0.0,1.0,0.7653,432.29,206,105.08,537.37
+TRC_0176,Compliant,0,Audit,Fileless Storage,MITIGATES,1,1,0.0,1.0,0.8996,456.89,181,101.68,558.58
+TRC_0177,Compliant,0,ngrok,Protocol Tunneling,USES,1,1,0.0,1.0,0.8206,417.44,168,107.61,525.05
+TRC_0178,Compliant,0,SHARPSTATS,System Network Configuration Discovery,USES,1,1,0.0,1.0,0.9635,417.47,179,102.76,520.23
+TRC_0179,Compliant,0,ShadowPad,Ingress Tool Transfer,USES,1,1,0.0,1.0,0.7558,432.82,171,105.19,538.01
+TRC_0180,Compliant,0,Trojan Manuscript,Query Registry,USES,1,1,0.0,1.0,0.8087,441.67,206,103.75,545.42
+TRC_0181,Compliant,0,Kobalos,System Information Discovery,USES,1,1,0.0,1.0,0.7495,413.41,190,102.03,515.44
+TRC_0182,Compliant,0,2025 Poland Wiper Attacks,Lateral Tool Transfer,USES,1,1,0.0,1.0,0.9604,449.36,177,104.62,553.98
+TRC_0183,Compliant,0,StarProxy,Deobfuscate/Decode Files or Information,USES,1,1,0.0,1.0,0.9481,428.38,184,104.84,533.22
+TRC_0184,Compliant,0,INC Ransom,Tool,USES,1,1,0.0,1.0,0.7871,422.7,172,111.35,534.05
+TRC_0185,Compliant,0,OceanSalt,File Deletion,USES,1,1,0.0,1.0,0.8916,419.4,191,101.55,520.95
+TRC_0186,Compliant,0,APT37,Bidirectional Communication,USES,1,1,0.0,1.0,0.9325,483.6,198,107.27,590.87
+TRC_0187,Compliant,0,RTM,Masquerade Task or Service,USES,1,2,0.2,0.8,0.8644,515.19,172,106.58,621.77
+TRC_0188,Compliant,0,adbupd,Windows Command Shell,USES,1,1,0.0,1.0,0.8577,457.55,186,103.49,561.05
+TRC_0189,Compliant,0,FIN8,BADHATCH,USES,1,1,0.0,1.0,0.7829,516.84,171,111.51,628.35
+TRC_0190,Compliant,0,Ramsay,Spearphishing Attachment,USES,1,1,0.0,1.0,0.7442,380.51,175,102.2,482.71
+TRC_0191,Compliant,0,3CX Supply Chain Attack,Drive-by Compromise,USES,1,1,0.0,1.0,0.9533,322.72,176,105.77,428.49
+TRC_0192,Compliant,0,Disable or Remove Feature or Program,Exfiltration Over Bluetooth,MITIGATES,1,1,0.0,1.0,0.9541,384.14,186,102.39,486.53
+TRC_0193,Compliant,0,APT28,Evil Twin,USES,1,1,0.0,1.0,0.8846,433.68,212,106.43,540.11
+TRC_0194,Compliant,0,Antivirus/Antimalware,Junk Code Insertion,MITIGATES,1,1,0.0,1.0,0.8081,461.07,175,102.56,563.63
+TRC_0195,Compliant,0,Zshlayer,Hidden Files and Directories,USES,1,1,0.0,1.0,0.8108,377.87,191,101.28,479.15
+TRC_0196,Compliant,0,DarkTortilla,Obfuscated Files or Information,USES,1,1,0.0,1.0,0.9087,358.89,211,103.19,462.08
+TRC_0197,Compliant,0,UNC3886,Hypervisor CLI,USES,1,1,0.0,1.0,0.9532,471.37,176,103.21,574.59
+TRC_0198,Compliant,0,BlackCat,Service Stop,USES,1,1,0.0,1.0,0.9506,341.21,204,104.5,445.71
+TRC_0199,Compliant,0,BRONZE BUTLER,gsecdump,USES,1,1,0.0,1.0,0.9228,413.15,202,107.22,520.37
+TRC_0200,Partial Divergence,0,Naikon,Disable or Modify Tools,USES,1,2,0.2,0.8,0.7568,346.55,175,103.16,449.71
+TRC_0201,Partial Divergence,0,Naikon,Network Service Discovery,USES,1,1,0.0,1.0,0.5337,418.54,184,101.0,519.54
+TRC_0202,Partial Divergence,0,TA505,Scheduled Task,USES,1,2,0.2,0.8,0.5647,398.05,193,102.13,500.18
+TRC_0203,Partial Divergence,0,TA505,VNC,USES,1,2,0.2,0.8,0.8594,370.26,181,114.6,484.85
+TRC_0204,Partial Divergence,0,TA505,System Owner/User Discovery,USES,1,2,0.2,0.8,0.7426,423.71,191,103.2,526.91
+TRC_0205,Partial Divergence,0,TA505,Standard Encoding,USES,1,2,0.2,0.8,0.5037,450.32,167,103.4,553.72
+TRC_0206,Partial Divergence,0,TA505,Encrypted/Encoded File,USES,1,1,0.0,1.0,0.5406,349.26,203,102.44,451.71
+TRC_0207,Partial Divergence,0,TA505,Permission Groups Discovery,USES,1,1,0.0,1.0,0.7654,433.25,172,104.89,538.15
+TRC_0208,Partial Divergence,0,TA505,Bootkit,USES,1,2,0.2,0.8,0.502,488.1,185,106.76,594.86
+TRC_0209,Partial Divergence,0,TA505,Malicious File,USES,1,1,0.0,1.0,0.5643,471.37,185,101.53,572.9
+TRC_0210,Partial Divergence,0,TA505,Symmetric Cryptography,USES,1,2,0.2,0.8,0.7195,511.03,210,101.52,612.56
+TRC_0211,Partial Divergence,0,TA505,Local Account,USES,1,2,0.2,0.8,0.7768,407.1,198,101.08,508.18
+TRC_0212,Partial Divergence,0,TA505,Windows Service,USES,1,2,0.2,0.8,0.7608,447.34,204,117.74,565.09
+TRC_0213,Partial Divergence,0,TA505,Spearphishing Link,USES,1,1,0.0,1.0,0.5897,374.88,194,106.08,480.96
+TRC_0214,Partial Divergence,0,TA505,Spearphishing Attachment,USES,1,1,0.0,1.0,0.7849,465.93,157,102.2,568.13
+TRC_0215,Partial Divergence,0,TA505,Component Object Model,USES,1,2,0.2,0.8,0.5949,365.05,153,120.23,485.28
+TRC_0216,Partial Divergence,0,TA505,Password Managers,USES,1,2,0.2,0.8,0.6302,406.18,194,102.46,508.64
+TRC_0217,Partial Divergence,0,TA505,System Service Discovery,USES,1,2,0.2,0.8,0.7986,485.91,185,101.83,587.74
+TRC_0218,Partial Divergence,0,TA505,Code Signing,USES,1,1,0.0,1.0,0.7599,491.59,163,101.68,593.26
+TRC_0219,Partial Divergence,0,TA505,Credentials in Registry,USES,1,2,0.2,0.8,0.8397,341.65,183,105.3,446.94
+TRC_0220,Partial Divergence,0,TA505,Network Share Discovery,USES,1,2,0.2,0.8,0.763,435.58,183,104.03,539.61
+TRC_0221,Partial Divergence,0,TA505,System Information Discovery,USES,1,2,0.2,0.8,0.7273,325.27,182,107.18,432.45
+TRC_0222,Partial Divergence,0,TA505,Native API,USES,1,1,0.0,1.0,0.5375,359.6,194,118.74,478.34
+TRC_0223,Partial Divergence,0,TA505,Data from Local System,USES,1,2,0.2,0.8,0.6471,434.8,169,110.96,545.76
+TRC_0224,Partial Divergence,0,TA505,Deobfuscate/Decode Files or Information,USES,1,1,0.0,1.0,0.6061,395.18,168,102.75,497.92
+TRC_0225,Partial Divergence,0,TA505,Remote Access Tools,USES,1,2,0.2,0.8,0.5976,415.48,198,103.14,518.62
+TRC_0226,Partial Divergence,0,TA505,Masquerading,USES,1,2,0.2,0.8,0.8892,373.94,191,102.62,476.57
+TRC_0227,Partial Divergence,0,TA505,Process Injection,USES,1,2,0.2,0.8,0.6572,394.44,172,101.41,495.85
+TRC_0228,Partial Divergence,0,TA505,Email Account,USES,1,1,0.0,1.0,0.8568,413.48,168,101.51,515.0
+TRC_0229,Partial Divergence,0,TA505,Time Based Checks,USES,1,2,0.2,0.8,0.7525,393.39,166,103.6,496.99
+TRC_0230,Partial Divergence,0,TA505,Browser Session Hijacking,USES,1,2,0.2,0.8,0.8179,506.71,184,102.6,609.31
+TRC_0231,Partial Divergence,0,TA505,Modify Registry,USES,1,1,0.0,1.0,0.7011,386.81,187,108.18,495.0
+TRC_0232,Partial Divergence,0,TA505,Credentials from Web Browsers,USES,1,1,0.0,1.0,0.7308,413.25,180,101.74,514.99
+TRC_0233,Partial Divergence,0,TA505,External Proxy,USES,1,2,0.2,0.8,0.697,445.94,195,101.81,547.75
+TRC_0234,Partial Divergence,0,TA505,System Network Configuration Discovery,USES,1,2,0.2,0.8,0.5781,394.43,175,102.0,496.42
+TRC_0235,Partial Divergence,0,TA505,Domain Trust Discovery,USES,1,2,0.2,0.8,0.789,405.92,149,106.49,512.41
+TRC_0236,Partial Divergence,0,TA505,File and Directory Discovery,USES,1,2,0.2,0.8,0.6123,350.12,204,103.59,453.71
+TRC_0237,Partial Divergence,0,TA505,Credentials In Files,USES,1,1,0.0,1.0,0.5097,492.32,180,107.64,599.96
+TRC_0238,Partial Divergence,0,TA505,Process Discovery,USES,1,2,0.2,0.8,0.7582,444.25,188,104.34,548.58
+TRC_0239,Partial Divergence,0,TA505,Exfiltration Over C2 Channel,USES,1,2,0.2,0.8,0.5708,556.85,200,104.36,661.21
+TRC_0240,Partial Divergence,0,TA505,PowerShell,USES,1,1,0.0,1.0,0.8762,412.54,169,108.17,520.72
+TRC_0241,Partial Divergence,0,TA505,Exploitation of Remote Services,USES,1,2,0.2,0.8,0.8816,346.01,187,101.72,447.73
+TRC_0242,Partial Divergence,0,TA505,Registry Run Keys / Startup Folder,USES,1,2,0.2,0.8,0.8659,384.26,162,105.16,489.43
+TRC_0243,Partial Divergence,0,TA505,Non-Standard Port,USES,1,2,0.2,0.8,0.6481,389.2,167,106.9,496.1
+TRC_0244,Partial Divergence,0,TA505,Process Hollowing,USES,1,2,0.2,0.8,0.5062,494.22,197,102.26,596.49
+TRC_0245,Partial Divergence,0,TA505,Credential Stuffing,USES,1,2,0.2,0.8,0.8713,417.94,206,101.95,519.89
+TRC_0246,Partial Divergence,0,TA505,Obfuscated Files or Information,USES,1,2,0.2,0.8,0.6713,421.78,171,102.96,524.74
+TRC_0247,Partial Divergence,0,TA505,Disable or Modify Tools,USES,1,1,0.0,1.0,0.8867,486.84,192,102.86,589.7
+TRC_0248,Partial Divergence,0,TA505,Hidden Window,USES,1,2,0.2,0.8,0.8854,371.62,181,100.57,472.2
+TRC_0249,Partial Divergence,0,TA505,Windows Command Shell,USES,1,1,0.0,1.0,0.8412,378.9,163,101.9,480.8
+TRC_0250,Partial Divergence,0,TA505,Software Packing,USES,1,1,0.0,1.0,0.6178,459.98,212,104.47,564.45
+TRC_0251,Partial Divergence,0,TA505,Web Protocols,USES,1,1,0.0,1.0,0.654,355.36,192,103.78,459.14
+TRC_0252,Partial Divergence,0,TA505,Remote System Discovery,USES,1,2,0.2,0.8,0.8405,389.02,176,109.02,498.04
+TRC_0253,Partial Divergence,0,TA505,Ingress Tool Transfer,USES,1,1,0.0,1.0,0.6268,391.64,171,102.95,494.59
+TRC_0254,Partial Divergence,0,TA505,Fallback Channels,USES,1,2,0.2,0.8,0.5678,420.48,171,101.88,522.36
+TRC_0255,Partial Divergence,0,TA505,Credential API Hooking,USES,1,2,0.2,0.8,0.7227,430.47,183,103.51,533.98
+TRC_0256,Partial Divergence,0,TA505,Firmware Corruption,USES,1,2,0.2,0.8,0.8745,407.55,170,102.45,510.0
+TRC_0257,Partial Divergence,0,Wizard Spider,Scheduled Task,USES,1,1,0.0,1.0,0.7784,392.35,195,102.52,494.86
+TRC_0258,Partial Divergence,0,Wizard Spider,VNC,USES,1,2,0.2,0.8,0.728,440.84,169,106.5,547.34
+TRC_0259,Partial Divergence,0,Wizard Spider,System Owner/User Discovery,USES,1,1,0.0,1.0,0.5389,422.77,195,102.73,525.5
+TRC_0260,Partial Divergence,0,Wizard Spider,Standard Encoding,USES,1,2,0.2,0.8,0.746,343.18,192,103.03,446.21
+TRC_0261,Partial Divergence,0,Wizard Spider,Encrypted/Encoded File,USES,1,2,0.2,0.8,0.896,388.48,192,105.2,493.68
+TRC_0262,Partial Divergence,0,Wizard Spider,Permission Groups Discovery,USES,1,2,0.2,0.8,0.556,383.95,156,357.31,741.27
+TRC_0263,Partial Divergence,0,Wizard Spider,Bootkit,USES,1,2,0.2,0.8,0.7073,345.06,184,106.51,451.57
+TRC_0264,Partial Divergence,0,Wizard Spider,Malicious File,USES,1,1,0.0,1.0,0.8509,429.99,170,103.14,533.13
+TRC_0265,Partial Divergence,0,Wizard Spider,Symmetric Cryptography,USES,1,2,0.2,0.8,0.7963,447.04,159,101.61,548.65
+TRC_0266,Partial Divergence,0,Wizard Spider,Local Account,USES,1,2,0.2,0.8,0.7788,415.33,165,106.6,521.92
+TRC_0267,Partial Divergence,0,Wizard Spider,Windows Service,USES,1,1,0.0,1.0,0.781,388.97,184,106.49,495.46
+TRC_0268,Partial Divergence,0,Wizard Spider,Spearphishing Link,USES,1,1,0.0,1.0,0.6438,379.58,178,102.68,482.26
+TRC_0269,Partial Divergence,0,Wizard Spider,Spearphishing Attachment,USES,1,1,0.0,1.0,0.6174,463.58,175,103.28,566.86
+TRC_0270,Partial Divergence,0,Wizard Spider,Component Object Model,USES,1,2,0.2,0.8,0.8237,455.91,167,105.6,561.51
+TRC_0271,Partial Divergence,0,Wizard Spider,Password Managers,USES,1,2,0.2,0.8,0.824,442.14,205,103.68,545.82
+TRC_0272,Partial Divergence,0,Wizard Spider,System Service Discovery,USES,1,2,0.2,0.8,0.8468,307.08,172,101.82,408.9
+TRC_0273,Partial Divergence,0,Wizard Spider,Code Signing,USES,1,1,0.0,1.0,0.8653,444.27,180,102.11,546.38
+TRC_0274,Partial Divergence,0,Wizard Spider,Credentials in Registry,USES,1,2,0.2,0.8,0.7045,435.0,174,104.64,539.64
+TRC_0275,Partial Divergence,0,Wizard Spider,Network Share Discovery,USES,1,1,0.0,1.0,0.7006,422.2,181,103.33,525.53
+TRC_0276,Partial Divergence,0,Wizard Spider,System Information Discovery,USES,1,1,0.0,1.0,0.8193,470.85,187,100.48,571.33
+TRC_0277,Partial Divergence,0,Wizard Spider,Native API,USES,1,2,0.2,0.8,0.76,433.49,177,109.18,542.67
+TRC_0278,Partial Divergence,0,Wizard Spider,Data from Local System,USES,1,1,0.0,1.0,0.7808,396.36,177,104.87,501.22
+TRC_0279,Partial Divergence,0,Wizard Spider,Deobfuscate/Decode Files or Information,USES,1,2,0.2,0.8,0.8183,436.05,177,107.1,543.15
+TRC_0280,Partial Divergence,0,Wizard Spider,Remote Access Tools,USES,1,2,0.2,0.8,0.856,431.34,215,103.45,534.79
+TRC_0281,Partial Divergence,0,Wizard Spider,Masquerading,USES,1,2,0.2,0.8,0.6352,457.5,179,104.85,562.35
+TRC_0282,Partial Divergence,0,Wizard Spider,Process Injection,USES,1,1,0.0,1.0,0.6502,472.35,177,101.97,574.32
+TRC_0283,Partial Divergence,0,Wizard Spider,Email Account,USES,1,2,0.2,0.8,0.5376,326.58,168,103.25,429.84
+TRC_0284,Partial Divergence,0,Wizard Spider,Time Based Checks,USES,1,2,0.2,0.8,0.7313,334.11,178,103.9,438.01
+TRC_0285,Partial Divergence,0,Wizard Spider,Browser Session Hijacking,USES,1,2,0.2,0.8,0.5144,419.13,209,103.84,522.97
+TRC_0286,Partial Divergence,0,Wizard Spider,Modify Registry,USES,1,1,0.0,1.0,0.6862,433.01,180,102.67,535.68
+TRC_0287,Partial Divergence,0,Wizard Spider,Credentials from Web Browsers,USES,1,2,0.2,0.8,0.7171,455.62,150,100.96,556.59
+TRC_0288,Partial Divergence,0,Wizard Spider,External Proxy,USES,1,2,0.2,0.8,0.6146,428.9,195,101.06,529.96
+TRC_0289,Partial Divergence,0,Wizard Spider,System Network Configuration Discovery,USES,1,1,0.0,1.0,0.7363,351.76,201,102.47,454.23
+TRC_0290,Partial Divergence,0,Wizard Spider,Domain Trust Discovery,USES,1,2,0.2,0.8,0.5122,433.53,177,104.33,537.86
+TRC_0291,Partial Divergence,0,Wizard Spider,File and Directory Discovery,USES,1,2,0.2,0.8,0.5149,446.78,218,102.65,549.43
+TRC_0292,Partial Divergence,0,Wizard Spider,Credentials In Files,USES,1,2,0.2,0.8,0.829,426.48,187,106.73,533.21
+TRC_0293,Partial Divergence,0,Wizard Spider,Process Discovery,USES,1,2,0.2,0.8,0.6441,397.63,171,103.26,500.89
+TRC_0294,Partial Divergence,0,Wizard Spider,Exfiltration Over C2 Channel,USES,1,1,0.0,1.0,0.5508,455.67,171,101.25,556.91
+TRC_0295,Partial Divergence,0,Wizard Spider,PowerShell,USES,1,1,0.0,1.0,0.7089,421.52,176,108.21,529.73
+TRC_0296,Partial Divergence,0,Wizard Spider,Exploitation of Remote Services,USES,1,1,0.0,1.0,0.808,439.85,189,101.92,541.78
+TRC_0297,Partial Divergence,0,Wizard Spider,Registry Run Keys / Startup Folder,USES,1,1,0.0,1.0,0.5863,464.99,176,102.36,567.35
+TRC_0298,Partial Divergence,0,Wizard Spider,Non-Standard Port,USES,1,2,0.2,0.8,0.7492,406.16,169,115.08,521.23
+TRC_0299,Partial Divergence,0,Wizard Spider,Process Hollowing,USES,1,2,0.2,0.8,0.5341,398.31,189,108.95,507.26
+TRC_0300,Partial Divergence,0,Wizard Spider,Credential Stuffing,USES,1,2,0.2,0.8,0.5207,452.36,170,103.05,555.41
+TRC_0301,Partial Divergence,0,Wizard Spider,Obfuscated Files or Information,USES,1,2,0.2,0.8,0.7125,457.43,204,101.41,558.84
+TRC_0302,Partial Divergence,0,Wizard Spider,Disable or Modify Tools,USES,1,1,0.0,1.0,0.7163,436.9,212,116.95,553.86
+TRC_0303,Partial Divergence,0,Wizard Spider,Hidden Window,USES,1,2,0.2,0.8,0.755,383.48,165,102.18,485.66
+TRC_0304,Partial Divergence,0,Wizard Spider,Windows Command Shell,USES,1,1,0.0,1.0,0.7904,338.26,206,100.5,438.76
+TRC_0305,Partial Divergence,0,Wizard Spider,Software Packing,USES,1,2,0.2,0.8,0.8903,447.75,183,116.22,563.97
+TRC_0306,Partial Divergence,0,Wizard Spider,Web Protocols,USES,1,1,0.0,1.0,0.7065,430.9,167,101.29,532.19
+TRC_0307,Partial Divergence,0,Wizard Spider,Remote System Discovery,USES,1,1,0.0,1.0,0.6292,528.36,185,101.79,630.15
+TRC_0308,Partial Divergence,0,Wizard Spider,Ingress Tool Transfer,USES,1,1,0.0,1.0,0.8181,423.22,194,102.23,525.46
+TRC_0309,Partial Divergence,0,Wizard Spider,Fallback Channels,USES,1,2,0.2,0.8,0.6083,439.95,187,102.91,542.85
+TRC_0310,Partial Divergence,0,Wizard Spider,Credential API Hooking,USES,1,2,0.2,0.8,0.6756,382.73,191,108.66,491.39
+TRC_0311,Partial Divergence,0,Wizard Spider,Firmware Corruption,USES,1,2,0.2,0.8,0.5314,502.99,204,104.86,607.85
+TRC_0312,Partial Divergence,0,APT29,System Owner/User Discovery,USES,1,2,0.2,0.8,0.5101,489.99,176,104.39,594.38
+TRC_0313,Partial Divergence,0,APT29,Rundll32,USES,1,2,0.2,0.8,0.8851,373.77,182,107.83,481.6
+TRC_0314,Partial Divergence,0,APT29,System Information Discovery,USES,1,2,0.2,0.8,0.8344,420.81,200,102.42,523.22
+TRC_0315,Partial Divergence,0,APT29,Application Window Discovery,USES,1,2,0.2,0.8,0.7784,342.14,206,105.98,448.12
+TRC_0316,Partial Divergence,0,APT29,System Network Configuration Discovery,USES,1,2,0.2,0.8,0.6636,411.19,177,101.81,513.0
+TRC_0317,Partial Divergence,0,APT29,File and Directory Discovery,USES,1,2,0.2,0.8,0.5693,372.76,159,106.37,479.12
+TRC_0318,Partial Divergence,0,APT29,Process Discovery,USES,1,2,0.2,0.8,0.5626,455.34,185,103.23,558.58
+TRC_0319,Partial Divergence,0,APT29,Registry Run Keys / Startup Folder,USES,1,1,0.0,1.0,0.6001,360.25,164,102.02,462.27
+TRC_0320,Partial Divergence,0,APT29,Steganography,USES,1,2,0.2,0.8,0.7197,403.19,209,101.18,504.37
+TRC_0321,Partial Divergence,0,APT29,Windows Command Shell,USES,1,2,0.2,0.8,0.7858,406.62,161,102.51,509.13
+TRC_0322,Partial Divergence,0,APT29,Data Destruction,USES,1,2,0.2,0.8,0.7641,407.24,179,104.08,511.33
+TRC_0323,Partial Divergence,0,APT29,File Deletion,USES,1,1,0.0,1.0,0.612,296.94,183,100.8,397.74
+TRC_0324,Partial Divergence,0,APT29,Ingress Tool Transfer,USES,1,1,0.0,1.0,0.8819,407.91,194,102.55,510.45
+TRC_0325,Partial Divergence,0,APT29,NTFS File Attributes,USES,1,2,0.2,0.8,0.7952,501.5,200,103.2,604.7
+TRC_0326,Partial Divergence,0,APT29,System Time Discovery,USES,1,2,0.2,0.8,0.7217,406.2,167,102.36,508.56
+TRC_0327,Partial Divergence,0,Lazarus Group,Rundll32,USES,1,1,0.0,1.0,0.7447,534.1,184,105.76,639.86
+TRC_0328,Partial Divergence,0,Lazarus Group,Standard Encoding,USES,1,1,0.0,1.0,0.6678,418.93,183,103.37,522.3
+TRC_0329,Partial Divergence,0,Lazarus Group,Shared Modules,USES,1,2,0.2,0.8,0.5991,427.21,181,101.33,528.55
+TRC_0330,Partial Divergence,0,Lazarus Group,Encrypted/Encoded File,USES,1,1,0.0,1.0,0.6424,392.49,175,101.95,494.44
+TRC_0331,Partial Divergence,0,Lazarus Group,Match Legitimate Resource Name or Location,USES,1,1,0.0,1.0,0.8031,416.83,175,101.73,518.56
+TRC_0332,Partial Divergence,0,Lazarus Group,Malicious File,USES,1,1,0.0,1.0,0.5058,386.22,185,101.03,487.25
+TRC_0333,Partial Divergence,0,Lazarus Group,Symmetric Cryptography,USES,1,1,0.0,1.0,0.5464,406.83,206,102.47,509.3
+TRC_0334,Partial Divergence,0,Lazarus Group,Spearphishing Attachment,USES,1,1,0.0,1.0,0.5184,299.01,200,101.2,400.2
+TRC_0335,Partial Divergence,0,Lazarus Group,Code Signing,USES,1,1,0.0,1.0,0.5163,474.37,152,102.18,576.56
+TRC_0336,Partial Divergence,0,Lazarus Group,System Information Discovery,USES,1,1,0.0,1.0,0.8422,402.88,178,104.2,507.07
+TRC_0337,Partial Divergence,0,Lazarus Group,Data from Local System,USES,1,1,0.0,1.0,0.7815,354.96,172,101.92,456.88
+TRC_0338,Partial Divergence,0,Lazarus Group,Deobfuscate/Decode Files or Information,USES,1,1,0.0,1.0,0.6897,368.32,210,100.32,468.64
+TRC_0339,Partial Divergence,0,Lazarus Group,Timestomp,USES,1,1,0.0,1.0,0.5391,460.41,203,106.01,566.42
+TRC_0340,Partial Divergence,0,Lazarus Group,System Network Configuration Discovery,USES,1,1,0.0,1.0,0.6966,450.78,167,103.01,553.78
+TRC_0341,Partial Divergence,0,Lazarus Group,File and Directory Discovery,USES,1,1,0.0,1.0,0.6894,394.7,191,106.39,501.09
+TRC_0342,Partial Divergence,0,Lazarus Group,Exfiltration Over C2 Channel,USES,1,1,0.0,1.0,0.5693,363.3,194,107.54,470.85
+TRC_0343,Partial Divergence,0,Lazarus Group,Windows Command Shell,USES,1,1,0.0,1.0,0.6735,407.49,178,104.71,512.19
+TRC_0344,Partial Divergence,0,Lazarus Group,File Deletion,USES,1,1,0.0,1.0,0.6594,450.29,190,104.09,554.39
+TRC_0345,Partial Divergence,0,Lazarus Group,Software Packing,USES,1,2,0.2,0.8,0.7463,402.06,201,106.22,508.27
+TRC_0346,Partial Divergence,0,Lazarus Group,Web Protocols,USES,1,1,0.0,1.0,0.754,369.65,193,102.83,472.48
+TRC_0347,Partial Divergence,0,Lazarus Group,Ingress Tool Transfer,USES,1,1,0.0,1.0,0.5181,444.99,179,104.35,549.34
+TRC_0348,Partial Divergence,0,Lazarus Group,Local Storage Discovery,USES,1,1,0.0,1.0,0.6498,432.98,165,103.54,536.51
+TRC_0349,Partial Divergence,0,ToddyCat,Rundll32,USES,1,2,0.2,0.8,0.7503,459.88,181,112.31,572.19
+TRC_0350,Partial Divergence,0,ToddyCat,Encrypted/Encoded File,USES,1,2,0.2,0.8,0.7013,394.78,199,101.17,495.95
+TRC_0351,Partial Divergence,0,ToddyCat,Match Legitimate Resource Name or Location,USES,1,1,0.0,1.0,0.8426,386.6,162,102.53,489.13
+TRC_0352,Partial Divergence,0,ToddyCat,Malicious File,USES,1,2,0.2,0.8,0.7635,348.25,193,103.12,451.37
+TRC_0353,Partial Divergence,0,ToddyCat,Symmetric Cryptography,USES,1,2,0.2,0.8,0.5652,360.68,210,104.74,465.42
+TRC_0354,Partial Divergence,0,ToddyCat,Windows Service,USES,1,2,0.2,0.8,0.5282,324.61,209,107.04,431.65
+TRC_0355,Partial Divergence,0,ToddyCat,DLL,USES,1,2,0.2,0.8,0.757,427.8,182,114.98,542.77
+TRC_0356,Partial Divergence,0,ToddyCat,System Information Discovery,USES,1,2,0.2,0.8,0.5106,393.78,189,107.56,501.34
+TRC_0357,Partial Divergence,0,ToddyCat,Native API,USES,1,1,0.0,1.0,0.7343,416.61,200,112.79,529.39
+TRC_0358,Partial Divergence,0,ToddyCat,Deobfuscate/Decode Files or Information,USES,1,2,0.2,0.8,0.8761,423.44,186,547.72,971.16
+TRC_0359,Partial Divergence,0,ToddyCat,Process Injection,USES,1,2,0.2,0.8,0.7302,401.94,183,104.05,505.99
+TRC_0360,Partial Divergence,0,ToddyCat,Timestomp,USES,1,2,0.2,0.8,0.6553,432.15,158,117.21,549.36
+TRC_0361,Partial Divergence,0,ToddyCat,Scheduled Transfer,USES,1,2,0.2,0.8,0.7573,357.63,195,101.11,458.74
+TRC_0362,Partial Divergence,0,ToddyCat,System Network Configuration Discovery,USES,1,2,0.2,0.8,0.6833,425.99,181,124.15,550.14
+TRC_0363,Partial Divergence,0,ToddyCat,File and Directory Discovery,USES,1,1,0.0,1.0,0.7182,419.13,189,101.8,520.93
+TRC_0364,Partial Divergence,0,ToddyCat,Process Discovery,USES,1,1,0.0,1.0,0.8766,394.01,172,103.85,497.86
+TRC_0365,Partial Divergence,0,ToddyCat,Multi-hop Proxy,USES,1,2,0.2,0.8,0.6544,427.11,169,103.16,530.27
+TRC_0366,Partial Divergence,0,ToddyCat,Inter-Process Communication,USES,1,2,0.2,0.8,0.8845,436.67,158,102.32,538.99
+TRC_0367,Partial Divergence,0,ToddyCat,Data Obfuscation,USES,1,2,0.2,0.8,0.8621,464.61,191,140.43,605.04
+TRC_0368,Partial Divergence,0,ToddyCat,Non-Application Layer Protocol,USES,1,1,0.0,1.0,0.5783,429.82,198,105.52,535.34
+TRC_0369,Partial Divergence,0,ToddyCat,Protocol or Service Impersonation,USES,1,2,0.2,0.8,0.5277,493.25,199,107.5,600.75
+TRC_0370,Partial Divergence,0,ToddyCat,Non-Standard Encoding,USES,1,2,0.2,0.8,0.5403,335.46,164,103.07,438.53
+TRC_0371,Partial Divergence,0,ToddyCat,Web Protocols,USES,1,2,0.2,0.8,0.5073,390.18,184,103.28,493.46
+TRC_0372,Partial Divergence,0,ToddyCat,Environmental Keying,USES,1,2,0.2,0.8,0.5378,441.59,173,105.25,546.85
+TRC_0373,Partial Divergence,0,ToddyCat,Local Storage Discovery,USES,1,1,0.0,1.0,0.7732,426.7,172,100.89,527.6
+TRC_0374,Partial Divergence,0,ToddyCat,Spearphishing via Service,USES,1,1,0.0,1.0,0.5285,390.78,162,100.91,491.69
+TRC_0375,Partial Divergence,0,ToddyCat,Internal Proxy,USES,1,2,0.2,0.8,0.6276,376.75,163,100.83,477.59
+TRC_0376,Partial Divergence,0,ToddyCat,Compression,USES,1,2,0.2,0.8,0.838,374.39,199,106.11,480.5
+TRC_0377,Partial Divergence,0,TA577,Fileless Storage,USES,1,2,0.2,0.8,0.5093,375.58,223,101.93,477.51
+TRC_0378,Partial Divergence,0,TA577,Standard Encoding,USES,1,2,0.2,0.8,0.8258,440.5,186,103.14,543.64
+TRC_0379,Partial Divergence,0,TA577,Embedded Payloads,USES,1,1,0.0,1.0,0.6127,379.67,194,101.6,481.27
+TRC_0380,Partial Divergence,0,TA577,Symmetric Cryptography,USES,1,2,0.2,0.8,0.5473,392.4,185,110.22,502.62
+TRC_0381,Partial Divergence,0,TA577,Local Account,USES,1,2,0.2,0.8,0.7787,533.5,182,113.0,646.51
+TRC_0382,Partial Divergence,0,TA577,System Checks,USES,1,2,0.2,0.8,0.7516,470.02,173,101.69,571.71
+TRC_0383,Partial Divergence,0,TA577,System Information Discovery,USES,1,2,0.2,0.8,0.851,416.73,210,103.02,519.74
+TRC_0384,Partial Divergence,0,TA577,Native API,USES,1,2,0.2,0.8,0.794,390.09,211,116.15,506.24
+TRC_0385,Partial Divergence,0,TA577,Deobfuscate/Decode Files or Information,USES,1,2,0.2,0.8,0.8214,450.15,175,104.21,554.36
+TRC_0386,Partial Divergence,0,TA577,Thread Execution Hijacking,USES,1,2,0.2,0.8,0.6128,446.76,198,120.71,567.47
+TRC_0387,Partial Divergence,0,TA577,Reflective Code Loading,USES,1,2,0.2,0.8,0.571,446.28,160,102.4,548.68
+TRC_0388,Partial Divergence,0,TA577,System Network Configuration Discovery,USES,1,2,0.2,0.8,0.8002,385.58,180,109.74,495.32
+TRC_0389,Partial Divergence,0,TA577,Domain Trust Discovery,USES,1,2,0.2,0.8,0.8227,414.95,193,110.68,525.63
+TRC_0390,Partial Divergence,0,TA577,Portable Executable Injection,USES,1,2,0.2,0.8,0.8962,426.3,163,103.77,530.07
+TRC_0391,Partial Divergence,0,TA577,Exfiltration Over C2 Channel,USES,1,2,0.2,0.8,0.665,435.41,193,105.99,541.4
+TRC_0392,Partial Divergence,0,TA577,Registry Run Keys / Startup Folder,USES,1,2,0.2,0.8,0.6488,443.49,200,101.8,545.29
+TRC_0393,Partial Divergence,0,TA577,Non-Standard Port,USES,1,2,0.2,0.8,0.8106,455.83,190,104.45,560.27
+TRC_0394,Partial Divergence,0,TA577,Steganography,USES,1,2,0.2,0.8,0.6363,415.14,159,102.58,517.72
+TRC_0395,Partial Divergence,0,TA577,Windows Command Shell,USES,1,1,0.0,1.0,0.8723,437.63,187,103.0,540.64
+TRC_0396,Partial Divergence,0,TA577,Debugger Evasion,USES,1,2,0.2,0.8,0.8434,430.52,164,105.75,536.27
+TRC_0397,Partial Divergence,0,TA577,Environmental Keying,USES,1,2,0.2,0.8,0.6716,369.65,199,101.5,471.15
+TRC_0398,Partial Divergence,0,Elderwood,Windows Service,USES,1,2,0.2,0.8,0.8003,416.52,194,104.39,520.91
+TRC_0399,Partial Divergence,0,Elderwood,Process Injection,USES,1,2,0.2,0.8,0.8018,419.57,184,114.22,533.8
+TRC_0400,Semantic Edge Hallucination,1,Network Intrusion Prevention,Asymmetric Cryptography,MITIGATES,1,1,0.0,1.0,0.6361,460.52,176,103.41,563.94
+TRC_0401,Semantic Edge Hallucination,1,Multi-factor Authentication,Domain Account,PREVENTS,1,1,1.0,0.0,0.9159,422.63,177,222.77,645.39
+TRC_0402,Semantic Edge Hallucination,1,XCSSET,SSH Authorized Keys,DECRYPTS,1,1,1.0,0.0,0.7768,398.75,179,201.32,600.07
+TRC_0403,Semantic Edge Hallucination,1,PowerLess,Encrypted Channel,REVOKES,1,1,1.0,0.0,0.8893,428.3,176,161.81,590.1
+TRC_0404,Semantic Edge Hallucination,1,Akira,PsExec,AUTHENTICATES,1,1,1.0,0.0,0.712,474.81,170,203.62,678.43
+TRC_0405,Semantic Edge Hallucination,1,APT39,Spearphishing Attachment,MITIGATES,1,1,1.0,0.0,0.9134,409.89,177,162.57,572.46
+TRC_0406,Semantic Edge Hallucination,1,Indrik Spider,Windows Management Instrumentation,PREVENTS,1,1,1.0,0.0,0.7362,483.41,186,166.94,650.35
+TRC_0407,Semantic Edge Hallucination,1,MuddyViper,GUI Input Capture,DECRYPTS,1,1,1.0,0.0,0.6038,464.73,161,155.78,620.51
+TRC_0408,Semantic Edge Hallucination,1,Proxysvc,Service Execution,REVOKES,1,1,1.0,0.0,0.9169,430.32,197,150.44,580.76
+TRC_0409,Semantic Edge Hallucination,1,SysUpdate,Windows Management Instrumentation,AUTHENTICATES,1,1,1.0,0.0,0.632,422.0,199,200.29,622.3
+TRC_0410,Semantic Edge Hallucination,1,RedDelta Modified PlugX Infection Chain Operations,Hidden Files and Directories,MITIGATES,1,1,1.0,0.0,0.7118,395.02,205,152.46,547.48
+TRC_0411,Semantic Edge Hallucination,1,APT41,Modify Registry,PREVENTS,1,1,1.0,0.0,0.9325,521.75,178,152.68,674.43
+TRC_0412,Semantic Edge Hallucination,1,FIN13,System Information Discovery,DECRYPTS,1,1,1.0,0.0,0.9327,398.25,205,153.12,551.37
+TRC_0413,Semantic Edge Hallucination,1,Cobalt Strike,Timestomp,REVOKES,1,1,1.0,0.0,0.8007,489.38,176,209.57,698.95
+TRC_0414,Semantic Edge Hallucination,1,C0026,Archive via Utility,AUTHENTICATES,1,1,1.0,0.0,0.8211,399.39,179,165.37,564.76
+TRC_0415,Semantic Edge Hallucination,1,Suckfly,Nidiran,MITIGATES,1,1,1.0,0.0,0.757,357.8,170,213.45,571.25
+TRC_0416,Semantic Edge Hallucination,1,Aquatic Panda,Malware,PREVENTS,1,1,1.0,0.0,0.7026,373.11,172,161.77,534.88
+TRC_0417,Semantic Edge Hallucination,1,Sea Turtle,Tool,DECRYPTS,1,1,1.0,0.0,0.715,416.74,187,167.02,583.76
+TRC_0418,Semantic Edge Hallucination,1,IcedID,Domain Account,REVOKES,1,1,1.0,0.0,0.8354,488.07,169,155.58,643.65
+TRC_0419,Semantic Edge Hallucination,1,Kwampirs,Encrypted/Encoded File,AUTHENTICATES,1,1,1.0,0.0,0.8633,462.59,180,159.11,621.71
+TRC_0420,Semantic Edge Hallucination,1,HARDRAIN,Windows Command Shell,MITIGATES,1,1,1.0,0.0,0.8771,416.07,194,157.67,573.74
+TRC_0421,Semantic Edge Hallucination,1,QUIETEXIT,Fallback Channels,PREVENTS,1,1,1.0,0.0,0.8764,367.78,189,155.88,523.65
+TRC_0422,Semantic Edge Hallucination,1,Machete,Process Discovery,DECRYPTS,1,2,1.0,0.0,0.6319,425.79,191,182.97,608.77
+TRC_0423,Semantic Edge Hallucination,1,RobbinHood,Data Encrypted for Impact,REVOKES,1,1,1.0,0.0,0.773,431.31,220,151.04,582.35
+TRC_0424,Semantic Edge Hallucination,1,Triton Safety Instrumented System Attack,Web Portal Capture,AUTHENTICATES,1,1,1.0,0.0,0.6201,389.6,176,199.13,588.73
+TRC_0425,Semantic Edge Hallucination,1,TeamTNT,Security Software Discovery,MITIGATES,1,1,1.0,0.0,0.7923,390.26,175,154.35,544.61
+TRC_0426,Semantic Edge Hallucination,1,Vasport,Registry Run Keys / Startup Folder,PREVENTS,1,1,1.0,0.0,0.7545,389.62,201,159.65,549.27
+TRC_0427,Semantic Edge Hallucination,1,Cutting Edge,Non-Application Layer Protocol,DECRYPTS,1,1,1.0,0.0,0.9107,482.22,175,154.37,636.6
+TRC_0428,Semantic Edge Hallucination,1,PoetRAT,Python,REVOKES,1,1,1.0,0.0,0.7228,380.84,191,168.77,549.61
+TRC_0429,Semantic Edge Hallucination,1,ThreatNeedle,File and Directory Discovery,AUTHENTICATES,1,1,1.0,0.0,0.641,393.45,193,159.05,552.5
+TRC_0430,Semantic Edge Hallucination,1,RTM,Malicious File,MITIGATES,1,1,1.0,0.0,0.65,427.43,161,153.98,581.42
+TRC_0431,Semantic Edge Hallucination,1,BlackCat,Windows Permissions,PREVENTS,1,1,1.0,0.0,0.8665,487.94,210,163.28,651.22
+TRC_0432,Semantic Edge Hallucination,1,Gelsemium,Dynamic Resolution,DECRYPTS,1,1,1.0,0.0,0.8164,390.72,178,160.73,551.45
+TRC_0433,Semantic Edge Hallucination,1,Havoc,Inter-Process Communication,REVOKES,1,1,1.0,0.0,0.6354,431.16,189,387.43,818.6
+TRC_0434,Semantic Edge Hallucination,1,AuditCred,Deobfuscate/Decode Files or Information,AUTHENTICATES,1,1,1.0,0.0,0.6294,447.93,214,152.03,599.96
+TRC_0435,Semantic Edge Hallucination,1,WannaCry,RDP Hijacking,MITIGATES,1,1,1.0,0.0,0.8453,410.34,172,156.61,566.95
+TRC_0436,Semantic Edge Hallucination,1,SILENTTRINITY,Native API,PREVENTS,1,1,1.0,0.0,0.6255,356.23,173,159.56,515.79
+TRC_0437,Semantic Edge Hallucination,1,ServHelper,PowerShell,DECRYPTS,1,1,1.0,0.0,0.8877,416.81,210,154.9,571.71
+TRC_0438,Semantic Edge Hallucination,1,Remsec,Security Account Manager,REVOKES,1,1,1.0,0.0,0.8472,395.01,187,158.52,553.53
+TRC_0439,Semantic Edge Hallucination,1,FrostyGoop Incident,Security Account Manager,AUTHENTICATES,1,1,1.0,0.0,0.6285,417.56,201,150.59,568.15
+TRC_0440,Semantic Edge Hallucination,1,Explosive,Native API,MITIGATES,1,1,1.0,0.0,0.6297,532.01,176,159.75,691.76
+TRC_0441,Semantic Edge Hallucination,1,CloudDuke,Bidirectional Communication,PREVENTS,1,1,1.0,0.0,0.9453,396.28,199,161.0,557.27
+TRC_0442,Semantic Edge Hallucination,1,Patchwork,Archive Collected Data,DECRYPTS,1,1,1.0,0.0,0.731,448.99,211,156.13,605.11
+TRC_0443,Semantic Edge Hallucination,1,IcedID,Browser Session Hijacking,REVOKES,1,1,1.0,0.0,0.7297,444.58,178,156.45,601.02
+TRC_0444,Semantic Edge Hallucination,1,WastedLocker,Query Registry,AUTHENTICATES,1,1,1.0,0.0,0.8845,444.88,200,156.92,601.8
+TRC_0445,Semantic Edge Hallucination,1,Privileged Account Management,Command and Scripting Interpreter,MITIGATES,1,1,0.0,1.0,0.9315,455.22,191,103.81,559.03
+TRC_0446,Semantic Edge Hallucination,1,BRONZE BUTLER,Windows Credential Editor,PREVENTS,1,1,1.0,0.0,0.9451,466.3,201,154.73,621.03
+TRC_0447,Semantic Edge Hallucination,1,APT28 Nearest Neighbor Campaign,SMB/Windows Admin Shares,DECRYPTS,1,1,1.0,0.0,0.8637,480.5,193,150.77,631.26
+TRC_0448,Semantic Edge Hallucination,1,Crimson,Keylogging,REVOKES,1,1,1.0,0.0,0.7317,410.78,186,153.18,563.96
+TRC_0449,Semantic Edge Hallucination,1,Lokibot,System Owner/User Discovery,AUTHENTICATES,1,1,1.0,0.0,0.6292,472.59,171,153.24,625.83
+TRC_0450,Semantic Edge Hallucination,1,Kimsuky,Dynamic Resolution,MITIGATES,1,1,1.0,0.0,0.872,434.89,178,152.66,587.55
+TRC_0451,Semantic Edge Hallucination,1,APT28,Deobfuscate/Decode Files or Information,PREVENTS,1,1,1.0,0.0,0.7954,419.59,203,157.51,577.1
+TRC_0452,Semantic Edge Hallucination,1,Milan,Scheduled Task,DECRYPTS,1,1,1.0,0.0,0.7485,426.9,184,151.28,578.18
+TRC_0453,Semantic Edge Hallucination,1,Contagious Interview,System Information Discovery,REVOKES,1,1,1.0,0.0,0.9172,357.11,195,208.05,565.15
+TRC_0454,Semantic Edge Hallucination,1,SplatCloak,System Information Discovery,AUTHENTICATES,1,1,1.0,0.0,0.6389,447.35,216,154.97,602.32
+TRC_0455,Semantic Edge Hallucination,1,T9000,AppInit DLLs,MITIGATES,1,1,1.0,0.0,0.7724,404.45,187,151.66,556.11
+TRC_0456,Semantic Edge Hallucination,1,C0015,System Time Discovery,PREVENTS,1,1,1.0,0.0,0.604,429.52,207,150.25,579.77
+TRC_0457,Semantic Edge Hallucination,1,NETEAGLE,Symmetric Cryptography,DECRYPTS,1,1,1.0,0.0,0.764,414.01,188,156.66,570.67
+TRC_0458,Semantic Edge Hallucination,1,Execution Prevention,Trusted Developer Utilities Proxy Execution,REVOKES,1,1,1.0,0.0,0.6197,445.66,186,152.52,598.18
+TRC_0459,Semantic Edge Hallucination,1,PACEMAKER,Local Data Staging,AUTHENTICATES,1,1,1.0,0.0,0.6416,398.21,186,151.0,549.21
+TRC_0460,Semantic Edge Hallucination,1,Network Segmentation,Remote Service Session Hijacking,MITIGATES,1,1,0.0,1.0,0.6411,466.61,168,105.8,572.42
+TRC_0461,Semantic Edge Hallucination,1,PureCrypter,Encrypted/Encoded File,PREVENTS,1,1,1.0,0.0,0.8272,424.28,173,156.52,580.81
+TRC_0462,Semantic Edge Hallucination,1,APT1,GLOOXMAIL,DECRYPTS,1,1,1.0,0.0,0.8611,472.08,161,155.52,627.6
+TRC_0463,Semantic Edge Hallucination,1,Impacket,Ccache Files,REVOKES,1,1,1.0,0.0,0.8042,393.15,189,151.97,545.11
+TRC_0464,Semantic Edge Hallucination,1,MirrorFace,Spearphishing Attachment,AUTHENTICATES,1,1,1.0,0.0,0.9368,488.75,183,152.43,641.18
+TRC_0465,Semantic Edge Hallucination,1,FRP,Multi-hop Proxy,MITIGATES,1,1,1.0,0.0,0.7312,393.32,212,156.49,549.81
+TRC_0466,Semantic Edge Hallucination,1,SILENTTRINITY,System Time Discovery,PREVENTS,1,1,1.0,0.0,0.7,353.14,151,155.06,508.2
+TRC_0467,Semantic Edge Hallucination,1,4H RAT,Windows Command Shell,DECRYPTS,1,1,1.0,0.0,0.904,438.1,176,156.26,594.36
+TRC_0468,Semantic Edge Hallucination,1,ZeroT,Steganography,REVOKES,1,1,1.0,0.0,0.6783,372.34,194,151.7,524.05
+TRC_0469,Semantic Edge Hallucination,1,Lazarus Group,Internal Defacement,AUTHENTICATES,1,1,1.0,0.0,0.9371,429.27,175,155.78,585.05
+TRC_0470,Semantic Edge Hallucination,1,NOOPLDR,Hide Artifacts,MITIGATES,1,1,1.0,0.0,0.6043,360.69,197,153.45,514.13
+TRC_0471,Semantic Edge Hallucination,1,Lokibot,Scheduled Task/Job,PREVENTS,1,1,1.0,0.0,0.9395,447.56,182,155.51,603.07
+TRC_0472,Semantic Edge Hallucination,1,Havoc,File Transfer Protocols,DECRYPTS,1,1,1.0,0.0,0.6151,501.4,167,156.65,658.05
+TRC_0473,Semantic Edge Hallucination,1,Impacket,Name Resolution Poisoning and SMB Relay,REVOKES,1,1,1.0,0.0,0.9119,349.65,173,152.7,502.35
+TRC_0474,Semantic Edge Hallucination,1,Leviathan,Exploitation for Client Execution,AUTHENTICATES,1,1,1.0,0.0,0.7847,416.25,187,157.82,574.07
+TRC_0475,Semantic Edge Hallucination,1,SUNSPOT,Native API,MITIGATES,1,1,1.0,0.0,0.9475,407.44,189,156.99,564.43
+TRC_0476,Semantic Edge Hallucination,1,Akira _v2,Log Enumeration,PREVENTS,1,1,1.0,0.0,0.6258,361.98,205,155.38,517.36
+TRC_0477,Semantic Edge Hallucination,1,HiddenFace,Symmetric Cryptography,DECRYPTS,1,1,1.0,0.0,0.7938,414.6,200,152.73,567.34
+TRC_0478,Semantic Edge Hallucination,1,TeamPCP,Data Encrypted for Impact,REVOKES,1,1,1.0,0.0,0.9393,433.72,190,154.4,588.13
+TRC_0479,Semantic Edge Hallucination,1,LODEINFO,System Network Configuration Discovery,AUTHENTICATES,1,1,1.0,0.0,0.7831,443.94,190,155.29,599.23
+TRC_0480,Semantic Edge Hallucination,1,MgBot,OS Credential Dumping,MITIGATES,1,1,1.0,0.0,0.8203,447.22,203,155.83,603.05
+TRC_0481,Semantic Edge Hallucination,1,SombRAT,DNS,PREVENTS,1,1,1.0,0.0,0.8435,427.14,194,153.92,581.07
+TRC_0482,Semantic Edge Hallucination,1,GoBear,Match Legitimate Resource Name or Location,DECRYPTS,1,1,1.0,0.0,0.7591,414.26,205,151.41,565.67
+TRC_0483,Semantic Edge Hallucination,1,Felismus,System Owner/User Discovery,REVOKES,1,1,1.0,0.0,0.8196,387.86,211,154.26,542.12
+TRC_0484,Semantic Edge Hallucination,1,FinFisher,Dynamic-link Library Injection,AUTHENTICATES,1,1,1.0,0.0,0.8045,416.49,162,156.3,572.79
+TRC_0485,Semantic Edge Hallucination,1,SEASHARPEE,Windows Command Shell,MITIGATES,1,1,1.0,0.0,0.9154,424.06,173,152.36,576.43
+TRC_0486,Semantic Edge Hallucination,1,TajMahal,Dynamic-link Library Injection,PREVENTS,1,1,1.0,0.0,0.6159,456.13,174,156.03,612.16
+TRC_0487,Semantic Edge Hallucination,1,Zebrocy,File and Directory Discovery,DECRYPTS,1,1,1.0,0.0,0.6983,398.22,155,152.69,550.92
+TRC_0488,Semantic Edge Hallucination,1,NanoCore,Ingress Tool Transfer,REVOKES,1,1,1.0,0.0,0.9326,397.95,147,160.08,558.03
+TRC_0489,Semantic Edge Hallucination,1,Turla,Peripheral Device Discovery,AUTHENTICATES,1,1,1.0,0.0,0.9116,347.02,195,154.26,501.28
+TRC_0490,Semantic Edge Hallucination,1,Micropsia,Encrypted/Encoded File,MITIGATES,1,1,1.0,0.0,0.7595,453.66,190,158.85,612.51
+TRC_0491,Semantic Edge Hallucination,1,Ramsay,Peripheral Device Discovery,PREVENTS,1,1,1.0,0.0,0.817,374.79,183,151.67,526.45
+TRC_0492,Semantic Edge Hallucination,1,Mustang Panda,Native API,DECRYPTS,1,1,1.0,0.0,0.6971,418.14,166,155.13,573.27
+TRC_0493,Semantic Edge Hallucination,1,HotCroissant,File Deletion,REVOKES,1,1,1.0,0.0,0.6658,485.95,197,157.4,643.35
+TRC_0494,Semantic Edge Hallucination,1,Conficker,Windows Service,AUTHENTICATES,1,1,1.0,0.0,0.7623,408.36,184,153.51,561.87
+TRC_0495,Semantic Edge Hallucination,1,Agent Tesla,Local Account,MITIGATES,1,1,1.0,0.0,0.7237,427.68,153,154.96,582.64
+TRC_0496,Semantic Edge Hallucination,1,Pre-compromise,Network Devices,PREVENTS,1,1,1.0,0.0,0.8043,407.18,173,152.87,560.04
+TRC_0497,Semantic Edge Hallucination,1,InnaputRAT,Local Storage Discovery,DECRYPTS,1,1,1.0,0.0,0.6272,373.23,179,151.04,524.27
+TRC_0498,Semantic Edge Hallucination,1,Stealth Falcon,Credentials from Web Browsers,REVOKES,1,1,1.0,0.0,0.941,499.2,193,499.42,998.61
+TRC_0499,Semantic Edge Hallucination,1,InvisibleFerret,Exfiltration Over C2 Channel,AUTHENTICATES,1,1,1.0,0.0,0.9452,392.6,192,154.77,547.37
+TRC_0500,Semantic Edge Hallucination,1,Naikon,Sys10,MITIGATES,1,1,1.0,0.0,0.8444,481.27,197,155.39,636.66
+TRC_0501,Semantic Edge Hallucination,1,Filter Network Traffic,OS Exhaustion Flood,PREVENTS,1,1,1.0,0.0,0.7876,420.98,174,153.49,574.47
+TRC_0502,Semantic Edge Hallucination,1,AutoIt backdoor,PowerShell,DECRYPTS,1,1,1.0,0.0,0.7083,449.72,189,153.94,603.66
+TRC_0503,Semantic Edge Hallucination,1,Mustang Panda,Protocol or Service Impersonation,REVOKES,1,1,1.0,0.0,0.8848,458.58,193,153.45,612.04
+TRC_0504,Semantic Edge Hallucination,1,Flagpro,Application Window Discovery,AUTHENTICATES,1,1,1.0,0.0,0.8397,465.53,175,161.98,627.51
+TRC_0505,Semantic Edge Hallucination,1,Koadic,Visual Basic,MITIGATES,1,1,1.0,0.0,0.6569,477.58,186,158.07,635.66
+TRC_0506,Semantic Edge Hallucination,1,Screensaver,Event Triggered Execution,PREVENTS,1,2,1.0,0.0,0.9188,511.69,173,152.84,664.52
+TRC_0507,Semantic Edge Hallucination,1,2025 Poland Wiper Attacks,Network Device CLI,DECRYPTS,1,1,1.0,0.0,0.8879,496.42,186,153.4,649.81
+TRC_0508,Semantic Edge Hallucination,1,AppleJeus,Malicious File,REVOKES,1,1,1.0,0.0,0.9324,388.99,176,151.49,540.48
+TRC_0509,Semantic Edge Hallucination,1,HAFNIUM,System Network Configuration Discovery,AUTHENTICATES,1,1,1.0,0.0,0.854,403.88,190,158.27,562.15
+TRC_0510,Semantic Edge Hallucination,1,AsyncRAT,Hidden Window,MITIGATES,1,1,1.0,0.0,0.8147,441.83,175,151.72,593.54
+TRC_0511,Semantic Edge Hallucination,1,MuddyViper,Scheduled Task,PREVENTS,1,1,1.0,0.0,0.7464,417.2,216,155.09,572.29
+TRC_0512,Semantic Edge Hallucination,1,NightClub,Timestomp,DECRYPTS,1,1,1.0,0.0,0.9265,496.04,190,151.56,647.59
+TRC_0513,Semantic Edge Hallucination,1,CLAIMLOADER,Malicious File,REVOKES,1,1,1.0,0.0,0.9031,420.01,185,157.78,577.79
+TRC_0514,Semantic Edge Hallucination,1,Carbanak,Keylogging,AUTHENTICATES,1,2,1.0,0.0,0.6158,445.91,168,172.04,617.95
+TRC_0515,Semantic Edge Hallucination,1,InnaputRAT,Native API,MITIGATES,1,1,1.0,0.0,0.6092,406.72,158,159.97,566.68
+TRC_0516,Semantic Edge Hallucination,1,Valak,System Owner/User Discovery,PREVENTS,1,1,1.0,0.0,0.7318,436.27,193,156.46,592.73
+TRC_0517,Semantic Edge Hallucination,1,C0015,AdFind,DECRYPTS,1,1,1.0,0.0,0.8837,396.56,207,154.65,551.2
+TRC_0518,Semantic Edge Hallucination,1,Melcoz,Malicious Link,REVOKES,1,1,1.0,0.0,0.9455,363.14,162,154.7,517.84
+TRC_0519,Semantic Edge Hallucination,1,OutSteel,Process Discovery,AUTHENTICATES,1,1,1.0,0.0,0.6526,428.4,199,159.3,587.7
+TRC_0520,Semantic Edge Hallucination,1,Network Address Translation Traversal,Network Boundary Bridging,MITIGATES,1,1,1.0,0.0,0.8079,494.08,177,167.51,661.58
+TRC_0521,Semantic Edge Hallucination,1,H1N1,Data Encoding,PREVENTS,1,1,1.0,0.0,0.7333,466.84,183,150.35,617.19
+TRC_0522,Semantic Edge Hallucination,1,Helminth,Local Data Staging,DECRYPTS,1,1,1.0,0.0,0.9395,410.53,197,149.53,560.06
+TRC_0523,Semantic Edge Hallucination,1,XCSSET,Exfiltration Over C2 Channel,REVOKES,1,1,1.0,0.0,0.8947,447.65,160,158.97,606.62
+TRC_0524,Semantic Edge Hallucination,1,WarzoneRAT,Exfiltration Over C2 Channel,AUTHENTICATES,1,1,1.0,0.0,0.8934,484.74,204,157.56,642.3
+TRC_0525,Semantic Edge Hallucination,1,Silence,External Proxy,MITIGATES,1,1,1.0,0.0,0.764,390.15,189,151.42,541.57
+TRC_0526,Semantic Edge Hallucination,1,StealBit,Web Protocols,PREVENTS,1,1,1.0,0.0,0.7452,440.53,187,151.09,591.62
+TRC_0527,Semantic Edge Hallucination,1,HiddenFace,Fallback Channels,DECRYPTS,1,1,1.0,0.0,0.6957,393.54,173,153.29,546.83
+TRC_0528,Semantic Edge Hallucination,1,Operation CuckooBees,File and Directory Discovery,REVOKES,1,1,1.0,0.0,0.6197,417.15,201,152.92,570.07
+TRC_0529,Semantic Edge Hallucination,1,LockBit 3.0,Symmetric Cryptography,AUTHENTICATES,1,1,1.0,0.0,0.9027,442.76,178,156.87,599.63
+TRC_0530,Semantic Edge Hallucination,1,Quad7 Activity,Exploit Public-Facing Application,MITIGATES,1,1,1.0,0.0,0.8845,453.03,141,152.35,605.37
+TRC_0531,Semantic Edge Hallucination,1,Agent Tesla,Credentials in Registry,PREVENTS,1,1,1.0,0.0,0.9499,469.99,157,153.45,623.44
+TRC_0532,Semantic Edge Hallucination,1,SharePoint ToolShell Exploitation,Exfiltration Over C2 Channel,DECRYPTS,1,1,1.0,0.0,0.9488,401.99,167,150.99,552.98
+TRC_0533,Semantic Edge Hallucination,1,Dipsind,Standard Encoding,REVOKES,1,1,1.0,0.0,0.7944,360.04,201,151.91,511.95
+TRC_0534,Semantic Edge Hallucination,1,Chimera,Domain Controller Authentication,AUTHENTICATES,1,1,1.0,0.0,0.8691,397.25,189,150.66,547.91
+TRC_0535,Semantic Edge Hallucination,1,ShadowPad,Obfuscated Files or Information,MITIGATES,1,1,1.0,0.0,0.9307,416.19,191,157.33,573.52
+TRC_0536,Semantic Edge Hallucination,1,SpicyOmelette,System Information Discovery,PREVENTS,1,1,1.0,0.0,0.8974,421.76,164,150.69,572.45
+TRC_0537,Semantic Edge Hallucination,1,POORAIM,File and Directory Discovery,DECRYPTS,1,1,1.0,0.0,0.6866,463.13,176,150.79,613.92
+TRC_0538,Semantic Edge Hallucination,1,Raccoon Stealer,Automated Collection,REVOKES,1,1,1.0,0.0,0.7577,348.25,177,150.89,499.14
+TRC_0539,Semantic Edge Hallucination,1,RansomHub,File Deletion,AUTHENTICATES,1,1,1.0,0.0,0.6452,485.83,196,151.25,637.08
+TRC_0540,Semantic Edge Hallucination,1,InvisiMole,Keylogging,MITIGATES,1,1,1.0,0.0,0.9339,402.61,178,153.03,555.64
+TRC_0541,Semantic Edge Hallucination,1,Imminent Monitor,File Deletion,PREVENTS,1,1,1.0,0.0,0.8122,403.83,215,155.27,559.1
+TRC_0542,Semantic Edge Hallucination,1,JPIN,Keylogging,DECRYPTS,1,1,1.0,0.0,0.68,435.49,190,156.98,592.47
+TRC_0543,Semantic Edge Hallucination,1,Raspberry Robin,Command and Scripting Interpreter,REVOKES,1,1,1.0,0.0,0.8351,464.66,187,152.48,617.14
+TRC_0544,Semantic Edge Hallucination,1,Antivirus/Antimalware,Obfuscated Files or Information,AUTHENTICATES,1,1,1.0,0.0,0.8163,406.64,181,157.81,564.45
+TRC_0545,Semantic Edge Hallucination,1,Dridex,Multi-hop Proxy,MITIGATES,1,1,1.0,0.0,0.7254,415.08,183,152.64,567.72
+TRC_0546,Semantic Edge Hallucination,1,Night Dragon,Remote Access Tools,PREVENTS,1,1,1.0,0.0,0.6397,451.04,184,153.48,604.53
+TRC_0547,Semantic Edge Hallucination,1,Gold Dragon,Web Protocols,DECRYPTS,1,1,1.0,0.0,0.8351,451.27,182,153.08,604.35
+TRC_0548,Semantic Edge Hallucination,1,Dipsind,Web Protocols,REVOKES,1,1,1.0,0.0,0.7821,421.84,154,150.43,572.27
+TRC_0549,Semantic Edge Hallucination,1,Ke3chang,Golden Ticket,AUTHENTICATES,1,1,1.0,0.0,0.8703,459.53,189,150.5,610.03
+TRC_0550,Semantic Edge Hallucination,1,Kimsuky,Compression,MITIGATES,1,1,1.0,0.0,0.7821,463.21,140,152.68,615.89
+TRC_0551,Semantic Edge Hallucination,1,Naid,Modify Registry,PREVENTS,1,1,1.0,0.0,0.8983,512.28,181,153.05,665.32
+TRC_0552,Semantic Edge Hallucination,1,CosmicDuke,Screen Capture,DECRYPTS,1,1,1.0,0.0,0.7932,468.17,168,153.45,621.62
+TRC_0553,Semantic Edge Hallucination,1,Pandora,Compression,REVOKES,1,1,1.0,0.0,0.7963,445.87,168,153.1,598.97
+TRC_0554,Semantic Edge Hallucination,1,Latrodectus,Standard Encoding,AUTHENTICATES,1,1,1.0,0.0,0.9068,390.23,212,151.92,542.15
+TRC_0555,Semantic Edge Hallucination,1,macOS.OSAMiner,Process Discovery,MITIGATES,1,1,1.0,0.0,0.7412,409.72,187,151.37,561.09
+TRC_0556,Semantic Edge Hallucination,1,DarkGate,System Shutdown/Reboot,PREVENTS,1,1,1.0,0.0,0.6469,457.45,191,154.65,612.1
+TRC_0557,Semantic Edge Hallucination,1,Chimera,Clear Windows Event Logs,DECRYPTS,1,1,1.0,0.0,0.6101,425.07,189,151.58,576.65
+TRC_0558,Semantic Edge Hallucination,1,TA2541,Windows Management Instrumentation,REVOKES,1,1,1.0,0.0,0.8643,526.45,183,151.64,678.1
+TRC_0559,Semantic Edge Hallucination,1,FIVEHANDS,Command and Scripting Interpreter,AUTHENTICATES,1,1,1.0,0.0,0.8171,427.35,199,152.12,579.47
+TRC_0560,Semantic Edge Hallucination,1,RATANKBA,Query Registry,MITIGATES,1,1,1.0,0.0,0.8464,468.05,201,156.27,624.31
+TRC_0561,Semantic Edge Hallucination,1,Sandworm Team,Steal Web Session Cookie,PREVENTS,1,1,1.0,0.0,0.6745,447.04,166,152.03,599.08
+TRC_0562,Semantic Edge Hallucination,1,TONESHELL,Delay Execution,DECRYPTS,1,1,1.0,0.0,0.6477,491.8,166,152.07,643.87
+TRC_0563,Semantic Edge Hallucination,1,Restrict File and Directory Permissions,Service Stop,REVOKES,1,1,1.0,0.0,0.6051,431.92,172,558.25,990.17
+TRC_0564,Semantic Edge Hallucination,1,Comnie,Local Account,AUTHENTICATES,1,1,1.0,0.0,0.7227,415.41,188,152.73,568.15
+TRC_0565,Semantic Edge Hallucination,1,HAFNIUM,Remote Email Collection,MITIGATES,1,1,1.0,0.0,0.8065,432.76,190,151.24,584.0
+TRC_0566,Semantic Edge Hallucination,1,Ryuk,Disable or Modify Tools,PREVENTS,1,1,1.0,0.0,0.7373,490.92,190,153.25,644.16
+TRC_0567,Semantic Edge Hallucination,1,3CX Supply Chain Attack,Web Protocols,DECRYPTS,1,1,1.0,0.0,0.7531,407.31,198,150.58,557.89
+TRC_0568,Semantic Edge Hallucination,1,NETWIRE,Web Service,REVOKES,1,1,1.0,0.0,0.9165,471.83,165,164.98,636.81
+TRC_0569,Semantic Edge Hallucination,1,SSL/TLS Inspection,Domain Fronting,AUTHENTICATES,1,1,1.0,0.0,0.7219,445.18,194,153.37,598.55
+TRC_0570,Semantic Edge Hallucination,1,Threat Group-3390,Bypass User Account Control,MITIGATES,1,1,1.0,0.0,0.7799,404.91,204,153.26,558.17
+TRC_0571,Semantic Edge Hallucination,1,SDBbot,Obfuscated Files or Information,PREVENTS,1,1,1.0,0.0,0.8743,411.55,185,155.82,567.37
+TRC_0572,Semantic Edge Hallucination,1,Conti,System Network Connections Discovery,DECRYPTS,1,1,1.0,0.0,0.7388,410.51,184,151.84,562.35
+TRC_0573,Semantic Edge Hallucination,1,WinMM,Process Discovery,REVOKES,1,1,1.0,0.0,0.8177,368.97,162,151.01,519.98
+TRC_0574,Semantic Edge Hallucination,1,User Training,Malicious Image,AUTHENTICATES,1,1,1.0,0.0,0.9018,490.05,171,156.01,646.07
+TRC_0575,Semantic Edge Hallucination,1,Agrius,ASPXSpy,MITIGATES,1,1,1.0,0.0,0.9323,373.69,151,155.61,529.3
+TRC_0576,Semantic Edge Hallucination,1,Audit,Fileless Storage,PREVENTS,1,1,1.0,0.0,0.6515,389.55,164,161.38,550.93
+TRC_0577,Semantic Edge Hallucination,1,ngrok,Protocol Tunneling,DECRYPTS,1,1,1.0,0.0,0.9243,492.19,199,153.81,646.0
+TRC_0578,Semantic Edge Hallucination,1,SHARPSTATS,System Network Configuration Discovery,REVOKES,1,1,1.0,0.0,0.7722,387.33,217,154.18,541.51
+TRC_0579,Semantic Edge Hallucination,1,ShadowPad,Ingress Tool Transfer,AUTHENTICATES,1,1,1.0,0.0,0.6904,462.48,179,151.91,614.38
+TRC_0580,Semantic Edge Hallucination,1,Bankshot,Query Registry,MITIGATES,1,1,1.0,0.0,0.7607,305.83,218,154.94,460.77
+TRC_0581,Semantic Edge Hallucination,1,Kobalos,System Information Discovery,PREVENTS,1,1,1.0,0.0,0.943,355.77,159,154.64,510.41
+TRC_0582,Semantic Edge Hallucination,1,2025 Poland Wiper Attacks,Lateral Tool Transfer,DECRYPTS,1,1,1.0,0.0,0.7724,464.32,220,155.57,619.89
+TRC_0583,Semantic Edge Hallucination,1,StarProxy,Deobfuscate/Decode Files or Information,REVOKES,1,1,1.0,0.0,0.7151,480.59,192,149.88,630.47
+TRC_0584,Semantic Edge Hallucination,1,INC Ransom,Tool,AUTHENTICATES,1,1,1.0,0.0,0.8217,445.06,196,150.0,595.07
+TRC_0585,Semantic Edge Hallucination,1,OceanSalt,File Deletion,MITIGATES,1,1,1.0,0.0,0.6841,452.45,188,149.6,602.05
+TRC_0586,Semantic Edge Hallucination,1,APT37,Bidirectional Communication,PREVENTS,1,1,1.0,0.0,0.6266,422.99,183,149.72,572.71
+TRC_0587,Semantic Edge Hallucination,1,RTM,Masquerade Task or Service,DECRYPTS,1,2,1.0,0.0,0.6451,384.37,179,150.52,534.89
+TRC_0588,Semantic Edge Hallucination,1,adbupd,Windows Command Shell,REVOKES,1,1,1.0,0.0,0.6448,342.12,182,157.4,499.52
+TRC_0589,Semantic Edge Hallucination,1,FIN8,BADHATCH,AUTHENTICATES,1,1,1.0,0.0,0.6532,373.81,167,152.14,525.95
+TRC_0590,Semantic Edge Hallucination,1,Ramsay,Spearphishing Attachment,MITIGATES,1,1,1.0,0.0,0.6486,426.4,204,149.07,575.47
+TRC_0591,Semantic Edge Hallucination,1,3CX Supply Chain Attack,Drive-by Compromise,PREVENTS,1,1,1.0,0.0,0.8243,459.62,160,155.69,615.32
+TRC_0592,Semantic Edge Hallucination,1,Disable or Remove Feature or Program,Exfiltration Over Bluetooth,DECRYPTS,1,1,1.0,0.0,0.6637,373.77,198,148.35,522.12
+TRC_0593,Semantic Edge Hallucination,1,APT28,Evil Twin,REVOKES,1,1,1.0,0.0,0.721,374.09,180,152.41,526.5
+TRC_0594,Semantic Edge Hallucination,1,Antivirus/Antimalware,Junk Code Insertion,AUTHENTICATES,1,1,1.0,0.0,0.9139,443.05,169,149.49,592.55
+TRC_0595,Semantic Edge Hallucination,1,OSX/Shlayer,Hidden Files and Directories,MITIGATES,1,1,1.0,0.0,0.7659,423.04,163,149.63,572.67
+TRC_0596,Semantic Edge Hallucination,1,DarkTortilla,Obfuscated Files or Information,PREVENTS,1,1,1.0,0.0,0.8336,391.24,188,152.41,543.65
+TRC_0597,Semantic Edge Hallucination,1,UNC3886,Hypervisor CLI,DECRYPTS,1,1,1.0,0.0,0.6603,346.62,190,150.92,497.54
+TRC_0598,Semantic Edge Hallucination,1,BlackCat,Service Stop,REVOKES,1,1,1.0,0.0,0.6673,417.42,192,172.03,589.45
+TRC_0599,Semantic Edge Hallucination,1,BRONZE BUTLER,gsecdump,AUTHENTICATES,1,1,1.0,0.0,0.6143,428.38,204,202.53,630.91
+TRC_0600,Relational Hallucination,1,APT38,Password Filter DLL Mitigation,USES,1,-1,1.0,0.0,0.4811,423.94,177,151.33,575.27
+TRC_0601,Relational Hallucination,1,Indrik Spider,Setuid and Setgid Mitigation,USES,1,-1,1.0,0.0,0.5337,423.8,192,149.52,573.33
+TRC_0602,Relational Hallucination,1,NEODYMIUM,Network Intrusion Prevention,USES,1,-1,1.0,0.0,0.485,420.5,184,154.65,575.15
+TRC_0603,Relational Hallucination,1,BlackByte,Third-party Software Mitigation,USES,1,-1,1.0,0.0,0.4426,386.71,174,148.78,535.49
+TRC_0604,Relational Hallucination,1,Elderwood,Scheduled Transfer Mitigation,USES,1,-1,1.0,0.0,0.4579,355.18,210,151.35,506.54
+TRC_0605,Relational Hallucination,1,SideCopy,Remote Data Storage,USES,1,-1,1.0,0.0,0.6212,362.33,173,150.41,512.74
+TRC_0606,Relational Hallucination,1,GALLIUM,Transmitted Data Manipulation Mitigation,USES,1,-1,1.0,0.0,0.499,385.97,197,151.27,537.25
+TRC_0607,Relational Hallucination,1,APT17,User Training,USES,1,-1,1.0,0.0,0.5748,405.03,202,149.94,554.97
+TRC_0608,Relational Hallucination,1,APT3,Windows Admin Shares Mitigation,USES,1,-1,1.0,0.0,0.6416,387.99,188,152.18,540.18
+TRC_0609,Relational Hallucination,1,Mustard Tempest,Email Collection Mitigation,USES,1,-1,1.0,0.0,0.7314,380.71,216,156.7,537.41
+TRC_0610,Relational Hallucination,1,GCMAN,Clear Command History Mitigation,USES,1,-1,1.0,0.0,0.4189,364.86,188,154.43,519.28
+TRC_0611,Relational Hallucination,1,Kimsuky,Data Staged Mitigation,USES,1,-1,1.0,0.0,0.7837,446.82,190,158.94,605.76
+TRC_0612,Relational Hallucination,1,EXOTIC LILY,Network Sniffing Mitigation,USES,1,-1,1.0,0.0,0.7014,409.96,182,153.82,563.78
+TRC_0613,Relational Hallucination,1,TA577,Signed Script Proxy Execution Mitigation,USES,1,-1,1.0,0.0,0.4392,420.27,181,151.72,571.99
+TRC_0614,Relational Hallucination,1,AppleJeus,User Execution Mitigation,USES,1,-1,1.0,0.0,0.8193,461.67,217,153.34,615.02
+TRC_0615,Relational Hallucination,1,admin@338,Query Registry Mitigation,USES,1,-1,1.0,0.0,0.842,393.21,163,151.06,544.28
+TRC_0616,Relational Hallucination,1,Volt Typhoon,AppInit DLLs Mitigation,USES,1,-1,1.0,0.0,0.4293,414.33,222,152.48,566.81
+TRC_0617,Relational Hallucination,1,Patchwork,Vulnerability Scanning,USES,1,-1,1.0,0.0,0.5329,382.13,208,154.8,536.94
+TRC_0618,Relational Hallucination,1,APT41,Clipboard Data Mitigation,USES,1,-1,1.0,0.0,0.787,493.8,175,151.14,644.94
+TRC_0619,Relational Hallucination,1,Salt Typhoon,Indirect Command Execution Mitigation,USES,1,-1,1.0,0.0,0.7592,443.9,208,149.6,593.5
+TRC_0620,Relational Hallucination,1,Dragonfly,Sudo Mitigation,USES,1,-1,1.0,0.0,0.4886,401.24,180,148.57,549.81
+TRC_0621,Relational Hallucination,1,Evilnum,Data Compressed Mitigation,USES,1,-1,1.0,0.0,0.5005,392.12,168,149.5,541.63
+TRC_0622,Relational Hallucination,1,Gorgon Group,Plist Modification Mitigation,USES,1,-1,1.0,0.0,0.5778,389.08,165,151.74,540.83
+TRC_0623,Relational Hallucination,1,menuPass,File Deletion Mitigation,USES,1,-1,1.0,0.0,0.6326,419.83,172,158.79,578.63
+TRC_0624,Relational Hallucination,1,Night Dragon,Pass the Ticket Mitigation,USES,1,-1,1.0,0.0,0.6968,428.82,160,151.09,579.91
+TRC_0625,Relational Hallucination,1,APT32,SSH Hijacking Mitigation,USES,1,-1,1.0,0.0,0.5771,433.19,196,150.04,583.23
+TRC_0626,Relational Hallucination,1,HAFNIUM,Web Service Mitigation,USES,1,-1,1.0,0.0,0.622,328.58,189,155.57,484.15
+TRC_0627,Relational Hallucination,1,MuddyWater,Indicator Removal from Tools Mitigation,USES,1,-1,1.0,0.0,0.7588,473.55,165,150.51,624.05
+TRC_0628,Relational Hallucination,1,Strider,Remote Desktop Protocol Mitigation,USES,1,-1,1.0,0.0,0.4176,493.57,190,707.98,1201.54
+TRC_0629,Relational Hallucination,1,Operation Wocao,Credentials in Files Mitigation,USES,1,-1,1.0,0.0,0.5212,386.57,183,151.39,537.96
+TRC_0630,Relational Hallucination,1,Naikon,Windows Management Instrumentation Event Subscription Mitigation,USES,1,-1,1.0,0.0,0.7424,443.42,185,149.33,592.76
+TRC_0631,Relational Hallucination,1,FIN6,Data from Information Repositories Mitigation,USES,1,-1,1.0,0.0,0.8297,442.54,170,156.69,599.23
+TRC_0632,Relational Hallucination,1,RedEcho,System Owner/User Discovery Mitigation,USES,1,-1,1.0,0.0,0.6456,425.92,162,151.5,577.42
+TRC_0633,Relational Hallucination,1,Gamaredon Group,Limit Access to Resource Over Network,USES,1,-1,1.0,0.0,0.6554,413.29,170,150.32,563.62
+TRC_0634,Relational Hallucination,1,Moafee,Install Root Certificate Mitigation,USES,1,-1,1.0,0.0,0.4514,385.2,202,150.29,535.49
+TRC_0635,Relational Hallucination,1,Gallmaker,Application Developer Guidance,USES,1,-1,1.0,0.0,0.6148,467.41,193,149.34,616.75
+TRC_0636,Relational Hallucination,1,Storm-1811,User Account Control,USES,1,-1,1.0,0.0,0.6557,369.15,179,154.38,523.53
+TRC_0637,Relational Hallucination,1,Leafminer,Image File Execution Options Injection Mitigation,USES,1,-1,1.0,0.0,0.5164,472.89,186,150.11,623.0
+TRC_0638,Relational Hallucination,1,TeamTNT,Standard Non-Application Layer Protocol Mitigation,USES,1,-1,1.0,0.0,0.5292,522.67,189,152.63,675.3
+TRC_0639,Relational Hallucination,1,FIN7,Launch Daemon Mitigation,USES,1,-1,1.0,0.0,0.5811,426.94,179,150.48,577.42
+TRC_0640,Relational Hallucination,1,Sandworm Team,Credentials in Registry Mitigation,USES,1,-1,1.0,0.0,0.4096,424.31,181,149.64,573.95
+TRC_0641,Relational Hallucination,1,Machete,Credential Access Protection,USES,1,-1,1.0,0.0,0.5546,450.16,198,149.97,600.14
+TRC_0642,Relational Hallucination,1,APT18,Screen Capture Mitigation,USES,1,-1,1.0,0.0,0.5015,382.93,164,150.65,533.58
+TRC_0643,Relational Hallucination,1,Andariel,Space after Filename Mitigation,USES,1,-1,1.0,0.0,0.5572,335.67,191,149.57,485.24
+TRC_0644,Relational Hallucination,1,CURIUM,Compiled HTML File Mitigation,USES,1,-1,1.0,0.0,0.4575,368.65,151,149.66,518.31
+TRC_0645,Relational Hallucination,1,Sidewinder,Regsvr32 Mitigation,USES,1,-1,1.0,0.0,0.8275,435.79,221,155.99,591.77
+TRC_0646,Relational Hallucination,1,Mustang Panda,Binary Padding Mitigation,USES,1,-1,1.0,0.0,0.6849,418.03,196,151.83,569.85
+TRC_0647,Relational Hallucination,1,ZIRCONIUM,Browser Bookmark Discovery Mitigation,USES,1,-1,1.0,0.0,0.726,421.98,182,150.91,572.89
+TRC_0648,Relational Hallucination,1,Rocke,Filter Network Traffic,USES,1,-1,1.0,0.0,0.7788,459.66,179,151.01,610.67
+TRC_0649,Relational Hallucination,1,Scattered Spider,Automated Exfiltration Mitigation,USES,1,-1,1.0,0.0,0.6393,430.33,188,151.76,582.09
+TRC_0650,Relational Hallucination,1,APT39,Data Encrypted Mitigation,USES,1,-1,1.0,0.0,0.4417,388.24,198,153.89,542.13
+TRC_0651,Relational Hallucination,1,UNC3886,Winlogon Helper DLL Mitigation,USES,1,-1,1.0,0.0,0.6578,410.43,172,155.39,565.82
+TRC_0652,Relational Hallucination,1,Contagious Interview,Disabling Security Tools Mitigation,USES,1,-1,1.0,0.0,0.6817,442.44,170,178.76,621.2
+TRC_0653,Relational Hallucination,1,TA2541,Windows Remote Management Mitigation,USES,1,-1,1.0,0.0,0.7578,419.57,183,161.36,580.92
+TRC_0654,Relational Hallucination,1,Akira,Shared Webroot Mitigation,USES,1,-1,1.0,0.0,0.6072,467.17,191,153.81,620.98
+TRC_0655,Relational Hallucination,1,APT37,Execution Prevention,USES,1,-1,1.0,0.0,0.4612,417.17,196,154.99,572.16
+TRC_0656,Relational Hallucination,1,Moses Staff,Multi-Stage Channels Mitigation,USES,1,-1,1.0,0.0,0.5362,480.86,192,154.93,635.79
+TRC_0657,Relational Hallucination,1,OilRig,Hardware Additions Mitigation,USES,1,-1,1.0,0.0,0.5743,418.77,164,150.58,569.35
+TRC_0658,Relational Hallucination,1,Windigo,Login Item Mitigation,USES,1,-1,1.0,0.0,0.71,370.37,179,149.56,519.93
+TRC_0659,Relational Hallucination,1,Higaisa,Launch Agent Mitigation,USES,1,-1,1.0,0.0,0.674,390.87,181,150.89,541.76
+TRC_0660,Relational Hallucination,1,Carbanak,Domain Trust Discovery Mitigation,USES,1,-1,1.0,0.0,0.5709,420.85,191,164.81,585.66
+TRC_0661,Relational Hallucination,1,Tropic Trooper,Gatekeeper Bypass Mitigation,USES,1,-1,1.0,0.0,0.8735,415.13,191,150.32,565.45
+TRC_0662,Relational Hallucination,1,Orangeworm,Network Share Discovery Mitigation,USES,1,-1,1.0,0.0,0.6908,421.2,154,150.69,571.89
+TRC_0663,Relational Hallucination,1,Sea Turtle,Multilayer Encryption Mitigation,USES,1,-1,1.0,0.0,0.5139,376.03,181,151.47,527.5
+TRC_0664,Relational Hallucination,1,Taidoor,Limit Hardware Installation,USES,1,-1,1.0,0.0,0.4489,363.86,192,152.47,516.33
+TRC_0665,Relational Hallucination,1,Suckfly,Operating System Configuration,USES,1,-1,1.0,0.0,0.4734,487.18,202,153.99,641.17
+TRC_0666,Relational Hallucination,1,Putter Panda,Exploitation for Defense Evasion Mitigation,USES,1,-1,1.0,0.0,0.5181,408.7,206,149.37,558.06
+TRC_0667,Relational Hallucination,1,Sharpshooter,Domain Generation Algorithms Mitigation,USES,1,-1,1.0,0.0,0.4771,424.99,178,152.01,577.0
+TRC_0668,Relational Hallucination,1,POLONIUM,Data Encrypted for Impact Mitigation,USES,1,-1,1.0,0.0,0.4896,390.7,179,153.43,544.13
+TRC_0669,Relational Hallucination,1,TA459,Resource Hijacking Mitigation,USES,1,-1,1.0,0.0,0.5368,400.83,186,151.49,552.32
+TRC_0670,Relational Hallucination,1,Aquatic Panda,.bash_profile and .bashrc Mitigation,USES,1,-1,1.0,0.0,0.4832,425.53,184,151.05,576.58
+TRC_0671,Relational Hallucination,1,Aoqin Dragon,LLMNR/NBT-NS Poisoning Mitigation,USES,1,-1,1.0,0.0,0.8304,437.96,201,152.9,590.86
+TRC_0672,Relational Hallucination,1,Ferocious Kitten,Exploitation for Credential Access Mitigation,USES,1,-1,1.0,0.0,0.4385,461.03,161,149.29,610.32
+TRC_0673,Relational Hallucination,1,The White Company,File System Permissions Weakness Mitigation,USES,1,-1,1.0,0.0,0.6518,303.37,198,149.84,453.21
+TRC_0674,Relational Hallucination,1,Ke3chang,Exploitation of Remote Services Mitigation,USES,1,-1,1.0,0.0,0.597,356.79,180,155.44,512.23
+TRC_0675,Relational Hallucination,1,Saint Bear,Peripheral Device Discovery Mitigation,USES,1,-1,1.0,0.0,0.8715,365.64,156,152.4,518.04
+TRC_0676,Relational Hallucination,1,APT34,AppleScript Mitigation,USES,1,-1,1.0,0.0,0.4538,442.67,195,153.64,596.31
+TRC_0677,Relational Hallucination,1,APT1,Limit Software Installation,USES,1,-1,1.0,0.0,0.591,392.36,145,165.37,557.72
+TRC_0678,Relational Hallucination,1,Frankenstein,System Firmware Mitigation,USES,1,-1,1.0,0.0,0.8653,393.72,189,150.56,544.28
+TRC_0679,Relational Hallucination,1,DarkHydrus,Hypervisor Mitigation,USES,1,-1,1.0,0.0,0.8154,351.75,186,152.64,504.39
+TRC_0680,Relational Hallucination,1,Confucius,Process Doppelgänging Mitigation,USES,1,-1,1.0,0.0,0.7922,417.61,192,152.96,570.57
+TRC_0681,Relational Hallucination,1,BlackTech,Control Panel Items Mitigation,USES,1,-1,1.0,0.0,0.5238,423.68,169,149.83,573.51
+TRC_0682,Relational Hallucination,1,Leviathan,Service Stop Mitigation,USES,1,-1,1.0,0.0,0.482,472.15,181,149.67,621.82
+TRC_0683,Relational Hallucination,1,MoustachedBouncer,Masquerading Mitigation,USES,1,-1,1.0,0.0,0.7209,417.07,170,150.08,567.15
+TRC_0684,Relational Hallucination,1,Group5,Brute Force Mitigation,USES,1,-1,1.0,0.0,0.8461,398.35,170,149.22,547.57
+TRC_0685,Relational Hallucination,1,Blue Mockingbird,Source Mitigation,USES,1,-1,1.0,0.0,0.6672,410.52,209,150.25,560.76
+TRC_0686,Relational Hallucination,1,Winter Vivern,HISTCONTROL Mitigation,USES,1,-1,1.0,0.0,0.6744,356.56,159,151.49,508.06
+TRC_0687,Relational Hallucination,1,SilverTerrier,Data Destruction Mitigation,USES,1,-1,1.0,0.0,0.5344,484.5,180,149.25,633.76
+TRC_0688,Relational Hallucination,1,Dragonfly 2.0,Hidden Users Mitigation,USES,1,-1,1.0,0.0,0.7694,388.19,199,148.99,537.18
+TRC_0689,Relational Hallucination,1,Stolen Pencil,Audio Capture Mitigation,USES,1,-1,1.0,0.0,0.4898,391.05,211,152.54,543.59
+TRC_0690,Relational Hallucination,1,Turla,Port Monitors Mitigation,USES,1,-1,1.0,0.0,0.5554,448.81,176,153.06,601.87
+TRC_0691,Relational Hallucination,1,Storm-0501,Restrict Web-Based Content,USES,1,-1,1.0,0.0,0.6042,515.38,174,151.49,666.87
+TRC_0692,Relational Hallucination,1,Poseidon Group,Application Window Discovery Mitigation,USES,1,-1,1.0,0.0,0.6437,451.69,188,149.28,600.97
+TRC_0693,Relational Hallucination,1,TA505,File and Directory Discovery Mitigation,USES,1,-1,1.0,0.0,0.5164,476.88,207,150.79,627.66
+TRC_0694,Relational Hallucination,1,BITTER,Runtime Data Manipulation Mitigation,USES,1,-1,1.0,0.0,0.4551,419.74,172,387.89,807.63
+TRC_0695,Relational Hallucination,1,DarkVishnya,Data from Removable Media Mitigation,USES,1,-1,1.0,0.0,0.6931,439.0,173,152.63,591.63
+TRC_0696,Relational Hallucination,1,RedCurl,Data Backup,USES,1,-1,1.0,0.0,0.5385,508.9,186,152.21,661.11
+TRC_0697,Relational Hallucination,1,APT-C-23,Kernel Modules and Extensions Mitigation,USES,1,-1,1.0,0.0,0.679,401.86,186,153.2,555.06
+TRC_0698,Relational Hallucination,1,FIN5,Password Policy Discovery Mitigation,USES,1,-1,1.0,0.0,0.4741,357.68,169,153.21,510.89
+TRC_0699,Relational Hallucination,1,Mofang,Fallback Channels Mitigation,USES,1,-1,1.0,0.0,0.6309,472.32,174,151.73,624.05
+TRC_0700,Relational Hallucination,1,APT38,Password Filter DLL Mitigation,USES,1,-1,1.0,0.0,0.6556,371.19,192,152.18,523.37
+TRC_0701,Relational Hallucination,1,Indrik Spider,Setuid and Setgid Mitigation,USES,1,-1,1.0,0.0,0.4249,471.66,194,153.41,625.07
+TRC_0702,Relational Hallucination,1,NEODYMIUM,Network Intrusion Prevention,USES,1,-1,1.0,0.0,0.5616,463.12,172,150.04,613.17
+TRC_0703,Relational Hallucination,1,BlackByte,Third-party Software Mitigation,USES,1,-1,1.0,0.0,0.4645,354.32,206,151.27,505.59
+TRC_0704,Relational Hallucination,1,Elderwood,Scheduled Transfer Mitigation,USES,1,-1,1.0,0.0,0.4304,403.78,180,151.05,554.83
+TRC_0705,Relational Hallucination,1,SideCopy,Remote Data Storage,USES,1,-1,1.0,0.0,0.8752,478.07,192,149.47,627.54
+TRC_0706,Relational Hallucination,1,GALLIUM,Transmitted Data Manipulation Mitigation,USES,1,-1,1.0,0.0,0.5547,438.81,216,151.14,589.96
+TRC_0707,Relational Hallucination,1,APT17,User Training,USES,1,-1,1.0,0.0,0.7887,389.34,197,149.33,538.67
+TRC_0708,Relational Hallucination,1,APT3,Windows Admin Shares Mitigation,USES,1,-1,1.0,0.0,0.5222,420.87,188,150.27,571.14
+TRC_0709,Relational Hallucination,1,Mustard Tempest,Email Collection Mitigation,USES,1,-1,1.0,0.0,0.7271,487.08,191,150.2,637.28
+TRC_0710,Relational Hallucination,1,GCMAN,Clear Command History Mitigation,USES,1,-1,1.0,0.0,0.7649,442.52,200,150.16,592.69
+TRC_0711,Relational Hallucination,1,Kimsuky,Data Staged Mitigation,USES,1,-1,1.0,0.0,0.6859,401.88,171,151.22,553.09
+TRC_0712,Relational Hallucination,1,EXOTIC LILY,Network Sniffing Mitigation,USES,1,-1,1.0,0.0,0.6264,371.28,154,154.89,526.18
+TRC_0713,Relational Hallucination,1,TA577,Signed Script Proxy Execution Mitigation,USES,1,-1,1.0,0.0,0.5977,510.83,167,149.7,660.53
+TRC_0714,Relational Hallucination,1,AppleJeus,User Execution Mitigation,USES,1,-1,1.0,0.0,0.5675,408.34,179,154.93,563.28
+TRC_0715,Relational Hallucination,1,admin@338,Query Registry Mitigation,USES,1,-1,1.0,0.0,0.8462,432.13,196,156.07,588.2
+TRC_0716,Relational Hallucination,1,Volt Typhoon,AppInit DLLs Mitigation,USES,1,-1,1.0,0.0,0.7987,457.02,175,155.66,612.68
+TRC_0717,Relational Hallucination,1,Patchwork,Vulnerability Scanning,USES,1,-1,1.0,0.0,0.8632,410.78,188,150.02,560.8
+TRC_0718,Relational Hallucination,1,APT41,Clipboard Data Mitigation,USES,1,-1,1.0,0.0,0.4597,407.11,208,148.21,555.32
+TRC_0719,Relational Hallucination,1,Salt Typhoon,Indirect Command Execution Mitigation,USES,1,-1,1.0,0.0,0.7508,440.39,195,151.17,591.56
+TRC_0720,Relational Hallucination,1,Dragonfly,Sudo Mitigation,USES,1,-1,1.0,0.0,0.8504,448.13,201,149.78,597.91
+TRC_0721,Relational Hallucination,1,Evilnum,Data Compressed Mitigation,USES,1,-1,1.0,0.0,0.487,426.45,164,150.98,577.42
+TRC_0722,Relational Hallucination,1,Gorgon Group,Plist Modification Mitigation,USES,1,-1,1.0,0.0,0.4319,436.29,174,150.82,587.1
+TRC_0723,Relational Hallucination,1,menuPass,File Deletion Mitigation,USES,1,-1,1.0,0.0,0.7557,394.51,192,150.84,545.35
+TRC_0724,Relational Hallucination,1,Night Dragon,Pass the Ticket Mitigation,USES,1,-1,1.0,0.0,0.6757,474.02,184,149.59,623.61
+TRC_0725,Relational Hallucination,1,APT32,SSH Hijacking Mitigation,USES,1,-1,1.0,0.0,0.8041,432.2,209,153.58,585.77
+TRC_0726,Relational Hallucination,1,HAFNIUM,Web Service Mitigation,USES,1,-1,1.0,0.0,0.4671,429.13,223,152.65,581.78
+TRC_0727,Relational Hallucination,1,MuddyWater,Indicator Removal from Tools Mitigation,USES,1,-1,1.0,0.0,0.7817,443.75,157,149.51,593.26
+TRC_0728,Relational Hallucination,1,Strider,Remote Desktop Protocol Mitigation,USES,1,-1,1.0,0.0,0.4968,452.2,189,151.81,604.01
+TRC_0729,Relational Hallucination,1,Operation Wocao,Credentials in Files Mitigation,USES,1,-1,1.0,0.0,0.4786,476.34,194,164.62,640.96
+TRC_0730,Relational Hallucination,1,Naikon,Windows Management Instrumentation Event Subscription Mitigation,USES,1,-1,1.0,0.0,0.4788,412.07,165,157.79,569.86
+TRC_0731,Relational Hallucination,1,FIN6,Data from Information Repositories Mitigation,USES,1,-1,1.0,0.0,0.791,408.89,171,150.68,559.57
+TRC_0732,Relational Hallucination,1,RedEcho,System Owner/User Discovery Mitigation,USES,1,-1,1.0,0.0,0.7193,392.18,192,150.42,542.59
+TRC_0733,Relational Hallucination,1,Gamaredon Group,Limit Access to Resource Over Network,USES,1,-1,1.0,0.0,0.6511,493.45,189,149.19,642.64
+TRC_0734,Relational Hallucination,1,Moafee,Install Root Certificate Mitigation,USES,1,-1,1.0,0.0,0.5722,364.49,190,149.55,514.04
+TRC_0735,Relational Hallucination,1,Gallmaker,Application Developer Guidance,USES,1,-1,1.0,0.0,0.8211,472.15,174,151.14,623.29
+TRC_0736,Relational Hallucination,1,Storm-1811,User Account Control,USES,1,-1,1.0,0.0,0.5884,412.27,184,149.74,562.01
+TRC_0737,Relational Hallucination,1,Leafminer,Image File Execution Options Injection Mitigation,USES,1,-1,1.0,0.0,0.792,382.98,193,165.21,548.19
+TRC_0738,Relational Hallucination,1,TeamTNT,Standard Non-Application Layer Protocol Mitigation,USES,1,-1,1.0,0.0,0.6108,412.86,190,175.59,588.45
+TRC_0739,Relational Hallucination,1,FIN7,Launch Daemon Mitigation,USES,1,-1,1.0,0.0,0.5809,378.36,177,155.49,533.86
+TRC_0740,Relational Hallucination,1,Sandworm Team,Credentials in Registry Mitigation,USES,1,-1,1.0,0.0,0.6221,450.81,178,182.48,633.29
+TRC_0741,Relational Hallucination,1,Machete,Credential Access Protection,USES,1,-1,1.0,0.0,0.5447,496.01,178,154.16,650.17
+TRC_0742,Relational Hallucination,1,APT18,Screen Capture Mitigation,USES,1,-1,1.0,0.0,0.7589,428.41,197,166.73,595.14
+TRC_0743,Relational Hallucination,1,Andariel,Space after Filename Mitigation,USES,1,-1,1.0,0.0,0.6413,354.47,157,151.6,506.08
+TRC_0744,Relational Hallucination,1,CURIUM,Compiled HTML File Mitigation,USES,1,-1,1.0,0.0,0.5115,349.65,202,158.09,507.74
+TRC_0745,Relational Hallucination,1,Sidewinder,Regsvr32 Mitigation,USES,1,-1,1.0,0.0,0.8318,393.47,222,150.77,544.24
+TRC_0746,Relational Hallucination,1,Mustang Panda,Binary Padding Mitigation,USES,1,-1,1.0,0.0,0.5843,392.91,186,153.86,546.77
+TRC_0747,Relational Hallucination,1,ZIRCONIUM,Browser Bookmark Discovery Mitigation,USES,1,-1,1.0,0.0,0.6609,487.69,214,160.79,648.48
+TRC_0748,Relational Hallucination,1,Rocke,Filter Network Traffic,USES,1,-1,1.0,0.0,0.8351,511.07,202,150.4,661.47
+TRC_0749,Relational Hallucination,1,Scattered Spider,Automated Exfiltration Mitigation,USES,1,-1,1.0,0.0,0.6996,464.38,192,149.4,613.78
+TRC_0750,Relational Hallucination,1,APT39,Data Encrypted Mitigation,USES,1,-1,1.0,0.0,0.4561,453.33,175,150.28,603.6
+TRC_0751,Relational Hallucination,1,UNC3886,Winlogon Helper DLL Mitigation,USES,1,-1,1.0,0.0,0.8511,381.48,183,149.19,530.67
+TRC_0752,Relational Hallucination,1,Contagious Interview,Disabling Security Tools Mitigation,USES,1,-1,1.0,0.0,0.7013,410.64,177,149.26,559.9
+TRC_0753,Relational Hallucination,1,TA2541,Windows Remote Management Mitigation,USES,1,-1,1.0,0.0,0.5608,449.64,198,148.64,598.28
+TRC_0754,Relational Hallucination,1,Akira,Shared Webroot Mitigation,USES,1,-1,1.0,0.0,0.4669,422.28,206,153.77,576.05
+TRC_0755,Relational Hallucination,1,APT37,Execution Prevention,USES,1,-1,1.0,0.0,0.7811,366.92,181,148.87,515.8
+TRC_0756,Relational Hallucination,1,Moses Staff,Multi-Stage Channels Mitigation,USES,1,-1,1.0,0.0,0.6976,386.04,156,154.82,540.86
+TRC_0757,Relational Hallucination,1,OilRig,Hardware Additions Mitigation,USES,1,-1,1.0,0.0,0.6561,414.58,182,155.53,570.11
+TRC_0758,Relational Hallucination,1,Windigo,Login Item Mitigation,USES,1,-1,1.0,0.0,0.8291,486.41,193,153.39,639.79
+TRC_0759,Relational Hallucination,1,Higaisa,Launch Agent Mitigation,USES,1,-1,1.0,0.0,0.7785,372.21,211,600.93,973.14
+TRC_0760,Relational Hallucination,1,Carbanak,Domain Trust Discovery Mitigation,USES,1,-1,1.0,0.0,0.4728,473.25,192,151.88,625.13
+TRC_0761,Relational Hallucination,1,Tropic Trooper,Gatekeeper Bypass Mitigation,USES,1,-1,1.0,0.0,0.5496,408.11,169,158.04,566.15
+TRC_0762,Relational Hallucination,1,Orangeworm,Network Share Discovery Mitigation,USES,1,-1,1.0,0.0,0.5193,401.55,200,167.56,569.11
+TRC_0763,Relational Hallucination,1,Sea Turtle,Multilayer Encryption Mitigation,USES,1,-1,1.0,0.0,0.7571,503.11,207,205.29,708.4
+TRC_0764,Relational Hallucination,1,Taidoor,Limit Hardware Installation,USES,1,-1,1.0,0.0,0.4161,396.3,167,169.83,566.13
+TRC_0765,Relational Hallucination,1,Suckfly,Operating System Configuration,USES,1,-1,1.0,0.0,0.6735,424.64,157,198.37,623.01
+TRC_0766,Relational Hallucination,1,Putter Panda,Exploitation for Defense Evasion Mitigation,USES,1,-1,1.0,0.0,0.766,432.84,181,158.54,591.38
+TRC_0767,Relational Hallucination,1,Sharpshooter,Domain Generation Algorithms Mitigation,USES,1,-1,1.0,0.0,0.8208,397.33,160,157.7,555.02
+TRC_0768,Relational Hallucination,1,POLONIUM,Data Encrypted for Impact Mitigation,USES,1,-1,1.0,0.0,0.5642,441.41,176,170.2,611.62
+TRC_0769,Relational Hallucination,1,TA459,Resource Hijacking Mitigation,USES,1,-1,1.0,0.0,0.7942,365.65,140,150.66,516.31
+TRC_0770,Relational Hallucination,1,Aquatic Panda,.bash_profile and .bashrc Mitigation,USES,1,-1,1.0,0.0,0.4531,417.06,210,160.84,577.9
+TRC_0771,Relational Hallucination,1,Aoqin Dragon,LLMNR/NBT-NS Poisoning Mitigation,USES,1,-1,1.0,0.0,0.8063,493.06,177,154.14,647.2
+TRC_0772,Relational Hallucination,1,Ferocious Kitten,Exploitation for Credential Access Mitigation,USES,1,-1,1.0,0.0,0.4612,391.2,191,173.53,564.73
+TRC_0773,Relational Hallucination,1,The White Company,File System Permissions Weakness Mitigation,USES,1,-1,1.0,0.0,0.5907,373.37,188,159.56,532.94
+TRC_0774,Relational Hallucination,1,Ke3chang,Exploitation of Remote Services Mitigation,USES,1,-1,1.0,0.0,0.7827,452.77,202,154.96,607.74
+TRC_0775,Relational Hallucination,1,Saint Bear,Peripheral Device Discovery Mitigation,USES,1,-1,1.0,0.0,0.472,413.79,180,173.0,586.79
+TRC_0776,Relational Hallucination,1,APT34,AppleScript Mitigation,USES,1,-1,1.0,0.0,0.51,378.79,171,154.01,532.8
+TRC_0777,Relational Hallucination,1,APT1,Limit Software Installation,USES,1,-1,1.0,0.0,0.7467,408.11,189,151.97,560.08
+TRC_0778,Relational Hallucination,1,Frankenstein,System Firmware Mitigation,USES,1,-1,1.0,0.0,0.7456,459.41,171,151.58,610.99
+TRC_0779,Relational Hallucination,1,DarkHydrus,Hypervisor Mitigation,USES,1,-1,1.0,0.0,0.7078,485.47,179,148.34,633.81
+TRC_0780,Relational Hallucination,1,Confucius,Process Doppelgänging Mitigation,USES,1,-1,1.0,0.0,0.7331,417.34,172,155.93,573.27
+TRC_0781,Relational Hallucination,1,BlackTech,Control Panel Items Mitigation,USES,1,-1,1.0,0.0,0.6605,309.21,197,149.67,458.88
+TRC_0782,Relational Hallucination,1,Leviathan,Service Stop Mitigation,USES,1,-1,1.0,0.0,0.5209,451.46,179,148.75,600.21
+TRC_0783,Relational Hallucination,1,MoustachedBouncer,Masquerading Mitigation,USES,1,-1,1.0,0.0,0.5659,421.31,191,151.27,572.58
+TRC_0784,Relational Hallucination,1,Group5,Brute Force Mitigation,USES,1,-1,1.0,0.0,0.4872,347.99,176,156.14,504.13
+TRC_0785,Relational Hallucination,1,Blue Mockingbird,Source Mitigation,USES,1,-1,1.0,0.0,0.8361,454.04,165,152.29,606.33
+TRC_0786,Relational Hallucination,1,Winter Vivern,HISTCONTROL Mitigation,USES,1,-1,1.0,0.0,0.68,431.51,163,150.33,581.84
+TRC_0787,Relational Hallucination,1,SilverTerrier,Data Destruction Mitigation,USES,1,-1,1.0,0.0,0.5924,439.29,183,150.2,589.49
+TRC_0788,Relational Hallucination,1,Dragonfly 2.0,Hidden Users Mitigation,USES,1,-1,1.0,0.0,0.6218,345.62,201,150.14,495.75
+TRC_0789,Relational Hallucination,1,Stolen Pencil,Audio Capture Mitigation,USES,1,-1,1.0,0.0,0.8547,385.24,171,170.57,555.81
+TRC_0790,Relational Hallucination,1,Turla,Port Monitors Mitigation,USES,1,-1,1.0,0.0,0.4736,427.33,201,155.89,583.22
+TRC_0791,Relational Hallucination,1,Storm-0501,Restrict Web-Based Content,USES,1,-1,1.0,0.0,0.6814,372.59,184,153.16,525.75
+TRC_0792,Relational Hallucination,1,Poseidon Group,Application Window Discovery Mitigation,USES,1,-1,1.0,0.0,0.6428,437.6,194,157.05,594.65
+TRC_0793,Relational Hallucination,1,TA505,File and Directory Discovery Mitigation,USES,1,-1,1.0,0.0,0.6935,426.24,178,164.49,590.73
+TRC_0794,Relational Hallucination,1,BITTER,Runtime Data Manipulation Mitigation,USES,1,-1,1.0,0.0,0.4087,381.06,185,155.03,536.09
+TRC_0795,Relational Hallucination,1,DarkVishnya,Data from Removable Media Mitigation,USES,1,-1,1.0,0.0,0.8186,370.05,140,148.75,518.8
+TRC_0796,Relational Hallucination,1,RedCurl,Data Backup,USES,1,-1,1.0,0.0,0.8474,437.95,197,150.67,588.62
+TRC_0797,Relational Hallucination,1,APT-C-23,Kernel Modules and Extensions Mitigation,USES,1,-1,1.0,0.0,0.6713,311.97,168,151.3,463.27
+TRC_0798,Relational Hallucination,1,FIN5,Password Policy Discovery Mitigation,USES,1,-1,1.0,0.0,0.7344,446.16,214,155.7,601.86
+TRC_0799,Relational Hallucination,1,Mofang,Fallback Channels Mitigation,USES,1,-1,1.0,0.0,0.8428,419.24,173,154.03,573.27
+TRC_0800,Entity Hallucination,1,PhantomGroup_000,DarkShadowRAT_000,USES,1,-1,1.0,0.0,0.3829,410.07,204,48.62,458.69
+TRC_0801,Entity Hallucination,1,PhantomGroup_001,DarkShadowRAT_001,USES,1,-1,1.0,0.0,0.161,389.23,172,49.03,438.26
+TRC_0802,Entity Hallucination,1,PhantomGroup_002,DarkShadowRAT_002,USES,1,-1,1.0,0.0,0.3305,396.58,169,49.44,446.01
+TRC_0803,Entity Hallucination,1,PhantomGroup_003,DarkShadowRAT_003,USES,1,-1,1.0,0.0,0.3427,423.82,208,48.68,472.5
+TRC_0804,Entity Hallucination,1,PhantomGroup_004,DarkShadowRAT_004,USES,1,-1,1.0,0.0,0.2697,432.84,180,48.75,481.59
+TRC_0805,Entity Hallucination,1,PhantomGroup_005,DarkShadowRAT_005,USES,1,-1,1.0,0.0,0.3946,405.17,160,48.36,453.53
+TRC_0806,Entity Hallucination,1,PhantomGroup_006,DarkShadowRAT_006,USES,1,-1,1.0,0.0,0.4737,458.04,182,48.23,506.27
+TRC_0807,Entity Hallucination,1,PhantomGroup_007,DarkShadowRAT_007,USES,1,-1,1.0,0.0,0.4702,410.18,231,48.53,458.7
+TRC_0808,Entity Hallucination,1,PhantomGroup_008,DarkShadowRAT_008,USES,1,-1,1.0,0.0,0.2803,431.74,172,51.54,483.28
+TRC_0809,Entity Hallucination,1,PhantomGroup_009,DarkShadowRAT_009,USES,1,-1,1.0,0.0,0.1453,399.11,201,50.29,449.4
+TRC_0810,Entity Hallucination,1,PhantomGroup_010,DarkShadowRAT_010,USES,1,-1,1.0,0.0,0.4939,423.4,162,51.09,474.49
+TRC_0811,Entity Hallucination,1,PhantomGroup_011,DarkShadowRAT_011,USES,1,-1,1.0,0.0,0.4356,459.67,173,48.87,508.53
+TRC_0812,Entity Hallucination,1,PhantomGroup_012,DarkShadowRAT_012,USES,1,-1,1.0,0.0,0.1499,502.6,200,50.56,553.16
+TRC_0813,Entity Hallucination,1,PhantomGroup_013,DarkShadowRAT_013,USES,1,-1,1.0,0.0,0.4683,398.17,203,51.21,449.38
+TRC_0814,Entity Hallucination,1,PhantomGroup_014,DarkShadowRAT_014,USES,1,-1,1.0,0.0,0.448,421.35,196,51.15,472.51
+TRC_0815,Entity Hallucination,1,PhantomGroup_015,DarkShadowRAT_015,USES,1,-1,1.0,0.0,0.3075,440.11,171,50.73,490.84
+TRC_0816,Entity Hallucination,1,PhantomGroup_016,DarkShadowRAT_016,USES,1,-1,1.0,0.0,0.3365,389.34,199,48.39,437.73
+TRC_0817,Entity Hallucination,1,PhantomGroup_017,DarkShadowRAT_017,USES,1,-1,1.0,0.0,0.2596,403.24,177,48.4,451.63
+TRC_0818,Entity Hallucination,1,PhantomGroup_018,DarkShadowRAT_018,USES,1,-1,1.0,0.0,0.1219,375.32,190,48.74,424.06
+TRC_0819,Entity Hallucination,1,PhantomGroup_019,DarkShadowRAT_019,USES,1,-1,1.0,0.0,0.2341,511.11,167,48.55,559.67
+TRC_0820,Entity Hallucination,1,PhantomGroup_020,DarkShadowRAT_020,USES,1,-1,1.0,0.0,0.4211,419.39,205,48.73,468.12
+TRC_0821,Entity Hallucination,1,PhantomGroup_021,DarkShadowRAT_021,USES,1,-1,1.0,0.0,0.1019,414.72,190,48.64,463.35
+TRC_0822,Entity Hallucination,1,PhantomGroup_022,DarkShadowRAT_022,USES,1,-1,1.0,0.0,0.2334,370.49,190,49.15,419.64
+TRC_0823,Entity Hallucination,1,PhantomGroup_023,DarkShadowRAT_023,USES,1,-1,1.0,0.0,0.2593,409.88,198,50.9,460.78
+TRC_0824,Entity Hallucination,1,PhantomGroup_024,DarkShadowRAT_024,USES,1,-1,1.0,0.0,0.315,471.73,222,53.69,525.42
+TRC_0825,Entity Hallucination,1,PhantomGroup_025,DarkShadowRAT_025,USES,1,-1,1.0,0.0,0.4679,444.38,188,48.72,493.1
+TRC_0826,Entity Hallucination,1,PhantomGroup_026,DarkShadowRAT_026,USES,1,-1,1.0,0.0,0.2385,427.05,178,50.06,477.11
+TRC_0827,Entity Hallucination,1,PhantomGroup_027,DarkShadowRAT_027,USES,1,-1,1.0,0.0,0.2388,433.53,179,48.27,481.8
+TRC_0828,Entity Hallucination,1,PhantomGroup_028,DarkShadowRAT_028,USES,1,-1,1.0,0.0,0.395,425.88,203,51.39,477.27
+TRC_0829,Entity Hallucination,1,PhantomGroup_029,DarkShadowRAT_029,USES,1,-1,1.0,0.0,0.2809,373.01,201,50.31,423.32
+TRC_0830,Entity Hallucination,1,PhantomGroup_030,DarkShadowRAT_030,USES,1,-1,1.0,0.0,0.1898,477.57,182,49.06,526.63
+TRC_0831,Entity Hallucination,1,PhantomGroup_031,DarkShadowRAT_031,USES,1,-1,1.0,0.0,0.281,322.82,174,49.96,372.78
+TRC_0832,Entity Hallucination,1,PhantomGroup_032,DarkShadowRAT_032,USES,1,-1,1.0,0.0,0.1563,476.66,183,48.85,525.51
+TRC_0833,Entity Hallucination,1,PhantomGroup_033,DarkShadowRAT_033,USES,1,-1,1.0,0.0,0.1706,373.33,176,48.09,421.42
+TRC_0834,Entity Hallucination,1,PhantomGroup_034,DarkShadowRAT_034,USES,1,-1,1.0,0.0,0.2993,456.13,192,52.43,508.56
+TRC_0835,Entity Hallucination,1,PhantomGroup_035,DarkShadowRAT_035,USES,1,-1,1.0,0.0,0.2676,407.55,178,49.27,456.82
+TRC_0836,Entity Hallucination,1,PhantomGroup_036,DarkShadowRAT_036,USES,1,-1,1.0,0.0,0.4659,400.67,170,48.15,448.82
+TRC_0837,Entity Hallucination,1,PhantomGroup_037,DarkShadowRAT_037,USES,1,-1,1.0,0.0,0.245,490.99,179,48.82,539.82
+TRC_0838,Entity Hallucination,1,PhantomGroup_038,DarkShadowRAT_038,USES,1,-1,1.0,0.0,0.3322,473.07,206,48.27,521.34
+TRC_0839,Entity Hallucination,1,PhantomGroup_039,DarkShadowRAT_039,USES,1,-1,1.0,0.0,0.3529,463.22,177,48.62,511.85
+TRC_0840,Entity Hallucination,1,PhantomGroup_040,DarkShadowRAT_040,USES,1,-1,1.0,0.0,0.1052,436.47,183,50.79,487.26
+TRC_0841,Entity Hallucination,1,PhantomGroup_041,DarkShadowRAT_041,USES,1,-1,1.0,0.0,0.3654,377.63,188,48.09,425.73
+TRC_0842,Entity Hallucination,1,PhantomGroup_042,DarkShadowRAT_042,USES,1,-1,1.0,0.0,0.1712,365.24,201,48.56,413.8
+TRC_0843,Entity Hallucination,1,PhantomGroup_043,DarkShadowRAT_043,USES,1,-1,1.0,0.0,0.4844,397.39,187,49.24,446.63
+TRC_0844,Entity Hallucination,1,PhantomGroup_044,DarkShadowRAT_044,USES,1,-1,1.0,0.0,0.1595,431.05,180,49.37,480.41
+TRC_0845,Entity Hallucination,1,PhantomGroup_045,DarkShadowRAT_045,USES,1,-1,1.0,0.0,0.2658,444.7,176,52.68,497.38
+TRC_0846,Entity Hallucination,1,PhantomGroup_046,DarkShadowRAT_046,USES,1,-1,1.0,0.0,0.1341,457.51,163,48.46,505.97
+TRC_0847,Entity Hallucination,1,PhantomGroup_047,DarkShadowRAT_047,USES,1,-1,1.0,0.0,0.4987,423.99,213,48.54,472.52
+TRC_0848,Entity Hallucination,1,PhantomGroup_048,DarkShadowRAT_048,USES,1,-1,1.0,0.0,0.3009,373.29,173,51.0,424.28
+TRC_0849,Entity Hallucination,1,PhantomGroup_049,DarkShadowRAT_049,USES,1,-1,1.0,0.0,0.3382,441.43,186,49.92,491.35
+TRC_0850,Entity Hallucination,1,PhantomGroup_050,DarkShadowRAT_050,USES,1,-1,1.0,0.0,0.1268,434.08,191,48.27,482.35
+TRC_0851,Entity Hallucination,1,PhantomGroup_051,DarkShadowRAT_051,USES,1,-1,1.0,0.0,0.4,446.86,200,47.58,494.44
+TRC_0852,Entity Hallucination,1,PhantomGroup_052,DarkShadowRAT_052,USES,1,-1,1.0,0.0,0.184,436.74,180,49.05,485.79
+TRC_0853,Entity Hallucination,1,PhantomGroup_053,DarkShadowRAT_053,USES,1,-1,1.0,0.0,0.4592,448.57,212,48.54,497.11
+TRC_0854,Entity Hallucination,1,PhantomGroup_054,DarkShadowRAT_054,USES,1,-1,1.0,0.0,0.1821,412.33,169,49.45,461.79
+TRC_0855,Entity Hallucination,1,PhantomGroup_055,DarkShadowRAT_055,USES,1,-1,1.0,0.0,0.1763,468.12,182,239.47,707.59
+TRC_0856,Entity Hallucination,1,PhantomGroup_056,DarkShadowRAT_056,USES,1,-1,1.0,0.0,0.1146,320.53,196,51.04,371.57
+TRC_0857,Entity Hallucination,1,PhantomGroup_057,DarkShadowRAT_057,USES,1,-1,1.0,0.0,0.2888,394.21,182,48.58,442.79
+TRC_0858,Entity Hallucination,1,PhantomGroup_058,DarkShadowRAT_058,USES,1,-1,1.0,0.0,0.3259,433.24,186,49.38,482.62
+TRC_0859,Entity Hallucination,1,PhantomGroup_059,DarkShadowRAT_059,USES,1,-1,1.0,0.0,0.1263,450.23,177,48.39,498.61
+TRC_0860,Entity Hallucination,1,PhantomGroup_060,DarkShadowRAT_060,USES,1,-1,1.0,0.0,0.4102,441.39,180,49.24,490.63
+TRC_0861,Entity Hallucination,1,PhantomGroup_061,DarkShadowRAT_061,USES,1,-1,1.0,0.0,0.2813,451.55,193,48.63,500.17
+TRC_0862,Entity Hallucination,1,PhantomGroup_062,DarkShadowRAT_062,USES,1,-1,1.0,0.0,0.3098,376.21,200,49.17,425.38
+TRC_0863,Entity Hallucination,1,PhantomGroup_063,DarkShadowRAT_063,USES,1,-1,1.0,0.0,0.2763,394.18,196,61.37,455.55
+TRC_0864,Entity Hallucination,1,PhantomGroup_064,DarkShadowRAT_064,USES,1,-1,1.0,0.0,0.2603,434.83,211,48.92,483.75
+TRC_0865,Entity Hallucination,1,PhantomGroup_065,DarkShadowRAT_065,USES,1,-1,1.0,0.0,0.3239,408.24,178,49.7,457.94
+TRC_0866,Entity Hallucination,1,PhantomGroup_066,DarkShadowRAT_066,USES,1,-1,1.0,0.0,0.1621,417.43,179,48.03,465.45
+TRC_0867,Entity Hallucination,1,PhantomGroup_067,DarkShadowRAT_067,USES,1,-1,1.0,0.0,0.1728,454.3,159,48.77,503.07
+TRC_0868,Entity Hallucination,1,PhantomGroup_068,DarkShadowRAT_068,USES,1,-1,1.0,0.0,0.4447,370.88,167,49.08,419.97
+TRC_0869,Entity Hallucination,1,PhantomGroup_069,DarkShadowRAT_069,USES,1,-1,1.0,0.0,0.4784,461.06,209,959.3,1420.36
+TRC_0870,Entity Hallucination,1,PhantomGroup_070,DarkShadowRAT_070,USES,1,-1,1.0,0.0,0.2493,413.6,181,48.76,462.36
+TRC_0871,Entity Hallucination,1,PhantomGroup_071,DarkShadowRAT_071,USES,1,-1,1.0,0.0,0.2083,421.45,201,48.39,469.84
+TRC_0872,Entity Hallucination,1,PhantomGroup_072,DarkShadowRAT_072,USES,1,-1,1.0,0.0,0.3576,376.57,187,50.63,427.2
+TRC_0873,Entity Hallucination,1,PhantomGroup_073,DarkShadowRAT_073,USES,1,-1,1.0,0.0,0.2635,462.18,191,47.86,510.04
+TRC_0874,Entity Hallucination,1,PhantomGroup_074,DarkShadowRAT_074,USES,1,-1,1.0,0.0,0.1102,426.83,199,48.48,475.31
+TRC_0875,Entity Hallucination,1,PhantomGroup_075,DarkShadowRAT_075,USES,1,-1,1.0,0.0,0.1625,296.65,194,48.77,345.42
+TRC_0876,Entity Hallucination,1,PhantomGroup_076,DarkShadowRAT_076,USES,1,-1,1.0,0.0,0.3864,388.87,156,49.73,438.6
+TRC_0877,Entity Hallucination,1,PhantomGroup_077,DarkShadowRAT_077,USES,1,-1,1.0,0.0,0.3636,441.3,204,48.59,489.89
+TRC_0878,Entity Hallucination,1,PhantomGroup_078,DarkShadowRAT_078,USES,1,-1,1.0,0.0,0.1108,412.11,198,49.2,461.32
+TRC_0879,Entity Hallucination,1,PhantomGroup_079,DarkShadowRAT_079,USES,1,-1,1.0,0.0,0.1888,490.85,203,49.23,540.09
+TRC_0880,Entity Hallucination,1,PhantomGroup_080,DarkShadowRAT_080,USES,1,-1,1.0,0.0,0.1924,492.1,195,48.93,541.03
+TRC_0881,Entity Hallucination,1,PhantomGroup_081,DarkShadowRAT_081,USES,1,-1,1.0,0.0,0.3688,421.69,159,48.78,470.47
+TRC_0882,Entity Hallucination,1,PhantomGroup_082,DarkShadowRAT_082,USES,1,-1,1.0,0.0,0.1079,407.23,171,48.2,455.42
+TRC_0883,Entity Hallucination,1,PhantomGroup_083,DarkShadowRAT_083,USES,1,-1,1.0,0.0,0.1416,515.99,181,48.64,564.63
+TRC_0884,Entity Hallucination,1,PhantomGroup_084,DarkShadowRAT_084,USES,1,-1,1.0,0.0,0.42,423.84,192,47.94,471.79
+TRC_0885,Entity Hallucination,1,PhantomGroup_085,DarkShadowRAT_085,USES,1,-1,1.0,0.0,0.1714,420.26,209,48.5,468.77
+TRC_0886,Entity Hallucination,1,PhantomGroup_086,DarkShadowRAT_086,USES,1,-1,1.0,0.0,0.3611,390.28,186,51.14,441.43
+TRC_0887,Entity Hallucination,1,PhantomGroup_087,DarkShadowRAT_087,USES,1,-1,1.0,0.0,0.1953,384.89,164,51.67,436.56
+TRC_0888,Entity Hallucination,1,PhantomGroup_088,DarkShadowRAT_088,USES,1,-1,1.0,0.0,0.1398,390.77,183,48.57,439.34
+TRC_0889,Entity Hallucination,1,PhantomGroup_089,DarkShadowRAT_089,USES,1,-1,1.0,0.0,0.1973,398.98,173,49.24,448.22
+TRC_0890,Entity Hallucination,1,PhantomGroup_090,DarkShadowRAT_090,USES,1,-1,1.0,0.0,0.3889,355.02,182,49.69,404.71
+TRC_0891,Entity Hallucination,1,PhantomGroup_091,DarkShadowRAT_091,USES,1,-1,1.0,0.0,0.4423,350.59,195,49.66,400.25
+TRC_0892,Entity Hallucination,1,PhantomGroup_092,DarkShadowRAT_092,USES,1,-1,1.0,0.0,0.4321,422.01,162,50.76,472.77
+TRC_0893,Entity Hallucination,1,PhantomGroup_093,DarkShadowRAT_093,USES,1,-1,1.0,0.0,0.2589,404.39,172,52.37,456.75
+TRC_0894,Entity Hallucination,1,PhantomGroup_094,DarkShadowRAT_094,USES,1,-1,1.0,0.0,0.3672,432.66,204,55.33,488.0
+TRC_0895,Entity Hallucination,1,PhantomGroup_095,DarkShadowRAT_095,USES,1,-1,1.0,0.0,0.182,333.92,185,49.49,383.4
+TRC_0896,Entity Hallucination,1,PhantomGroup_096,DarkShadowRAT_096,USES,1,-1,1.0,0.0,0.2173,411.09,194,49.78,460.88
+TRC_0897,Entity Hallucination,1,PhantomGroup_097,DarkShadowRAT_097,USES,1,-1,1.0,0.0,0.4585,427.89,172,50.85,478.75
+TRC_0898,Entity Hallucination,1,PhantomGroup_098,DarkShadowRAT_098,USES,1,-1,1.0,0.0,0.1052,403.94,172,57.35,461.29
+TRC_0899,Entity Hallucination,1,PhantomGroup_099,DarkShadowRAT_099,USES,1,-1,1.0,0.0,0.1342,466.72,184,56.04,522.76
+TRC_0900,Entity Hallucination,1,PhantomGroup_000,DarkShadowRAT_000,USES,1,-1,1.0,0.0,0.1832,503.85,183,49.78,553.63
+TRC_0901,Entity Hallucination,1,PhantomGroup_001,DarkShadowRAT_001,USES,1,-1,1.0,0.0,0.1106,386.42,161,49.88,436.3
+TRC_0902,Entity Hallucination,1,PhantomGroup_002,DarkShadowRAT_002,USES,1,-1,1.0,0.0,0.1726,337.16,160,50.13,387.29
+TRC_0903,Entity Hallucination,1,PhantomGroup_003,DarkShadowRAT_003,USES,1,-1,1.0,0.0,0.3332,430.32,191,48.35,478.67
+TRC_0904,Entity Hallucination,1,PhantomGroup_004,DarkShadowRAT_004,USES,1,-1,1.0,0.0,0.2686,347.15,197,49.24,396.39
+TRC_0905,Entity Hallucination,1,PhantomGroup_005,DarkShadowRAT_005,USES,1,-1,1.0,0.0,0.4571,396.56,186,49.07,445.64
+TRC_0906,Entity Hallucination,1,PhantomGroup_006,DarkShadowRAT_006,USES,1,-1,1.0,0.0,0.427,490.85,197,52.2,543.05
+TRC_0907,Entity Hallucination,1,PhantomGroup_007,DarkShadowRAT_007,USES,1,-1,1.0,0.0,0.2367,406.22,170,51.89,458.11
+TRC_0908,Entity Hallucination,1,PhantomGroup_008,DarkShadowRAT_008,USES,1,-1,1.0,0.0,0.2038,321.47,173,61.22,382.68
+TRC_0909,Entity Hallucination,1,PhantomGroup_009,DarkShadowRAT_009,USES,1,-1,1.0,0.0,0.2519,408.8,169,56.16,464.96
+TRC_0910,Entity Hallucination,1,PhantomGroup_010,DarkShadowRAT_010,USES,1,-1,1.0,0.0,0.3361,412.39,185,49.68,462.08
+TRC_0911,Entity Hallucination,1,PhantomGroup_011,DarkShadowRAT_011,USES,1,-1,1.0,0.0,0.2072,408.18,174,49.95,458.13
+TRC_0912,Entity Hallucination,1,PhantomGroup_012,DarkShadowRAT_012,USES,1,-1,1.0,0.0,0.3497,425.89,190,64.23,490.12
+TRC_0913,Entity Hallucination,1,PhantomGroup_013,DarkShadowRAT_013,USES,1,-1,1.0,0.0,0.2638,369.23,205,49.98,419.21
+TRC_0914,Entity Hallucination,1,PhantomGroup_014,DarkShadowRAT_014,USES,1,-1,1.0,0.0,0.3208,413.86,184,50.3,464.16
+TRC_0915,Entity Hallucination,1,PhantomGroup_015,DarkShadowRAT_015,USES,1,-1,1.0,0.0,0.2745,450.17,187,51.46,501.62
+TRC_0916,Entity Hallucination,1,PhantomGroup_016,DarkShadowRAT_016,USES,1,-1,1.0,0.0,0.2178,461.19,188,48.75,509.94
+TRC_0917,Entity Hallucination,1,PhantomGroup_017,DarkShadowRAT_017,USES,1,-1,1.0,0.0,0.4794,390.74,189,49.83,440.57
+TRC_0918,Entity Hallucination,1,PhantomGroup_018,DarkShadowRAT_018,USES,1,-1,1.0,0.0,0.4054,366.83,185,48.91,415.74
+TRC_0919,Entity Hallucination,1,PhantomGroup_019,DarkShadowRAT_019,USES,1,-1,1.0,0.0,0.156,416.8,180,48.97,465.78
+TRC_0920,Entity Hallucination,1,PhantomGroup_020,DarkShadowRAT_020,USES,1,-1,1.0,0.0,0.4474,412.52,155,49.33,461.85
+TRC_0921,Entity Hallucination,1,PhantomGroup_021,DarkShadowRAT_021,USES,1,-1,1.0,0.0,0.295,393.61,185,49.08,442.69
+TRC_0922,Entity Hallucination,1,PhantomGroup_022,DarkShadowRAT_022,USES,1,-1,1.0,0.0,0.4578,425.49,168,49.14,474.63
+TRC_0923,Entity Hallucination,1,PhantomGroup_023,DarkShadowRAT_023,USES,1,-1,1.0,0.0,0.4199,475.26,171,49.45,524.7
+TRC_0924,Entity Hallucination,1,PhantomGroup_024,DarkShadowRAT_024,USES,1,-1,1.0,0.0,0.2701,461.93,190,49.5,511.42
+TRC_0925,Entity Hallucination,1,PhantomGroup_025,DarkShadowRAT_025,USES,1,-1,1.0,0.0,0.109,389.22,210,49.83,439.05
+TRC_0926,Entity Hallucination,1,PhantomGroup_026,DarkShadowRAT_026,USES,1,-1,1.0,0.0,0.2075,364.59,197,51.19,415.78
+TRC_0927,Entity Hallucination,1,PhantomGroup_027,DarkShadowRAT_027,USES,1,-1,1.0,0.0,0.3167,463.33,173,50.19,513.52
+TRC_0928,Entity Hallucination,1,PhantomGroup_028,DarkShadowRAT_028,USES,1,-1,1.0,0.0,0.3534,480.96,180,52.09,533.05
+TRC_0929,Entity Hallucination,1,PhantomGroup_029,DarkShadowRAT_029,USES,1,-1,1.0,0.0,0.2032,431.29,187,49.8,481.09
+TRC_0930,Entity Hallucination,1,PhantomGroup_030,DarkShadowRAT_030,USES,1,-1,1.0,0.0,0.1557,412.26,196,49.25,461.51
+TRC_0931,Entity Hallucination,1,PhantomGroup_031,DarkShadowRAT_031,USES,1,-1,1.0,0.0,0.434,454.01,157,50.17,504.18
+TRC_0932,Entity Hallucination,1,PhantomGroup_032,DarkShadowRAT_032,USES,1,-1,1.0,0.0,0.4938,477.0,159,49.04,526.04
+TRC_0933,Entity Hallucination,1,PhantomGroup_033,DarkShadowRAT_033,USES,1,-1,1.0,0.0,0.3103,464.76,200,53.31,518.08
+TRC_0934,Entity Hallucination,1,PhantomGroup_034,DarkShadowRAT_034,USES,1,-1,1.0,0.0,0.1687,369.21,177,50.51,419.71
+TRC_0935,Entity Hallucination,1,PhantomGroup_035,DarkShadowRAT_035,USES,1,-1,1.0,0.0,0.2089,368.54,180,50.54,419.08
+TRC_0936,Entity Hallucination,1,PhantomGroup_036,DarkShadowRAT_036,USES,1,-1,1.0,0.0,0.1074,404.44,195,50.58,455.02
+TRC_0937,Entity Hallucination,1,PhantomGroup_037,DarkShadowRAT_037,USES,1,-1,1.0,0.0,0.4657,477.26,204,48.73,525.99
+TRC_0938,Entity Hallucination,1,PhantomGroup_038,DarkShadowRAT_038,USES,1,-1,1.0,0.0,0.1471,393.0,180,48.59,441.59
+TRC_0939,Entity Hallucination,1,PhantomGroup_039,DarkShadowRAT_039,USES,1,-1,1.0,0.0,0.3306,342.55,171,49.42,391.97
+TRC_0940,Entity Hallucination,1,PhantomGroup_040,DarkShadowRAT_040,USES,1,-1,1.0,0.0,0.2096,461.72,208,50.88,512.6
+TRC_0941,Entity Hallucination,1,PhantomGroup_041,DarkShadowRAT_041,USES,1,-1,1.0,0.0,0.3217,362.75,175,49.24,411.99
+TRC_0942,Entity Hallucination,1,PhantomGroup_042,DarkShadowRAT_042,USES,1,-1,1.0,0.0,0.3606,417.11,188,51.78,468.89
+TRC_0943,Entity Hallucination,1,PhantomGroup_043,DarkShadowRAT_043,USES,1,-1,1.0,0.0,0.4319,381.87,190,48.17,430.04
+TRC_0944,Entity Hallucination,1,PhantomGroup_044,DarkShadowRAT_044,USES,1,-1,1.0,0.0,0.1826,396.98,183,51.93,448.91
+TRC_0945,Entity Hallucination,1,PhantomGroup_045,DarkShadowRAT_045,USES,1,-1,1.0,0.0,0.1044,442.88,184,49.45,492.33
+TRC_0946,Entity Hallucination,1,PhantomGroup_046,DarkShadowRAT_046,USES,1,-1,1.0,0.0,0.1548,398.66,182,50.29,448.95
+TRC_0947,Entity Hallucination,1,PhantomGroup_047,DarkShadowRAT_047,USES,1,-1,1.0,0.0,0.46,414.32,178,49.6,463.92
+TRC_0948,Entity Hallucination,1,PhantomGroup_048,DarkShadowRAT_048,USES,1,-1,1.0,0.0,0.4496,406.65,207,48.57,455.22
+TRC_0949,Entity Hallucination,1,PhantomGroup_049,DarkShadowRAT_049,USES,1,-1,1.0,0.0,0.339,443.54,179,50.46,494.0
+TRC_0950,Entity Hallucination,1,PhantomGroup_050,DarkShadowRAT_050,USES,1,-1,1.0,0.0,0.3402,449.66,178,51.93,501.59
+TRC_0951,Entity Hallucination,1,PhantomGroup_051,DarkShadowRAT_051,USES,1,-1,1.0,0.0,0.366,471.09,189,48.97,520.06
+TRC_0952,Entity Hallucination,1,PhantomGroup_052,DarkShadowRAT_052,USES,1,-1,1.0,0.0,0.1701,413.47,190,49.68,463.15
+TRC_0953,Entity Hallucination,1,PhantomGroup_053,DarkShadowRAT_053,USES,1,-1,1.0,0.0,0.4658,347.61,167,49.61,397.23
+TRC_0954,Entity Hallucination,1,PhantomGroup_054,DarkShadowRAT_054,USES,1,-1,1.0,0.0,0.2675,364.57,186,49.19,413.76
+TRC_0955,Entity Hallucination,1,PhantomGroup_055,DarkShadowRAT_055,USES,1,-1,1.0,0.0,0.2533,496.26,217,49.35,545.62
+TRC_0956,Entity Hallucination,1,PhantomGroup_056,DarkShadowRAT_056,USES,1,-1,1.0,0.0,0.3076,447.01,191,49.67,496.68
+TRC_0957,Entity Hallucination,1,PhantomGroup_057,DarkShadowRAT_057,USES,1,-1,1.0,0.0,0.1188,337.25,175,49.05,386.3
+TRC_0958,Entity Hallucination,1,PhantomGroup_058,DarkShadowRAT_058,USES,1,-1,1.0,0.0,0.1665,382.85,174,49.51,432.36
+TRC_0959,Entity Hallucination,1,PhantomGroup_059,DarkShadowRAT_059,USES,1,-1,1.0,0.0,0.3952,410.73,176,49.33,460.07
+TRC_0960,Entity Hallucination,1,PhantomGroup_060,DarkShadowRAT_060,USES,1,-1,1.0,0.0,0.1331,329.23,195,51.04,380.28
+TRC_0961,Entity Hallucination,1,PhantomGroup_061,DarkShadowRAT_061,USES,1,-1,1.0,0.0,0.3413,370.03,187,242.25,612.27
+TRC_0962,Entity Hallucination,1,PhantomGroup_062,DarkShadowRAT_062,USES,1,-1,1.0,0.0,0.1981,511.63,170,49.3,560.93
+TRC_0963,Entity Hallucination,1,PhantomGroup_063,DarkShadowRAT_063,USES,1,-1,1.0,0.0,0.2557,304.44,179,51.64,356.08
+TRC_0964,Entity Hallucination,1,PhantomGroup_064,DarkShadowRAT_064,USES,1,-1,1.0,0.0,0.2155,467.84,213,49.53,517.38
+TRC_0965,Entity Hallucination,1,PhantomGroup_065,DarkShadowRAT_065,USES,1,-1,1.0,0.0,0.2423,362.97,191,52.5,415.47
+TRC_0966,Entity Hallucination,1,PhantomGroup_066,DarkShadowRAT_066,USES,1,-1,1.0,0.0,0.3876,397.36,182,49.56,446.92
+TRC_0967,Entity Hallucination,1,PhantomGroup_067,DarkShadowRAT_067,USES,1,-1,1.0,0.0,0.2188,537.3,161,50.68,587.98
+TRC_0968,Entity Hallucination,1,PhantomGroup_068,DarkShadowRAT_068,USES,1,-1,1.0,0.0,0.3266,429.72,191,189.75,619.47
+TRC_0969,Entity Hallucination,1,PhantomGroup_069,DarkShadowRAT_069,USES,1,-1,1.0,0.0,0.2904,467.16,185,427.71,894.87
+TRC_0970,Entity Hallucination,1,PhantomGroup_070,DarkShadowRAT_070,USES,1,-1,1.0,0.0,0.3655,432.16,178,48.86,481.02
+TRC_0971,Entity Hallucination,1,PhantomGroup_071,DarkShadowRAT_071,USES,1,-1,1.0,0.0,0.4747,430.41,178,49.89,480.3
+TRC_0972,Entity Hallucination,1,PhantomGroup_072,DarkShadowRAT_072,USES,1,-1,1.0,0.0,0.393,446.27,178,48.85,495.12
+TRC_0973,Entity Hallucination,1,PhantomGroup_073,DarkShadowRAT_073,USES,1,-1,1.0,0.0,0.186,435.27,183,48.63,483.9
+TRC_0974,Entity Hallucination,1,PhantomGroup_074,DarkShadowRAT_074,USES,1,-1,1.0,0.0,0.1125,468.97,183,95.88,564.85
+TRC_0975,Entity Hallucination,1,PhantomGroup_075,DarkShadowRAT_075,USES,1,-1,1.0,0.0,0.2049,338.51,202,49.76,388.27
+TRC_0976,Entity Hallucination,1,PhantomGroup_076,DarkShadowRAT_076,USES,1,-1,1.0,0.0,0.338,377.54,174,50.27,427.82
+TRC_0977,Entity Hallucination,1,PhantomGroup_077,DarkShadowRAT_077,USES,1,-1,1.0,0.0,0.1206,391.5,204,49.49,440.99
+TRC_0978,Entity Hallucination,1,PhantomGroup_078,DarkShadowRAT_078,USES,1,-1,1.0,0.0,0.2985,322.19,231,51.17,373.36
+TRC_0979,Entity Hallucination,1,PhantomGroup_079,DarkShadowRAT_079,USES,1,-1,1.0,0.0,0.3387,465.82,187,51.67,517.49
+TRC_0980,Entity Hallucination,1,PhantomGroup_080,DarkShadowRAT_080,USES,1,-1,1.0,0.0,0.2337,415.83,188,48.85,464.68
+TRC_0981,Entity Hallucination,1,PhantomGroup_081,DarkShadowRAT_081,USES,1,-1,1.0,0.0,0.4084,441.75,193,50.77,492.52
+TRC_0982,Entity Hallucination,1,PhantomGroup_082,DarkShadowRAT_082,USES,1,-1,1.0,0.0,0.1426,443.3,185,49.47,492.78
+TRC_0983,Entity Hallucination,1,PhantomGroup_083,DarkShadowRAT_083,USES,1,-1,1.0,0.0,0.1301,409.42,181,49.25,458.67
+TRC_0984,Entity Hallucination,1,PhantomGroup_084,DarkShadowRAT_084,USES,1,-1,1.0,0.0,0.3913,409.53,201,51.28,460.81
+TRC_0985,Entity Hallucination,1,PhantomGroup_085,DarkShadowRAT_085,USES,1,-1,1.0,0.0,0.2982,445.01,139,51.35,496.36
+TRC_0986,Entity Hallucination,1,PhantomGroup_086,DarkShadowRAT_086,USES,1,-1,1.0,0.0,0.3754,447.82,186,48.44,496.26
+TRC_0987,Entity Hallucination,1,PhantomGroup_087,DarkShadowRAT_087,USES,1,-1,1.0,0.0,0.2739,417.46,178,49.54,466.99
+TRC_0988,Entity Hallucination,1,PhantomGroup_088,DarkShadowRAT_088,USES,1,-1,1.0,0.0,0.1986,468.89,198,48.91,517.8
+TRC_0989,Entity Hallucination,1,PhantomGroup_089,DarkShadowRAT_089,USES,1,-1,1.0,0.0,0.4276,383.52,190,48.78,432.3
+TRC_0990,Entity Hallucination,1,PhantomGroup_090,DarkShadowRAT_090,USES,1,-1,1.0,0.0,0.4198,374.58,163,48.75,423.33
+TRC_0991,Entity Hallucination,1,PhantomGroup_091,DarkShadowRAT_091,USES,1,-1,1.0,0.0,0.3779,390.1,196,48.49,438.59
+TRC_0992,Entity Hallucination,1,PhantomGroup_092,DarkShadowRAT_092,USES,1,-1,1.0,0.0,0.2089,461.19,191,48.85,510.05
+TRC_0993,Entity Hallucination,1,PhantomGroup_093,DarkShadowRAT_093,USES,1,-1,1.0,0.0,0.3361,450.93,191,50.05,500.98
+TRC_0994,Entity Hallucination,1,PhantomGroup_094,DarkShadowRAT_094,USES,1,-1,1.0,0.0,0.2444,389.43,190,49.15,438.58
+TRC_0995,Entity Hallucination,1,PhantomGroup_095,DarkShadowRAT_095,USES,1,-1,1.0,0.0,0.1366,454.32,195,49.24,503.56
+TRC_0996,Entity Hallucination,1,PhantomGroup_096,DarkShadowRAT_096,USES,1,-1,1.0,0.0,0.4669,471.8,194,50.8,522.61
+TRC_0997,Entity Hallucination,1,PhantomGroup_097,DarkShadowRAT_097,USES,1,-1,1.0,0.0,0.1547,434.12,200,49.99,484.1
+TRC_0998,Entity Hallucination,1,PhantomGroup_098,DarkShadowRAT_098,USES,1,-1,1.0,0.0,0.4801,417.11,170,49.35,466.46
+TRC_0999,Entity Hallucination,1,PhantomGroup_099,DarkShadowRAT_099,USES,1,-1,1.0,0.0,0.2784,410.96,172,49.33,460.29

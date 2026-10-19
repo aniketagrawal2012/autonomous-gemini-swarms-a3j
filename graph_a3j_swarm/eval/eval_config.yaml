@@ -1,0 +1,40 @@
+# Evaluation Configuration for Graph-A3J Swarms
+metrics_to_run:
+  - topological_hallucination_divergence
+  - composite_alignment_score
+  - cicd_gate_action_accuracy
+
+custom_metrics:
+  - name: topological_hallucination_divergence
+    description: "Evaluates the mathematical graph distance divergence (THD) under Algorithm 1."
+    custom_function: |
+      def evaluate(instance):
+          import json
+          from graph_a3j_swarm.tools import execute_a3j_topological_audit
+          response_text = instance.get("response", {}).get("parts", [{}])[0].get("text", "")
+          scorecard = json.loads(execute_a3j_topological_audit(response_text))
+          thd = scorecard.get("topological_hallucination_divergence", 1.0)
+          return {"score": 1.0 - thd, "explanation": scorecard.get("isolated_audit_justification")}
+
+  - name: composite_alignment_score
+    description: "Evaluates S_composite = 0.35*ARS + 0.35*FCS + 0.30*SVA."
+    custom_function: |
+      def evaluate(instance):
+          import json
+          from graph_a3j_swarm.tools import execute_a3j_topological_audit
+          response_text = instance.get("response", {}).get("parts", [{}])[0].get("text", "")
+          scorecard = json.loads(execute_a3j_topological_audit(response_text))
+          return {"score": scorecard.get("composite_alignment_score", 0.0), "explanation": scorecard.get("isolated_audit_justification")}
+
+  - name: cicd_gate_action_accuracy
+    description: "Evaluates whether the CI/CD gate action matched expected deployment gating."
+    custom_function: |
+      def evaluate(instance):
+          import json
+          from graph_a3j_swarm.tools import execute_a3j_topological_audit
+          response_text = instance.get("response", {}).get("parts", [{}])[0].get("text", "")
+          expected_action = instance.get("expected_gate_action", "ALLOW_DEPLOYMENT")
+          scorecard = json.loads(execute_a3j_topological_audit(response_text))
+          actual_action = scorecard.get("recommended_cicd_gate_action", "TERMINATE_AND_BLOCK")
+          is_match = 1.0 if actual_action == expected_action else 0.0
+          return {"score": is_match, "explanation": f"Expected: {expected_action} | Actual: {actual_action}"}

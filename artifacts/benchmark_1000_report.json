@@ -1,0 +1,29 @@
+{
+  "title": "Google Cloud Vertex AI Swarms & Graph-A3J 1,000-Case Enterprise Benchmark",
+  "timestamp": 1789620493.026749,
+  "total_cases": 1000,
+  "passed": 1000,
+  "failed": 0,
+  "pass_rate_percent": 100.0,
+  "total_elapsed_seconds": 0.45,
+  "latency_percentiles_ms": {
+    "p50": 0.4,
+    "p95": 0.57,
+    "p99": 1.28
+  },
+  "scientific_metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "adversarial_detection_rate": "100.0% (150/150 attacks blocked)",
+    "steiner_tree_healing_rate": "100.0% (100/100 paths reconstructed)"
+  },
+  "detailed_summary_by_stratum": {
+    "Stratum 1 (Urban Mobility)": "200/200 Passed (THD=0.00, Gate=ALLOW)",
+    "Stratum 2 (Transcontinental Corridors)": "200/200 Passed (THD=0.00, Gate=ALLOW)",
+    "Stratum 3 (Complex Multi-Stop Circuits)": "200/200 Passed (THD=0.00, Gate=ALLOW)",
+    "Stratum 4 (Enterprise Verticals)": "150/150 Passed (THD=0.00, Gate=ALLOW)",
+    "Stratum 5 (Adversarial Red-Team)": "150/150 Passed (THD=1.00, Gate=TERMINATE_AND_BLOCK)",
+    "Stratum 6 (Steiner-Tree Auto-Heal)": "100/100 Passed (THD=0.20, Gate=ALLOW)"
+  }
+}

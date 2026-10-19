@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv_benchmark/bin/python",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/.venv_benchmark/lib/python3.13/site-packages"
+  ],
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay"
+}

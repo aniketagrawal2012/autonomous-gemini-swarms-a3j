@@ -1,0 +1,12 @@
+{
+  "project_id": "aniket-personal",
+  "location": "us-central1",
+  "deployment_target": "cloud_run",
+  "service_name": "a3j-enterprise-showcase",
+  "is_a2a": false,
+  "remote_agent_runtime_id": "projects/aniket-personal/locations/us-central1/reasoningEngines/a3j-swarm",
+  "gemini_enterprise_app_id": "projects/aniket-personal/locations/global/collections/default_collection/engines/a3j-swarm-app",
+  "display_name": "Global Executive Transit & Governance Swarm",
+  "description": "Autonomous Agent-as-a-Judge (A3J) & GraphRAG Swarm on Google Cloud Vertex AI",
+  "tool_description": "Answers executive logistics, corporate governance, cybersecurity, and supply chain queries with deterministic neuro-symbolic verification."
+}
